@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "enabled": true,
+      "voteIndex": 25,
+      "poolName": "The Monolith",
+      "poolURL": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
+      "poolIconURL": "",
+      "rewardDescription": "37,000 Dai",
+      "rewardValue": 37000
+    },
+    {
+      "enabled": true,
+      "voteIndex": 29,
+      "poolName": "Lonely Mountain",
+      "poolURL": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "poolIconURL": "",
+      "rewardDescription": "15,000 USDC + 5,000 Ring + 15.000 Beets",
+      "rewardValue": 32000
+    },
+    {
+      "enabled": true,
+      "voteIndex": 24,
+      "poolName": "Pirate Party",
+      "poolURL": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "poolIconURL": "",
+      "rewardDescription": "400 LQDR",
+      "rewardValue": 10600
+    },
+    {
+      "enabled": true,
+      "voteIndex": 22,
+      "poolName": "When Two Become one Hundred ",
+      "poolURL": "https://beets.fi/#/pool/0xd57cda2caebb9b64bb88905c4de0f0da217a77d7000100000000000000000073",
+      "poolIconURL": "",
+      "rewardDescription": "1000 HND",
+      "rewardValue": 1580
+    }
+  ]
+}

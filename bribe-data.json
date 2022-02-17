@@ -1,40 +1,75 @@
 {
   "results": [
     {
-      "enabled": true,
-      "voteIndex": 25,
-      "poolName": "The Monolith",
-      "poolURL": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
-      "poolIconURL": "",
-      "rewardDescription": "37,000 Dai",
-      "rewardValue": 37000
+      "enabled": "true",
+      "voteindex": 31,
+      "poolname": "Lonely Mountain",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "20,000 RING + 500 RING over 20%",
+      "rewardamount": 60000,
+      "percentage": "true",
+      "percentagethreshold": 20,
+      "percentagerewardamount": 1500
     },
     {
-      "enabled": true,
-      "voteIndex": 29,
-      "poolName": "Lonely Mountain",
-      "poolURL": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "poolIconURL": "",
-      "rewardDescription": "15,000 USDC + 5,000 Ring + 15.000 Beets",
-      "rewardValue": 32000
+      "enabled": "true",
+      "voteindex": 42,
+      "poolname": "A $FANG Good Time",
+      "poolurl": "https://beets.fi/#/pool/0xc98e9c812f5137667058978650d563a5d7f7a642000100000000000000000220",
+      "rewarddescription": "2000 $USDC percentage vote up to $10,000",
+      "rewardamount": 0,
+      "percentage": "true",
+      "percentagethreshold": 0,
+      "rewardcap": 10000
     },
     {
-      "enabled": true,
-      "voteIndex": 24,
-      "poolName": "Pirate Party",
-      "poolURL": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
-      "poolIconURL": "",
-      "rewardDescription": "400 LQDR",
-      "rewardValue": 10600
+      "enabled": "true",
+      "voteindex": 25,
+      "poolname": "Dante Symphony",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": "5k $BEETS percentage vote",
+      "rewardamount": 0,
+      "percentage": "true",
+      "percentagethreshold": 0,
+      "percentagerewardamount": 4250
     },
     {
-      "enabled": true,
-      "voteIndex": 22,
-      "poolName": "When Two Become one Hundred ",
-      "poolURL": "https://beets.fi/#/pool/0xd57cda2caebb9b64bb88905c4de0f0da217a77d7000100000000000000000073",
-      "poolIconURL": "",
-      "rewardDescription": "1000 HND",
-      "rewardValue": 1580
+      "enabled": "true",
+      "voteindex": 35,
+      "poolname": "In The Hall Of The Mountain King",
+      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
+      "rewarddescription": "$40k $USDC + over 20% $2100 per 1%",
+      "rewardamount": 40000,
+      "percentage": "true",
+      "percentagethreshold": 20,
+      "percentagerewardamount": 2100
+    },
+    {
+      "enabled": "true",
+      "voteindex": 37,
+      "poolname": "Spookey Melodies",
+      "rewarddescription": "$50,000 of $BOO over 20% add $1,500",
+      "rewardamount": 50000,
+      "percentage": "true",
+      "percentagethreshold": 20,
+      "percentagerewardamount": 1500
+    },
+    {
+      "enabled": "true",
+      "voteindex": 26,
+      "poolname": "Pirate Party",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "1500 $LQDR + 3000 $FTM",
+      "rewardamount": 35.985,
+      "percentage": "false"
+    },
+    {
+      "enabled": "true",
+      "voteindex": 34,
+      "poolname": "Exploding Shrapnel",
+      "rewarddescription": "80 $SHRAP $33000 $USDC 50000 $PGUNK 1500 $RVNT",
+      "rewardamount": 98500,
+      "percentage": "false"
     }
   ]
 }

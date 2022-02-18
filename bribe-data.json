@@ -2,24 +2,36 @@
   "results": [
     {
       "enabled": "true",
+      "voteindex": 34,
+      "poolname": "In The Hall Of The Mountain King",
+      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
+      "rewarddescription": "$40k $USDC (no matter what) + If we secure 10% of the vote we will add an additional $4500 USDC per 1%",
+      "rewardamount": "40000",
+      "percentage": "true",
+      "percentagethreshold": 10,
+      "percentagerewardamount": 4500
+    },
+    {
+      "enabled": "true",
       "voteindex": 30,
       "poolname": "Lonely Mountain",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "rewarddescription": "\"This #Beetswar is very exciting ! Here is our updated bribe\r\n- 27,500 $RING : 85,000$\r\n- 500 RING for every 1 % above 10%\r\n- 2 @beethoven_x #nfts (floor over 1.3k $FTM)\r\n- 3 @SpookySwap magicats #NFT (floor 580 FTM)\"",
-      "rewardamount": 83875,
+      "rewarddescription": "This #Beetswar is very exciting ! Here is our updated bribe\n- 27,500 $RING : 85,000$\n- 500 RING for every 1 % above 10%\n- 2 @beethoven_x #nfts (floor over 1.3k $FTM)\n- 3 @SpookySwap magicats #NFT (floor 580 FTM)",
+      "rewardamount": "91878",
       "percentage": "true",
-      "percentagethreshold": 10,
-      "percentagerewardamount": 1525
+      "percentagethreshold": 0,
+      "percentagerewardamount": 1910
     },
     {
       "enabled": "true",
       "voteindex": 41,
       "poolname": "A $FANG Good Time",
       "poolurl": "https://beets.fi/#/pool/0xc98e9c812f5137667058978650d563a5d7f7a642000100000000000000000220",
-      "rewarddescription": "2000 $USDC percentage vote up to $10,000",
-      "rewardamount": 0,
+      "rewarddescription": "We are aiming for 5% of the vote but will still participate if we end up under 5% with $2,000 USDC allocated for every 1% vote. The goal is 5% with a bribe of $10,000",
+      "rewardamount": "0",
       "percentage": "true",
       "percentagethreshold": 0,
+      "percentagerewardamount": 4250,
       "rewardcap": 10000
     },
     {
@@ -27,19 +39,8 @@
       "voteindex": 24,
       "poolname": "Dante Symphony",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
-      "rewarddescription": "5k $BEETS percentage vote",
-      "rewardamount": 0,
-      "percentage": "true",
-      "percentagethreshold": 0,
-      "percentagerewardamount": 4250
-    },
-    {
-      "enabled": "true",
-      "voteindex": 34,
-      "poolname": "In The Hall Of The Mountain King",
-      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
-      "rewarddescription": "$40k $USDC + over 20% $2100 per 1%",
-      "rewardamount": 40000,
+      "rewarddescription": "5k BEETS (around $4250) for every 1% of the vote, with no cap",
+      "rewardamount": "0",
       "percentage": "true",
       "percentagethreshold": 20,
       "percentagerewardamount": 2100
@@ -47,9 +48,10 @@
     {
       "enabled": "true",
       "voteindex": 36,
-      "poolname": "Spookey Melodies",
-      "rewarddescription": "$50,000 of $BOO over 20% add $1,500",
-      "rewardamount": 50000,
+      "poolname": "Spooky Melodies",
+      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "rewarddescription": " $50k of BOO\n📈 Every 1% above 20% adds $1.5k\n✨ 3 lucky voters receive a Magicat NFT worth over 500 $FTM",
+      "rewardamount": "50000",
       "percentage": "true",
       "percentagethreshold": 20,
       "percentagerewardamount": 1500
@@ -59,17 +61,60 @@
       "voteindex": 25,
       "poolname": "Pirate Party",
       "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
-      "rewarddescription": "1500 $LQDR + 3000 $FTM",
-      "rewardamount": 35.985,
-      "percentage": "false"
+      "rewarddescription": "☑️ $5,000 of $LQDR and $1,000 of $FTM per %\n= $102,000 if the votes reach 17%",
+      "rewardamount": "0",
+      "percentage": "true",
+      "percentagethreshold": 17,
+      "percentagerewardamount": 6000
     },
     {
       "enabled": "true",
       "voteindex": 33,
-      "poolname": "Exploding Shrapnel",
-      "rewarddescription": "80 $SHRAP $33000 $USDC 50000 $PGUNK 1500 $RVNT",
-      "rewardamount": 98500,
-      "percentage": "false"
+      "poolname": "Exploading Shrapnel",
+      "poolurl": "https://beets.fi/#/pool/0x2ba4953c75860e70cd70f15a2d5fe07de832bcd1000200000000000000000210",
+      "rewarddescription": "80 $SHRAP (21000$)\n33000$ USDC\n50000 $PGUNK (10000$)\n1500 $RVNT ~priceless (THE ONLY WAY TO GET RVNT!)\nLove by community helping the literal 1st token on $FTM",
+      "rewardamount": "105894",
+      "percentage": "true"
+    },
+    {
+      "enabled": "true",
+      "voteindex": 35,
+      "poolname": "Fresh Statera Maxi Duet",
+      "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
+      "rewarddescription": "$40k, in $USDC. i.e. 40,000 USDC shared weighted between all who vote. Simple. Clean. It's USDC so you know the value and it's liquid.",
+      "rewardamount": "40000",
+      "percentage": "true"
+    },
+    {
+      "enabled": "true",
+      "voteindex": 42,
+      "poolname": "Stable Credit Sonata",
+      "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
+      "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 2000$ in USDC for every 1% above 10% (maximum of another 10%) ",
+      "rewardamount": "0",
+      "percentage": "true",
+      "percentagethreshold": 0,
+      "percentagerewardamount": 3000
+    },
+    {
+      "enabled": "true",
+      "voteindex": 23,
+      "poolname": "Coral Symphony",
+      "poolurl": "https://beets.fi/#/pool/0xc7f084bcb91f779617b41602f85102849098d6a2000200000000000000000023",
+      "rewarddescription": "We are offering 10 profitshare $BELUGA (currently valued at $9.8k) to $fBEETS holders who vote for the Coral Symphony on the @beethoven_x gauge vote!",
+      "rewardamount": "4180",
+      "percentage": "true"
+    },
+    {
+      "enabled": "true",
+      "voteindex": 26,
+      "poolname": "The Monolith",
+      "poolurl": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
+      "rewarddescription": "For every 1% of the vote, Exodia will give back 5500 $fBEETS.\nWe were born through the community, we will exist for the community!\nWe will not stop until every single person makes it!\nMore details soon….",
+      "rewardamount": "0",
+      "percentage": "true",
+      "percentagethreshold": 0,
+      "percentagerewardamount": 6150
     }
   ]
 }

@@ -5,11 +5,11 @@
       "voteindex": 30,
       "poolname": "Lonely Mountain",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "rewarddescription": "20,000 RING + 500 RING over 20%",
-      "rewardamount": 60000,
+      "rewarddescription": "\"This #Beetswar is very exciting ! Here is our updated bribe\r\n- 27,500 $RING : 85,000$\r\n- 500 RING for every 1 % above 10%\r\n- 2 @beethoven_x #nfts (floor over 1.3k $FTM)\r\n- 3 @SpookySwap magicats #NFT (floor 580 FTM)\"",
+      "rewardamount": 83875,
       "percentage": "true",
-      "percentagethreshold": 20,
-      "percentagerewardamount": 1500
+      "percentagethreshold": 10,
+      "percentagerewardamount": 1525
     },
     {
       "enabled": "true",

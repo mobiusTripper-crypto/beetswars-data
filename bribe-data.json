@@ -84,7 +84,7 @@
       "poolname": "Exploading Shrapnel",
       "poolurl": "https://beets.fi/#/pool/0x2ba4953c75860e70cd70f15a2d5fe07de832bcd1000200000000000000000210",
       "rewarddescription": "80 SHRAP (34,500$)\n+ 33K$ USDC\n+ 50K PGUNK (10K$)\n+ 1500 RVNT (1 RVNT can be claimed for 10 credit) = $35K",
-      "rewardamount": 113000,
+      "rewardamount": 146000,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -139,11 +139,11 @@
       "voteindex": 40,
       "poolname": "Melody From Hell",
       "poolurl": "https://beets.fi/#/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
-      "rewarddescription": "5k DAI per 1% and top that with 10k$ of Imp if we reach 5% tickets",
-      "rewardamount": 0,
-      "percentage": true,
+      "rewarddescription": "35k DAI No limits, no conditions",
+      "rewardamount": 35000,
+      "percentage": false,
       "percentagethreshold": 0,
-      "percentagerewardamount": 5000
+      "percentagerewardamount": 0
     }
   ]
 }

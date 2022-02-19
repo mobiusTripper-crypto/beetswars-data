@@ -50,11 +50,11 @@
       "voteindex": 24,
       "poolname": "Dante Symphony",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
-      "rewarddescription": "5k BEETS (around $4700) for every 1% of the vote, with no cap",
+      "rewarddescription": " 10k BEETS ($9.2K) per 1% of the vote that Dante Symphony receives!",
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 4700
+      "percentagerewardamount": 9200
     },
     {
       "enabled": true,

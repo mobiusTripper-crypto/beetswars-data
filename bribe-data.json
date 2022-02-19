@@ -105,9 +105,11 @@
       "voteindex": 42,
       "poolname": "Stable Credit Sonata",
       "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
-      "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 2000$ in USDC for every 1% above 10% (maximum of another 10%) ",
+      "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 3000$ in USDC for every 1% above 10% (maximum of another 10%) ",
       "rewardamount": 0,
-      "percentage": "true"
+      "percentage": "true",
+      "percentagethreshold": 10,
+      "percentagerewardamount": 3000
     },
     {
       "enabled": true,

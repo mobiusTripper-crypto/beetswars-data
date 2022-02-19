@@ -20,7 +20,7 @@
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 6150
+      "percentagerewardamount": 5200
     },
     {
       "enabled": true,
@@ -54,7 +54,7 @@
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 4620
+      "percentagerewardamount": 4700
     },
     {
       "enabled": true,
@@ -109,7 +109,8 @@
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 3000
+      "percentagerewardamount": 3000,
+      "rewardcap": 60000
     },
     {
       "enabled": true,

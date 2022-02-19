@@ -16,11 +16,11 @@
       "voteindex": 26,
       "poolname": "The Monolith",
       "poolurl": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
-      "rewarddescription": "For every 1% of the vote, Exodia will give back 5500 $fBEETS.(appx $5200)\nWe were born through the community, we will exist for the community!\nWe will not stop until every single person makes it!\nMore details soon….",
+      "rewarddescription": "7.5K fBEETS per every 1% of vote emissions",
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 5200
+      "percentagerewardamount": 7000
     },
     {
       "enabled": true,

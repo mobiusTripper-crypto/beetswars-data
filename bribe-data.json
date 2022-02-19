@@ -83,8 +83,8 @@
       "voteindex": 33,
       "poolname": "Exploading Shrapnel",
       "poolurl": "https://beets.fi/#/pool/0x2ba4953c75860e70cd70f15a2d5fe07de832bcd1000200000000000000000210",
-      "rewarddescription": "80 $SHRAP (21000$)\n33000$ USDC\n50000 $PGUNK (10000$)\n1500 $RVNT ~priceless (THE ONLY WAY TO GET RVNT!)\nLove by community helping the literal 1st token on $FTM",
-      "rewardamount": 105894,
+      "rewarddescription": "80 SHRAP (24K$)\n+ 33K$ USDC\n+ 50K PGUNK (10K$)\n+ 1500 RVNT (1 RVNT can be claimed for 10 credit) = $35K",
+      "rewardamount": 102000,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -107,18 +107,40 @@
       "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
       "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 2000$ in USDC for every 1% above 10% (maximum of another 10%) ",
       "rewardamount": 0,
-      "percentage": "true"
+      "percentage": "true",
+      "percentagethreshold": 0,
+      "percentagerewardamount": 3000
     },
     {
       "enabled": true,
       "voteindex": 23,
       "poolname": "Coral Symphony",
       "poolurl": "https://beets.fi/#/pool/0xc7f084bcb91f779617b41602f85102849098d6a2000200000000000000000023",
-      "rewarddescription": "We are offering 10 profitshare $BELUGA (currently valued at $9.8k) to $fBEETS holders who vote for the Coral Symphony on the @beethoven_x gauge vote!",
-      "rewardamount": 4180,
+      "rewarddescription": "10 $BELUGA (currently valued at $4k)",
+      "rewardamount": 4000,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
+    },
+    {
+      "enabled": true,
+      "voteindex": 43,
+      "poolname": "Sigma`s Wrapped Symphony",
+      "poolurl": "https://beets.fi/#/pool/0x43d668c6f709c9d7f05c9404707a10d968b0348c00020000000000000000020b",
+      "rewarddescription": "9,500 $DAI",
+      "rewardamount": 9500,
+      "percentage": false
+    },
+    {
+      "enabled": true,
+      "voteindex": 40,
+      "poolname": "Melody From Hell",
+      "poolurl": "https://beets.fi/#/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
+      "rewarddescription": "5k DAI per 1% and top that with 10k$ of Imp if we reach 5% tickets",
+      "rewardamount": 0,
+      "percentage": true,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 5000
     }
   ]
 }

@@ -73,10 +73,10 @@
       "poolname": "Pirate Party",
       "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "☑️ $5,000 of $LQDR and $1,000 of $FTM per %\n= $102,000 if the votes reach 17%",
-      "rewardamount": 5000,
-      "percentage": "true",
+      "rewardamount": 6000,
+      "percentage": "false",
       "percentagethreshold": 0,
-      "percentagerewardamount": 1000
+      "percentagerewardamount": 0
     },
     {
       "enabled": true,

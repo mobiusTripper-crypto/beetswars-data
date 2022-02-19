@@ -107,9 +107,7 @@
       "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
       "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 2000$ in USDC for every 1% above 10% (maximum of another 10%) ",
       "rewardamount": 0,
-      "percentage": "true",
-      "percentagethreshold": 0,
-      "percentagerewardamount": 3000
+      "percentage": "true"
     },
     {
       "enabled": true,
@@ -129,7 +127,9 @@
       "poolurl": "https://beets.fi/#/pool/0x43d668c6f709c9d7f05c9404707a10d968b0348c00020000000000000000020b",
       "rewarddescription": "9,500 $DAI",
       "rewardamount": 9500,
-      "percentage": false
+      "percentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
     },
     {
       "enabled": true,

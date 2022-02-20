@@ -94,8 +94,8 @@
       "voteindex": 35,
       "poolname": "Statera Maxi Duet",
       "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
-      "rewarddescription": "40K USDC shared weighted between all who vote + An extra 1000 WSTA for each 1000 fbeets voted (extra not included in ROI calculation)",
-      "rewardamount": 40000,
+      "rewarddescription": "50K USDC shared weighted between all who vote + An extra 1000 WSTA for each 1000 fbeets voted (extra not included in ROI calculation)",
+      "rewardamount": 50000,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0

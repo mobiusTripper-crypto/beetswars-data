@@ -27,7 +27,7 @@
       "voteindex": 30,
       "poolname": "Lonely Mountain",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "rewarddescription": "Our Entry was Swag, Our EXIT will be like a KING After reconsidering our offer, We landed on 28k RING(81000$), 600 RING ($1900) for every % above 10, Standing @ 31,020$. Counting the 3 Ludwigs, 3 Magicats and 1 8Bit Land. Our Total offering,185k$",
+      "rewarddescription": "Our Entry was Swag, Our EXIT will be like a KING After reconsidering our offer, We landed on 28k RING(80000$), 600 RING ($1900) for every % above 10, Standing @ 31,020$. Counting the 3 Ludwigs, 3 Magicats and 1 8Bit Land. Our Total offering,185k$",
       "rewardamount": 80000,
       "percentage": "true",
       "percentagethreshold": 0,
@@ -108,9 +108,8 @@
       "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 3000$ in USDC for every 1% above 10% (maximum of another 10%) ",
       "rewardamount": 0,
       "percentage": "true",
-      "percentagethreshold": 0,
-      "percentagerewardamount": 18000,
-      "rewardcap": 60000
+      "percentagethreshold": 6,
+      "percentagerewardamount": 18000
     },
     {
       "enabled": true,

@@ -16,11 +16,11 @@
       "voteindex": 26,
       "poolname": "The Monolith",
       "poolurl": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
-      "rewarddescription": "14K fBEETS per every 1% of vote emissions (estimate base on 100% beets given from the POL LP)",
+      "rewarddescription": "13K fBEETS ( per every 1% of vote emissions (estimate base on 100% beets given from the POL LP)",
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 13340
+      "percentagerewardamount": 12000
     },
     {
       "enabled": true,

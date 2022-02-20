@@ -108,7 +108,7 @@
       "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%)\n💵 3000$ in USDC for every 1% above 10% (maximum of another 10%) ",
       "rewardamount": 0,
       "percentage": "true",
-      "percentagethreshold": 6,
+      "percentagethreshold": 0,
       "percentagerewardamount": 18000
     },
     {

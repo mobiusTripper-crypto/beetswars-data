@@ -144,6 +144,18 @@
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
+    },
+    {
+      "enabled": true,
+      "voteindex": 14,
+      "poolname": "Fantom Conservatory of Music",
+      "poolurl": "https://beets.fi/#/pool/0xfc092f85125907ffcb0f9012e6e40b3f37c4de60000100000000000000000044",
+      "rewarddescription": "Following the adoption of TIP-008, Tarot has allocated the following rewards to $fBEETS holders who vote 100% for the @beethoven_x Ghost Reveries (TAROT-FTM) pool:  25,000 $TAROT  5,000 $USDC",
+      "rewardamount": 30000,
+      "percentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0,
+      "rewardcap": 0
     }
   ]
 }

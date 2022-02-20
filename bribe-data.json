@@ -150,8 +150,8 @@
       "voteindex": 38,
       "poolname": "Ghost Gooley",
       "poolurl": "https://beets.fi/#/pool/0xfc092f85125907ffcb0f9012e6e40b3f37c4de60000100000000000000000044",
-      "rewarddescription": "(This calculation may not be correct because we cannot account for the non 100% voters at this time) Tarot has allocated the following rewards to $fBEETS holders who vote 100% for the @beethoven_x Ghost Reveries (TAROT-FTM) pool:  25,000 $TAROT  5,000 $USDC",
-      "rewardamount": 30000,
+      "rewarddescription": "(This calculation may not be correct because we cannot account for the non 100% voters at this time) Tarot has allocated the following rewards to $fBEETS holders who vote 100% for the @beethoven_x Ghost Reveries (TAROT-FTM) pool:  25,000 $TAROT ($11,000) + 5,000 $USDC",
+      "rewardamount": 16000,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0

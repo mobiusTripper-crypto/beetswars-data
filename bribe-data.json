@@ -50,11 +50,11 @@
       "voteindex": 24,
       "poolname": "Dante Symphony",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
-      "rewarddescription": " 10k BEETS ($9.2K) per 1% of the vote that Dante Symphony receives!",
+      "rewarddescription": " 10k BEETS ($8650) per 1% of the vote that Dante Symphony receives!",
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 9200
+      "percentagerewardamount": 8650
     },
     {
       "enabled": true,
@@ -83,8 +83,8 @@
       "voteindex": 33,
       "poolname": "Exploading Shrapnel",
       "poolurl": "https://beets.fi/#/pool/0x2ba4953c75860e70cd70f15a2d5fe07de832bcd1000200000000000000000210",
-      "rewarddescription": "Vote for us and get your share in: 80 $SHRAP (21000$) 33000$ USDC 50000 $PGUNK (10000$) 1500 $RVNT ~priceless (THE ONLY WAY TO GET RVNT!)",
-      "rewardamount": 106000,
+      "rewarddescription": "80 SHRAP (28.5K$)\n+ 33K$ USDC\n+ 50K PGUNK (10K$)\n+ 1500 RVNT (1 RVNT can be claimed for 10 credit) = $35K",
+      "rewardamount": 106500,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -109,7 +109,7 @@
       "rewardamount": 0,
       "percentage": "true",
       "percentagethreshold": 0,
-      "percentagerewardamount": 3000,
+      "percentagerewardamount": 18000,
       "rewardcap": 60000
     },
     {

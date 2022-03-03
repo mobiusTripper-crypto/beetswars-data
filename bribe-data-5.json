@@ -1,5 +1,5 @@
 {
-  "version": "5.1.0",
+  "version": "5.2.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -9,18 +9,27 @@
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "\"- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)\"",
       "assumption": "token values not realtime, NFTs not included",
-      "rewardamount": 85631.535,
-      "percentage": false,
+      "rewardamount": 78157.83499999999,
+      "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
     },
     {
       "voteindex": 48,
       "poolname": "Supa Symphony (SUPA-USDC)",
-      "poolurl": "https://beets.fi/#/pool/0x389b4e90205ad6a89e19fbb532d2a3323837000c000200000000000000000240",
+      "poolurl": "https://beets.fi/#/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
       "rewarddescription": "- 10k usdc",
       "rewardamount": 10000,
-      "percentage": false,
+      "ispercentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 40,
+      "poolname": "Melody from Hell (IMP-FTM-etc)",
+      "assumption": "token values not realtime",
+      "rewardamount": 41311.08,
+      "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
     }

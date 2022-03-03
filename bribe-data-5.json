@@ -1,5 +1,5 @@
 {
-  "version": "5.3.1",
+  "version": "5.4.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -7,9 +7,9 @@
       "voteindex": 30,
       "poolname": "Lonely Mountain (RING-USDC)",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "rewarddescription": "\"- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)\"",
+      "rewarddescription": "- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)",
       "assumption": "token values not realtime, NFTs not included",
-      "rewardamount": 78157.83499999999,
+      "rewardamount": 86327.08,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -30,10 +30,21 @@
       "poolurl": "https://beets.fi/#/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
       "rewarddescription": "Simple bribes  : 20k $ DAI 20k fbeets",
       "assumption": "token values not realtime",
-      "rewardamount": 41311.08,
+      "rewardamount": 40354.48,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 34,
+      "poolname": "Hall of Mountain King (SUMMIT)",
+      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
+      "rewarddescription": "$5k $USDC per 1% 🔥. Also, Beets for Feet - Dev Feet NFTs (8 if we get >10%)",
+      "assumption": "understandably, dev feet NFTs not included",
+      "rewardamount": 0,
+      "ispercentage": true,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 5000
     }
   ]
 }

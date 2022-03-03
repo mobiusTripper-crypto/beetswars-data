@@ -1,5 +1,5 @@
 {
-  "version": "5.0",
+  "version": "5.0.1",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -9,7 +9,10 @@
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "\"- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)\"",
       "assumption": "not realtime token values, NFTs not included",
-      "rewardamount": 89172.16
+      "rewardamount": 89172.16,
+      "percentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
     }
   ]
 }

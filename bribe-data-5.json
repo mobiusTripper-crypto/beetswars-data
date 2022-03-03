@@ -1,5 +1,5 @@
 {
-  "version": "5.0.2",
+  "version": "5.1.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -9,7 +9,17 @@
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "\"- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)\"",
       "assumption": "token values not realtime, NFTs not included",
-      "rewardamount": 89172.16,
+      "rewardamount": 85631.535,
+      "percentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 48,
+      "poolname": "Supa Symphony (SUPA-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0x389b4e90205ad6a89e19fbb532d2a3323837000c000200000000000000000240",
+      "rewarddescription": "- 10k usdc",
+      "rewardamount": 10000,
       "percentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0

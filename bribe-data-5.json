@@ -1,5 +1,5 @@
 {
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -27,6 +27,8 @@
     {
       "voteindex": 40,
       "poolname": "Melody from Hell (IMP-FTM-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "Simple bribes  : 20k $ DAI 20k fbeets",
       "assumption": "token values not realtime",
       "rewardamount": 41311.08,
       "ispercentage": false,

@@ -1,5 +1,5 @@
 {
-  "version": "5.5.1",
+  "version": "5.6.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -9,7 +9,7 @@
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)",
       "assumption": "token values not realtime, NFTs not included",
-      "rewardamount": 90623.10999999999,
+      "rewardamount": 88737.505,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -30,7 +30,7 @@
       "poolurl": "https://beets.fi/#/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
       "rewarddescription": "Simple bribes  : 20k $ DAI 20k fbeets (votehoven)",
       "assumption": "token values not realtime",
-      "rewardamount": 40668.5,
+      "rewardamount": 40502.08,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -52,7 +52,7 @@
       "poolurl": "https://beets.fi/#/pool/0xc98e9c812f5137667058978650d563a5d7f7a642000100000000000000000220",
       "rewarddescription": "2,000 USDC and 2,000 BEETS are up for grabs. No percent cap. LET’S GO!",
       "assumption": "token values not realtime",
-      "rewardamount": 4085.212,
+      "rewardamount": 4075.526,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -63,6 +63,28 @@
       "poolurl": "https://beets.fi/#/pool/0x43d668c6f709c9d7f05c9404707a10d968b0348c00020000000000000000020b",
       "rewarddescription": "$10,000 DAI (votehoven)",
       "rewardamount": 10000,
+      "ispercentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 25,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "Captain has agreed to bribe you in return   $4,000 in LQDR and $1,000 in FTM per 1%  No upper or lower limit",
+      "assumption": "token values not realtime",
+      "rewardamount": 0,
+      "ispercentage": true,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 5000
+    },
+    {
+      "voteindex": 24,
+      "poolname": "Dante Symphony (WSTA-BEETS-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": "70,000 fBEETS are up for grabs - voting for Dante will increase your voting power in subsequent snapshots!",
+      "assumption": "token values not realtime",
+      "rewardamount": 71757.28,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0

@@ -1,5 +1,5 @@
 {
-  "version": "5.7.2",
+  "version": "5.7.3",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -18,8 +18,8 @@
       "voteindex": 48,
       "poolname": "Supa Symphony (SUPA-USDC)",
       "poolurl": "https://beets.fi/#/pool/0x389b4e90205ad6a89e19fbb532d2a3323837000c000200000000000000000240",
-      "rewarddescription": "- 10k usdc (votehoven)",
-      "rewardamount": 10000,
+      "rewarddescription": "SUPA Symphony rewards now stand @ 10,000 USDC (votehoven) & 5000 RING",
+      "rewardamount": 18115.895,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0

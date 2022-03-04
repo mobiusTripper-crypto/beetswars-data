@@ -1,5 +1,5 @@
 {
-  "version": "5.6.0",
+  "version": "5.7.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -72,7 +72,6 @@
       "poolname": "Pirate Party (LQDR-FTM)",
       "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "Captain has agreed to bribe you in return   $4,000 in LQDR and $1,000 in FTM per 1%  No upper or lower limit",
-      "assumption": "token values not realtime",
       "rewardamount": 0,
       "ispercentage": true,
       "percentagethreshold": 0,
@@ -88,6 +87,27 @@
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 26,
+      "poolname": "The Monolith (EXOD-gOHM-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
+      "rewarddescription": "The Monolith`s #Beetswars bribe this week! $40k in $FTM for the voters of The Monolith Pool!",
+      "rewardamount": 40000,
+      "ispercentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 42,
+      "poolname": "Stable Credit Sonata (CREDIT-etc",
+      "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
+      "rewarddescription": "💳 3000$ in $Credit for each 1% (maximum of 10%) 💵 3000$ in USDC for every 1% above 10% (maximum of another 10%)",
+      "rewardamount": 0,
+      "ispercentage": true,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 3000,
+      "rewardcap": 3000
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "5.7.3",
+  "version": "5.8.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -7,9 +7,9 @@
       "voteindex": 30,
       "poolname": "Lonely Mountain (RING-USDC)",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "rewarddescription": "- 40k usdc - 15k $beets - 20k $RING - 20 The precious $NFT (floor 25 FM)",
+      "rewarddescription": "- 40k usdc - 15k $beets - 20k $RING - 165k $SUPA - 20 The precious $NFT (floor 25 FM)",
       "assumption": "token values not realtime, NFTs not included",
-      "rewardamount": 86594.87,
+      "rewardamount": 93401.78,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0
@@ -116,6 +116,17 @@
       "poolurl": "https://beets.fi/#/pool/0x3bd4c3d1f6f40d77b2e9d0007d6f76e4f183a46d0002000000000000000002d7",
       "rewarddescription": "Beefy is offering a $5,000 #bribe for votes this week on: 🔸 A Beefy Tale: $beFTM - $FTM LP",
       "rewardamount": 5000,
+      "ispercentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0
+    },
+    {
+      "voteindex": 44,
+      "poolname": "Beet Mason`s Oath (OATH-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
+      "rewarddescription": "$50K in Solid and $25K in Oath for the Beet Mason's Oath pool",
+      "assumption": "(pending final details)",
+      "rewardamount": 75000,
       "ispercentage": false,
       "percentagethreshold": 0,
       "percentagerewardamount": 0

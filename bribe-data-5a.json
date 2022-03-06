@@ -1,5 +1,5 @@
 {
-  "version": "5.9.3",
+  "version": "5.10.0",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -40,8 +40,8 @@
         { "token": "DAI", "amount": 40000, "isfixed": true },
         { "token": "FBEETS", "amount": 25000, "isfixed": false }
       ],
-      "percentreward": [],
-      "percentagethreshold": 0
+      "percentreward": [{ "token": "DAI", "amount": 2000, "isfixed": true }],
+      "percentagethreshold": 10
     },
     {
       "voteindex": 34,
@@ -147,6 +147,16 @@
       "assumption": "",
       "fixedreward": [{ "token": "BOO", "amount": 50000, "isfixed": true }],
       "percentreward": [{ "token": "BOO", "amount": 1500, "isfixed": true }],
+      "percentagethreshold": 20
+    },
+    {
+      "voteindex": 35,
+      "poolname": "Statera Maxi Duet (wSTA-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
+      "rewarddescription": "$50k, in $USDC",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 50000, "isfixed": true }],
+      "percentreward": [],
       "percentagethreshold": 20
     }
   ]

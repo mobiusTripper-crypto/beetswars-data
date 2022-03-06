@@ -1,5 +1,5 @@
 {
-  "version": "5.10.2",
+  "version": "5.10.5",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -92,9 +92,11 @@
       "voteindex": 24,
       "poolname": "Dante Symphony (WSTA-BEETS-etc)",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
-      "rewarddescription": "70,000 fBEETS are up for grabs - voting for Dante will increase your voting power in subsequent snapshots!",
+      "rewarddescription": "100,000 fBEETS are up for grabs - voting for Dante will increase your voting power in subsequent snapshots!",
       "assumption": "",
-      "fixedreward": [{ "token": "FBEETS", "amount": 70000, "isfixed": false }],
+      "fixedreward": [
+        { "token": "FBEETS", "amount": 100000, "isfixed": false }
+      ],
       "percentreward": [],
       "percentagethreshold": 0
     },

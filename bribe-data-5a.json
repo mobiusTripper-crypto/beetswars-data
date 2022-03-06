@@ -1,5 +1,5 @@
 {
-  "version": "5.10.1",
+  "version": "5.10.2",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
   "bribedata": [
@@ -47,11 +47,12 @@
       "voteindex": 34,
       "poolname": "Hall of Mountain King (SUMMIT)",
       "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
-      "rewarddescription": "$5k $USDC per 1% 🔥. Also, Beets for Feet - Dev Feet NFTs (8 if we get >10%)",
+      "rewarddescription": "$6500 $USDC per 1% up to 100,000. Also, Beets for Feet - Dev Feet NFTs (8 if we get >10%)",
       "assumption": "understandably, dev feet NFTs not included",
       "fixedreward": [],
-      "percentreward": [{ "token": "USDC", "amount": 5000, "isfixed": true }],
-      "percentagethreshold": 0
+      "percentreward": [{ "token": "USDC", "amount": 6500, "isfixed": true }],
+      "percentagethreshold": 0,
+      "rewardcap": 100000
     },
     {
       "voteindex": 41,

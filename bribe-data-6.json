@@ -1,0 +1,30 @@
+{
+  "version": "6.0.0",
+  "description": "Farming Incentive Gauge Vote (round 6)",
+  "round": 5,
+  "bribedata": [
+    {
+      "voteindex": 28,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "20,000 $USDC - 25,000 $RING - 20 NFTS From our 'The Precious' Collection",
+      "assumption": "NFTs not included",
+      "fixedreward": [
+        { "token": "USDC", "amount": 20000, "isfixed": true },
+        { "token": "RING", "amount": 25000, "isfixed": false }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 44,
+      "poolname": "One God Between Two Stables",
+      "poolurl": "https://beets.fi/#/pool/0x8b858eaf095a7337de6f9bc212993338773ca34e00020000000000000000023c",
+      "rewarddescription": "$5000 in $DEUS per % of votes our pool",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "DEUS", "amount": 4000, "isfixed": true }],
+      "percentagethreshold": 0
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "Farming Incentive Gauge Vote (round 6)",
-  "round": 5,
+  "round": 6,
   "bribedata": [
     {
       "voteindex": 28,
@@ -24,6 +24,16 @@
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "DEUS", "amount": 4000, "isfixed": true }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 26,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "$6,000 in LQDR for every %, no min/max (20% = $120,000), Raffle of 2x FNFTs worth $2,500 each in LQDR",
+      "assumption": "NFTs not included in returns estimate",
+      "fixedreward": [],
+      "percentreward": [{ "token": "LQDR", "amount": 6000, "isfixed": true }],
       "percentagethreshold": 0
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "version": "6.1.2",
+  "version": "6.2.0",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
   "bribedata": [
@@ -34,6 +34,16 @@
       "assumption": "NFTs not included in returns estimate",
       "fixedreward": [],
       "percentreward": [{ "token": "LQDR", "amount": 6000, "isfixed": true }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 25,
+      "poolname": "Dante Symphony (WSTA-BEETS-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": "We're incentivising Dante Symphony with 100k BEETS distributed to voters, plus an Early Ludwig NFT to the largest 100% Dante Symphony voter!",
+      "assumption": "NFTs not included",
+      "fixedreward": [{ "token": "BEETS", "amount": 100000, "isfixed": false }],
+      "percentreward": [],
       "percentagethreshold": 0
     }
   ]

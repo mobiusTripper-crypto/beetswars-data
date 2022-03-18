@@ -1,5 +1,5 @@
 {
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
   "bribedata": [
@@ -23,7 +23,7 @@
       "rewarddescription": "$7000 in $DEUS per % of votes our pool",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "DEUS", "amount": 4000, "isfixed": true }],
+      "percentreward": [{ "token": "DEUS", "amount": 7000, "isfixed": true }],
       "percentagethreshold": 0
     },
     {

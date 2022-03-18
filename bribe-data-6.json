@@ -1,5 +1,5 @@
 {
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
   "bribedata": [
@@ -20,7 +20,7 @@
       "voteindex": 44,
       "poolname": "One God Between Two Stables",
       "poolurl": "https://beets.fi/#/pool/0x8b858eaf095a7337de6f9bc212993338773ca34e00020000000000000000023c",
-      "rewarddescription": "$5000 in $DEUS per % of votes our pool",
+      "rewarddescription": "$7000 in $DEUS per % of votes our pool",
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "DEUS", "amount": 4000, "isfixed": true }],

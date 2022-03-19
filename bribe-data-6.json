@@ -1,5 +1,5 @@
 {
-  "version": "6.4.0",
+  "version": "6.5.0",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
   "bribedata": [
@@ -83,6 +83,16 @@
       ],
       "percentagethreshold": 0,
       "rewardcap": 90000
+    },
+    {
+      "voteindex": 34,
+      "poolname": "Spooky Melodies (BOO-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "rewarddescription": " Their share of $30k of BOO",
+      "assumption": "",
+      "fixedreward": [{ "token": "BOO", "amount": 30000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

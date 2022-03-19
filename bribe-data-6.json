@@ -1,5 +1,5 @@
 {
-  "version": "6.3.0",
+  "version": "6.4.0",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
   "bribedata": [
@@ -56,6 +56,33 @@
       "percentreward": [{ "token": "USDC", "amount": 5000, "isfixed": true }],
       "percentagethreshold": 0,
       "rewardcap": 40000
+    },
+    {
+      "voteindex": 37,
+      "poolname": "$FANG Good Time (FANG-USDC-DAI)",
+      "poolurl": "https://beets.fi/#/pool/0xc98e9c812f5137667058978650d563a5d7f7a642000100000000000000000220",
+      "rewarddescription": "4,000 BEETS and 1,000 USDC. ",
+      "assumption": "",
+      "fixedreward": [
+        { "token": "USDC", "amount": 1000, "isfixed": true },
+        { "token": "BEETS", "amount": 4000, "isfixed": false }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 38,
+      "poolname": "Stable Credit Sonata (CREDIT-etc",
+      "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
+      "rewarddescription": "3000$ in $Credit and 3000$ in USDC for every 1% (maximum 15%)",
+      "assumption": "calculation capped at $30000",
+      "fixedreward": [],
+      "percentreward": [
+        { "token": "CREDIT", "amount": 3000, "isfixed": true },
+        { "token": "USDC", "amount": 3000, "isfixed": true }
+      ],
+      "percentagethreshold": 0,
+      "rewardcap": 90000
     }
   ]
 }

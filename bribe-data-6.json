@@ -93,6 +93,16 @@
       "fixedreward": [{ "token": "BOO", "amount": 30000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 40,
+      "poolname": "Beet Mason`s Oath (OATH-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
+      "rewarddescription": "Beet Mason`s OATH will be $50k of $SOLID",
+      "assumption": "",
+      "fixedreward": [{ "token": "SOLID", "amount": 50000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

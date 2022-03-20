@@ -1,5 +1,5 @@
 {
-  "version": "6.5.0",
+  "version": "6.6.0",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
   "bribedata": [
@@ -101,6 +101,16 @@
       "rewarddescription": "Beet Mason`s OATH will be $50k of $SOLID",
       "assumption": "",
       "fixedreward": [{ "token": "SOLID", "amount": 50000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 33,
+      "poolname": "Statera Maxi Duet (wSTA-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
+      "rewarddescription": "$20k, in $USDC",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 20000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

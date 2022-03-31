@@ -1,0 +1,53 @@
+{
+  "version": "7.0.0",
+  "description": "Farming Incentive Gauge Vote (round 7)",
+  "round": 7,
+  "bribedata": [
+    {
+      "voteindex": 29,
+      "poolname": "Hall of Mountain King (SUMMIT)",
+      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
+      "rewarddescription": "$16,200 USDC flat",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 16200, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 28,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "For every % of votes we offer- 4,000 $ in $RING - 1,000 $USDC",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [
+        { "token": "USDC", "amount": 1000, "isfixed": true },
+        { "token": "RING", "amount": 4000, "isfixed": true }
+      ],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 45,
+      "poolname": "$FANG Never Too Old to Yearn",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "5K $BEETS & 5K $OATH",
+      "assumption": "",
+      "fixedreward": [
+        { "token": "BEETS", "amount": 5000, "isfixed": false },
+        { "token": "OATH", "amount": 5000, "isfixed": false }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 37,
+      "poolname": "Beet Mason`s Oath (OATH-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
+      "rewarddescription": "Flat share of 10k USDC",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 10000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    }
+  ]
+}

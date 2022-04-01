@@ -1,5 +1,5 @@
 {
-  "version": "7.0.2",
+  "version": "7.0.3",
   "description": "Farming Incentive Gauge Vote (round 7)",
   "round": 7,
   "bribedata": [
@@ -60,6 +60,16 @@
       "percentagethreshold": 0
     },
     {
+      "voteindex": 44,
+      "poolname": "Pirate in C (LQDR-cLQDR)",
+      "poolurl": "https://beets.fi/#/pool/0xeadcfa1f34308b144e96fcd7a07145e027a8467d000000000000000000000331",
+      "rewarddescription": "$6000 in $LQDR and $GRO for every 1% up to 4%",
+      "fixedreward": [],
+      "percentreward": [{ "token": "LQDR", "amount": 4000, "isfixed": true }],
+      "percentagethreshold": 0,
+      "rewardcap": 24000
+    },
+    {
       "voteindex": 38,
       "poolname": "A Beefy Tale (FTM-beFTM)",
       "poolurl": "https://beets.fi/#/pool/0x3bd4c3d1f6f40d77b2e9d0007d6f76e4f183a46d0002000000000000000002d7",
@@ -68,6 +78,16 @@
       "percentreward": [{ "token": "USDC", "amount": 5000, "isfixed": true }],
       "percentagethreshold": 0,
       "rewardcap": 10000
+    },
+    {
+      "voteindex": 40,
+      "poolname": "God b/w Two Stables (DEI-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0x8b858eaf095a7337de6f9bc212993338773ca34e00020000000000000000023c",
+      "rewarddescription": "$6,000 in $DEUS per % of vote",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "DEUS", "amount": 6000, "isfixed": true }],
+      "percentagethreshold": 0
     }
   ]
 }

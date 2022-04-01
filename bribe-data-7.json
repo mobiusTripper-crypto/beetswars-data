@@ -1,5 +1,5 @@
 {
-  "version": "7.0.4",
+  "version": "7.0.5",
   "description": "Farming Incentive Gauge Vote (round 7)",
   "round": 7,
   "bribedata": [
@@ -83,10 +83,10 @@
       "voteindex": 40,
       "poolname": "God b/w Two Stables (DEI-USDC)",
       "poolurl": "https://beets.fi/#/pool/0x8b858eaf095a7337de6f9bc212993338773ca34e00020000000000000000023c",
-      "rewarddescription": "$6,500 in $DEUS per % of vote [plus NFTs, see tweet] ",
+      "rewarddescription": "5000$ in DEUS + 2000$ in veDEUS (locked 4 years) per % [plus NFTs, see tweet] ",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "DEUS", "amount": 6500, "isfixed": true }],
+      "percentreward": [{ "token": "DEUS", "amount": 7000, "isfixed": true }],
       "percentagethreshold": 0
     },
     {

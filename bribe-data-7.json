@@ -65,7 +65,7 @@
       "poolurl": "https://beets.fi/#/pool/0xeadcfa1f34308b144e96fcd7a07145e027a8467d000000000000000000000331",
       "rewarddescription": "$6000 in $LQDR and $GRO for every 1% up to 4%",
       "fixedreward": [],
-      "percentreward": [{ "token": "LQDR", "amount": 4000, "isfixed": true }],
+      "percentreward": [{ "token": "LQDR", "amount": 6000, "isfixed": true }],
       "percentagethreshold": 0,
       "rewardcap": 24000
     },

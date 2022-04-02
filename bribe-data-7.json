@@ -1,5 +1,5 @@
 {
-  "version": "7.0.5",
+  "version": "7.0.6",
   "description": "Farming Incentive Gauge Vote (round 7)",
   "round": 7,
   "bribedata": [
@@ -43,9 +43,9 @@
       "voteindex": 37,
       "poolname": "Beet Mason`s Oath (OATH-BEETS)",
       "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
-      "rewarddescription": "Flat share of 10k USDC",
+      "rewarddescription": "Flat share of 9.8k USDC",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 10000, "isfixed": true }],
+      "fixedreward": [{ "token": "USDC", "amount": 9800, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     },
@@ -63,11 +63,11 @@
       "voteindex": 44,
       "poolname": "Pirate in C (LQDR-cLQDR)",
       "poolurl": "https://beets.fi/#/pool/0xeadcfa1f34308b144e96fcd7a07145e027a8467d000000000000000000000331",
-      "rewarddescription": "$6000 in $LQDR and $GRO for every 1% up to 4%",
+      "rewarddescription": "$8000 in $LQDR and $GRO for every 1% up to 4%",
       "fixedreward": [],
-      "percentreward": [{ "token": "LQDR", "amount": 6000, "isfixed": true }],
+      "percentreward": [{ "token": "LQDR", "amount": 8000, "isfixed": true }],
       "percentagethreshold": 0,
-      "rewardcap": 24000
+      "rewardcap": 32000
     },
     {
       "voteindex": 38,

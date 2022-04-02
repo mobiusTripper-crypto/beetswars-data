@@ -1,5 +1,5 @@
 {
-  "version": "7.0.7",
+  "version": "7.0.8",
   "description": "Farming Incentive Gauge Vote (round 7)",
   "round": 7,
   "bribedata": [
@@ -7,9 +7,9 @@
       "voteindex": 29,
       "poolname": "Hall of Mountain King (SUMMIT)",
       "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
-      "rewarddescription": "$16,200 USDC flat",
+      "rewarddescription": "$24,000 USDC flat",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 16200, "isfixed": true }],
+      "fixedreward": [{ "token": "USDC", "amount": 24000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     },

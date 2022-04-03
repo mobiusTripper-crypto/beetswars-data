@@ -1,5 +1,5 @@
 {
-  "version": "7.0.9",
+  "version": "7.0.10",
   "description": "Farming Incentive Gauge Vote (round 7)",
   "round": 7,
   "bribedata": [
@@ -115,8 +115,8 @@
       "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
       "rewarddescription": "$20k, in $USDC",
       "assumption": "",
-      "fixedreward": [],
-      "percentreward": [{ "token": "USDC", "amount": 20000, "isfixed": true }],
+      "fixedreward": [{ "token": "USDC", "amount": 20000, "isfixed": true }],
+      "percentreward": [],
       "percentagethreshold": 0
     }
   ]

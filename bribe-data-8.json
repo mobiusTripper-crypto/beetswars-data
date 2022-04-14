@@ -1,5 +1,5 @@
 {
-  "version": "8.2.0",
+  "version": "8.3.0",
   "description": "Farming Incentive Gauge Vote (round 8)",
   "round": 8,
   "bribedata": [
@@ -36,6 +36,58 @@
       "percentreward": [{ "token": "LQDR", "amount": 4200, "isfixed": true }],
       "percentagethreshold": 0,
       "rewardcap": 117600
+    },
+    {
+      "voteindex": 50,
+      "poolname": "Desert Sonata (SCARAB-FTM)",
+      "poolurl": "http://localhost:8080/#/pool/0xd479114150f5f9e26c49d62d5a97e37c80f8f183000200000000000000000389",
+      "rewarddescription": "For every % of votes for The Desert Sonata we will be bribing 6K in $SCARAB and 1K in $USDC!!!",
+      "assumption": "Additional rewards [see tweet] not included in calculation",
+      "fixedreward": [],
+      "percentreward": [
+        { "token": "USDC", "amount": 1000, "isfixed": true },
+        { "token": "SCARAB", "amount": 6000, "isfixed": false }
+      ],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 37,
+      "poolname": "Beet Mason`s Oath (OATH-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
+      "rewarddescription": "$5000 USDC in incentives for those who vote for the Beet Masons Oath crypt in this week",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 5800, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 38,
+      "poolname": "A Beefy Tale (FTM-beFTM)",
+      "poolurl": "https://beets.fi/#/pool/0x3bd4c3d1f6f40d77b2e9d0007d6f76e4f183a46d0002000000000000000002d7",
+      "rewarddescription": "Beefy is offering: $6K paid in $USDC for every 1% of the vote up to 2%",
+      "fixedreward": [],
+      "percentreward": [{ "token": "USDC", "amount": 6000, "isfixed": true }],
+      "percentagethreshold": 0,
+      "rewardcap": 12000
+    },
+    {
+      "voteindex": 43,
+      "poolname": "Pirate in C (LQDR-cLQDR)",
+      "poolurl": "https://beets.fi/#/pool/0xeadcfa1f34308b144e96fcd7a07145e027a8467d000000000000000000000331",
+      "rewarddescription": "$5200 in $LQDR and $GRO for every 1% up to 4%",
+      "fixedreward": [],
+      "percentreward": [{ "token": "LQDR", "amount": 5200, "isfixed": true }],
+      "percentagethreshold": 0,
+      "rewardcap": 20800
+    },
+    {
+      "voteindex": 52,
+      "poolname": "Mor Steady Beets (MOR-bb-yv-USD)",
+      "poolurl": "http://localhost:8080/#/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
+      "rewarddescription": "$5000 in $GRO for every 1%",
+      "fixedreward": [],
+      "percentreward": [{ "token": "GRO", "amount": 5000, "isfixed": true }],
+      "percentagethreshold": 0
     }
   ]
 }

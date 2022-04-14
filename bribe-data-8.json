@@ -1,5 +1,5 @@
 {
-  "version": "8.0.1",
+  "version": "8.1.0",
   "description": "Farming Incentive Gauge Vote (round 8)",
   "round": 8,
   "bribedata": [
@@ -14,6 +14,16 @@
         { "token": "RING", "amount": 40000, "isfixed": true }
       ],
       "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 51,
+      "poolname": "CRE8R in F-Major (CRE8R-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "rewarddescription": "$7000USD in $CRE8R for each 1% of the vote",
+      "assumption": "Additional rewards [see tweet] not included in calculation",
+      "fixedreward": [],
+      "percentreward": [{ "token": "CRE8R", "amount": 7000, "isfixed": true }],
       "percentagethreshold": 0
     }
   ]

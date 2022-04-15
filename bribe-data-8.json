@@ -88,6 +88,16 @@
       "fixedreward": [],
       "percentreward": [{ "token": "GRO", "amount": 5000, "isfixed": true }],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 44,
+      "poolname": "$FANG Never Too Old to Yearn",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "20,000 in $OATH",
+      "assumption": "",
+      "fixedreward": [{ "token": "OATH", "amount": 20000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

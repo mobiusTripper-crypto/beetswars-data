@@ -1,5 +1,5 @@
 {
-  "version": "8.3.1",
+  "version": "8.3.2",
   "description": "Farming Incentive Gauge Vote (round 8)",
   "round": 8,
   "bribedata": [
@@ -41,12 +41,12 @@
       "voteindex": 50,
       "poolname": "Desert Sonata (SCARAB-FTM)",
       "poolurl": "http://localhost:8080/#/pool/0xd479114150f5f9e26c49d62d5a97e37c80f8f183000200000000000000000389",
-      "rewarddescription": "For every % of votes for The Desert Sonata we will be bribing 6K in $SCARAB and 1K in $USDC!!!",
+      "rewarddescription": "For every % of votes for The Desert Sonata we will be bribing $6K in $SCARAB and 1K in $USDC!!!",
       "assumption": "Additional rewards [see tweet] not included in calculation",
       "fixedreward": [],
       "percentreward": [
         { "token": "USDC", "amount": 1000, "isfixed": true },
-        { "token": "SCARAB", "amount": 6000, "isfixed": false }
+        { "token": "SCARAB", "amount": 6000, "isfixed": true }
       ],
       "percentagethreshold": 0
     },

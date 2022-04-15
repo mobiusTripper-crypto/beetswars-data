@@ -98,6 +98,16 @@
       "fixedreward": [{ "token": "OATH", "amount": 20000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 25,
+      "poolname": "Dante Symphony (WSTA-BEETS-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": "We're incentivising Dante Symphony with 50k BEETS",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

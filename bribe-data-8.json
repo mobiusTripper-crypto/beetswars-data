@@ -42,7 +42,7 @@
       "poolname": "Desert Sonata (SCARAB-FTM)",
       "poolurl": "http://localhost:8080/#/pool/0xd479114150f5f9e26c49d62d5a97e37c80f8f183000200000000000000000389",
       "rewarddescription": "For every % of votes for The Desert Sonata we will be bribing $6K in $SCARAB and 1K in $USDC!!!",
-      "assumption": "Additional rewards [see tweet] not included in calculation",
+      "assumption": "",
       "fixedreward": [],
       "percentreward": [
         { "token": "USDC", "amount": 1000, "isfixed": true },

@@ -48,7 +48,7 @@
         { "token": "USDC", "amount": 1000, "isfixed": true },
         { "token": "SCARAB", "amount": 6000, "isfixed": true }
       ],
-      "percentagethreshold": 0
+      "percentagethreshold": 77000
     },
     {
       "voteindex": 37,

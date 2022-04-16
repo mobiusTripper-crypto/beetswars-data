@@ -119,6 +119,36 @@
       "fixedreward": [{ "token": "USDC", "amount": 6000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 48,
+      "poolname": "Two Gods One Pool (DEUS-DEI)",
+      "poolurl": "https://beets.fi/#/pool/0x0e8e7307e43301cf28c5d21d5fd3ef0876217d410002000000000000000003f1",
+      "rewarddescription": "We will bribe beets this week with 7000$ in veDEUS per %",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "veDEUS", "amount": 7000, "isfixed": true }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 40,
+      "poolname": "From Gods, boosted and blessed (Dei-yv-bb-USD)",
+      "poolurl": "https://beets.fi/#/pool/0xdfc65c1f15ad3507754ef0fd4ba67060c108db7e000000000000000000000406",
+      "rewarddescription": "We will bribe beets this week with 7000$ in veDEUS per %",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "veDEUS", "amount": 7000, "isfixed": true }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 32,
+      "poolname": "Spooky Melodies (BOO-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "rewarddescription": " Their share of $30k of BOO",
+      "assumption": "",
+      "fixedreward": [{ "token": "BOO", "amount": 30000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

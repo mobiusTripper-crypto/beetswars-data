@@ -1,5 +1,5 @@
 {
-  "version": "8.4.0",
+  "version": "8.5.0",
   "description": "Farming Incentive Gauge Vote (round 8)",
   "round": 8,
   "bribedata": [
@@ -132,12 +132,12 @@
     },
     {
       "voteindex": 40,
-      "poolname": "From Gods, boosted and blessed (Dei-yv-bb-USD)",
+      "poolname": "From Gods (Dei-yv-bb-USD)",
       "poolurl": "https://beets.fi/#/pool/0xdfc65c1f15ad3507754ef0fd4ba67060c108db7e000000000000000000000406",
-      "rewarddescription": "We will bribe beets this week with 7000$ in veDEUS per %",
+      "rewarddescription": "$6k in veDEUS $2k in DEUS per %",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "veDEUS", "amount": 7000, "isfixed": true }],
+      "percentreward": [{ "token": "veDEUS", "amount": 8000, "isfixed": true }],
       "percentagethreshold": 0
     },
     {
@@ -147,6 +147,16 @@
       "rewarddescription": " Their share of $30k of BOO",
       "assumption": "",
       "fixedreward": [{ "token": "BOO", "amount": 30000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 31,
+      "poolname": "Statera Maxi Duet (wSTA-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
+      "rewarddescription": "$20k, in $USDC",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 20000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

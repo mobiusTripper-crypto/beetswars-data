@@ -1,0 +1,20 @@
+{
+  "version": "9.0.0",
+  "description": "Farming Incentive Gauge Vote (round 9)",
+  "round": 9,
+  "bribedata": [
+    {
+      "voteindex": 30,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "We offer- 32,000 $ in $RING - 8,000 $USDC",
+      "assumption": "",
+      "fixedreward": [
+        { "token": "USDC", "amount": 8000, "isfixed": true },
+        { "token": "RING", "amount": 32000, "isfixed": true }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    }
+  ]
+}

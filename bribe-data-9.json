@@ -1,5 +1,5 @@
 {
-  "version": "9.1.0",
+  "version": "9.1.1",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -20,7 +20,7 @@
       "voteindex": 40,
       "poolname": "A Beefy Tale (FTM-beFTM)",
       "poolurl": "https://beets.fi/#/pool/0x3bd4c3d1f6f40d77b2e9d0007d6f76e4f183a46d0002000000000000000002d7",
-      "rewarddescription": "Beefy is offering: $2K paid in $USDC for every 1% of the vote up to 2%",
+      "rewarddescription": "Beefy is offering: $7K paid in $USDC for every 1% of the vote up to 2%",
       "fixedreward": [],
       "percentreward": [{ "token": "USDC", "amount": 7000, "isfixed": true }],
       "percentagethreshold": 0,

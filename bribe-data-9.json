@@ -1,5 +1,5 @@
 {
-  "version": "9.1.1",
+  "version": "9.2.0",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -25,6 +25,16 @@
       "percentreward": [{ "token": "USDC", "amount": 7000, "isfixed": true }],
       "percentagethreshold": 0,
       "rewardcap": 14000
+    },
+    {
+      "voteindex": 39,
+      "poolname": "Beet Mason`s Oath (OATH-BEETS)",
+      "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
+      "rewarddescription": "5000 FTM in incentives for those who vote for the Beet Masons Oath crypt in this week",
+      "assumption": "",
+      "fixedreward": [{ "token": "FTM", "amount": 5000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

@@ -51,6 +51,7 @@
       "poolname": "I Took PILLS In Ibiza (PILLS-bb-yv-FTM)",
       "poolurl": "https://beets.fi/#/pool/0x93c7defe51d787010babfdb19504d5a72166e11200020000000000000000041c",
       "rewarddescription": "Vote on @beethoven_x for 'I took PILLS in Ibiza' and the matrix will reward you with your share of the 24k $PILLS.",
+      "assumption": "",
       "fixedreward": [{ "token": "PILLS", "amount": 24000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0

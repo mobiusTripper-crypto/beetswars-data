@@ -1,5 +1,5 @@
 {
-  "version": "9.5.0",
+  "version": "9.6.0",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -73,6 +73,16 @@
       "rewarddescription": "$30,000 in $LQDR",
       "assumption": "Additional NFTs not included in calculation",
       "fixedreward": [{ "token": "LQDR", "amount": 30000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 44,
+      "poolname": "$FANG Never Too Old to Yearn",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "A flat 10K $BEETS, no cap & no restrictions!",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 10000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
     }

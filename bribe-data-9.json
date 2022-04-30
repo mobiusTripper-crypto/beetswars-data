@@ -1,5 +1,5 @@
 {
-  "version": "9.5.0",
+  "version": "9.6.0",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -73,6 +73,16 @@
       "rewarddescription": "$30,000 in $LQDR",
       "assumption": "Additional NFTs not included in calculation",
       "fixedreward": [{ "token": "LQDR", "amount": 30000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 46,
+      "poolname": "$FANG Never Too Old to Yearn (FANG-USDC-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "Vote for $FANG Never Too Old to Yearn to claim your share of 10,000 $BEETS flat",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 10000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
     }

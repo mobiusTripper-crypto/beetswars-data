@@ -1,5 +1,5 @@
 {
-  "version": "9.4.0",
+  "version": "9.5.0",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -53,6 +53,26 @@
       "rewarddescription": "Vote on @beethoven_x for our pool 'I took PILLS in Ibiza' and the matrix will reward you with your share of the 24k $PILLS",
       "assumption": "",
       "fixedreward": [{ "token": "PILLS", "amount": 24000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 54,
+      "poolname": "Mor Steady Beets, Yearn Boosted (MOR/bb-yv-USD)",
+      "poolurl": "https://beets.fi/#/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
+      "rewarddescription": "$2,400 in $GRO per 1% of votes, uncapped!",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "GRO", "amount": 2400, "isfixed": true }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 28,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "$30,000 in $LQDR",
+      "assumption": "Additional NFTs not included in calculation",
+      "fixedreward": [{ "token": "LQDR", "amount": 30000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

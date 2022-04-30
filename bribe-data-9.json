@@ -1,5 +1,5 @@
 {
-  "version": "9.3.0",
+  "version": "9.4.0",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -43,6 +43,16 @@
       "rewarddescription": "We're incentivising Dante Symphony with 100,000k BEETS",
       "assumption": "",
       "fixedreward": [{ "token": "BEETS", "amount": 100000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 60,
+      "poolname": "I Took PILLS In Ibiza (PILLS/bb-yv-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x93c7defe51d787010babfdb19504d5a72166e11200020000000000000000041c",
+      "rewarddescription": "Vote on @beethoven_x for our pool 'I took PILLS in Ibiza' and the matrix will reward you with your share of the 24k $PILLS",
+      "assumption": "",
+      "fixedreward": [{ "token": "PILLS", "amount": 24000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
     }

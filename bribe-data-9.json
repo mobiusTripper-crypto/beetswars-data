@@ -65,6 +65,16 @@
       "fixedreward": [],
       "percentreward": [{ "token": "GRO", "amount": 2400, "isfixed": true }],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 28,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "$30,000 in $LQDR",
+      "assumption": "Additional NFTs not included in calculation",
+      "fixedreward": [{ "token": "LQDR", "amount": 30000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

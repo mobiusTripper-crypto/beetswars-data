@@ -1,5 +1,5 @@
 {
-  "version": "9.6.0",
+  "version": "9.7.0",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
   "bribedata": [
@@ -84,6 +84,16 @@
       "assumption": "",
       "fixedreward": [{ "token": "BEETS", "amount": 10000, "isfixed": false }],
       "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 53,
+      "poolname": "CRE8R in F-Major (CRE8R-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "rewarddescription": "Boosted Bribes™just dropped. https://cre8r.vip/boosted-bribes/",
+      "assumption": "Unable to determine individual values - read their page to calculate your rewards",
+      "fixedreward": [],
+      "percentreward": [{ "token": "CRE8R", "amount": 0, "isfixed": true }],
       "percentagethreshold": 0
     }
   ]

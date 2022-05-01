@@ -92,8 +92,8 @@
       "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
       "rewarddescription": "Boosted Bribes™just dropped. https://cre8r.vip/boosted-bribes/",
       "assumption": "Unable to determine individual values - read their page to calculate your rewards",
-      "fixedreward": [],
-      "percentreward": [{ "token": "CRE8R", "amount": 0, "isfixed": true }],
+      "fixedreward": [{ "token": "CRE8R", "amount": -- , "isfixed": true }],
+      "percentreward": [],
       "percentagethreshold": 0
     }
   ]

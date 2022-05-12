@@ -4,12 +4,22 @@
   "round": 10,
   "bribedata": [
     {
-      "voteindex": 0,
-      "poolname": "",
-      "poolurl": "",
-      "rewarddescription": "",
+      "voteindex": 29,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "We offer 15,000 $ worth of LP tokens for our lonely mountain vault",
+      "assumption": "Additional NFTs not included in calculation",
+      "fixedreward": [{ "token": "Lonely Mountain LP", "amount": 15000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 40,
+      "poolname": "Never PANIC (PANIC-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x1e2576344d49779bdbb71b1b76193d27e6f996b700020000000000000000032d",
+      "rewarddescription": "We offer 1k $PANIC tokens",
       "assumption": "",
-      "fixedreward": [],
+      "fixedreward": [{ "token": "Panic", "amount": 1000, "isfixed": false },
       "percentreward": [],
       "percentagethreshold": 0
     }

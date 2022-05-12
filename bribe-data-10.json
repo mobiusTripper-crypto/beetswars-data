@@ -1,15 +1,17 @@
 {
-  "version": "10.0.0",
+  "version": "10.1.0",
   "description": "Farming Incentive Gauge Vote (round 10)",
   "round": 10,
   "bribedata": [
     {
-      "voteindex": 0,
-      "poolname": "",
-      "poolurl": "",
-      "rewarddescription": "",
-      "assumption": "",
-      "fixedreward": [],
+      "voteindex": 29,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "15,000 $ worth of LP tokens for our lonely mountain vault - 3 Gollum Nfts which can be soon staked with our new staking partner",
+      "assumption": "Additional NFTs not included in calculation",
+      "fixedreward": [
+        { "token": "USDC", "amount": 15000, "isfixed": true }
+      ],
       "percentreward": [],
       "percentagethreshold": 0
     }

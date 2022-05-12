@@ -21,7 +21,7 @@
       "poolurl": "https://beets.fi/#/pool/0x1e2576344d49779bdbb71b1b76193d27e6f996b700020000000000000000032d",
       "rewarddescription": "We offer 1k $PANIC tokens",
       "assumption": "",
-      "fixedreward": [{ "token": "Panic", "amount": 1000, "isfixed": false }],
+      "fixedreward": [{ "token": "PANIC", "amount": 1000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
     },

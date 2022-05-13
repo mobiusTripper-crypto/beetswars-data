@@ -34,6 +34,16 @@
       "fixedreward": [],
       "percentreward": [{ "token": "CRE8R", "amount": "559", "isfixed": true }],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 51,
+      "poolname": "Mor Steady Beets, Yearn Boosted (MOR/bb-yv-USD)",
+      "poolurl": "https://beets.fi/#/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
+      "rewarddescription": "$1,000 in $GRO per 1% of votes, uncapped!",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "GRO", "amount": 1000, "isfixed": true }],
+      "percentagethreshold": 0
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "10.2.1",
+  "version": "10.2.2",
   "description": "Farming Incentive Gauge Vote (round 10)",
   "round": 10,
   "bribedata": [
@@ -33,7 +33,13 @@
       "assumption": "Tier basic-boosted x2.2; tier boosted-bribes x2.5; tier boosted-bonus x2.7",
       "fixedreward": [],
       "percentreward": [{ "token": "CRE8R", "amount": "725", "isfixed": true }],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+       "additionalrewards": [
+          {"tier": "basic_boosted", "factor": 2.2},
+          {"tier": "boosted_bribe", "factor": 2.5},
+          {"tier": "boosted_bonus", "factor": 2.7},
+          {"tier": "boosted_bonanza", "factor": 3.2}
+      ]
     },
     {
       "voteindex": 28,

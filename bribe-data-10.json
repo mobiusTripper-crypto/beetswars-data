@@ -20,7 +20,7 @@
       "poolname": "Never PANIC (PANIC-FTM)",
       "poolurl": "https://beets.fi/#/pool/0x1e2576344d49779bdbb71b1b76193d27e6f996b700020000000000000000032d",
       "rewarddescription": "We offer 1k $PANIC tokens",
-      "assumption": "",
+      "assumption": "New announcement on twitter: https://twitter.com/Panic_Swap/status/1525734568552112128",
       "fixedreward": [{ "token": "PANIC", "amount": 1000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0

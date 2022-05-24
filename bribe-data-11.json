@@ -1,0 +1,18 @@
+{
+  "version": "11.0.0",
+  "description": "Farming Incentive Gauge Vote (round 11)",
+  "round": 11,
+  "bribedata": [
+    {
+      "voteindex": 0,
+      "poolname": "",
+      "poolurl": "",
+      "rewarddescription": "",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [],
+      "percentagethreshold": 0
+    }
+  ]
+}
+

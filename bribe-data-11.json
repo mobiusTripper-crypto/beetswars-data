@@ -4,7 +4,7 @@
   "round": 11,
   "bribedata": [
     {
-      "voteindex": 0,
+      "voteindex": -1,
       "poolname": "",
       "poolurl": "",
       "rewarddescription": "",
@@ -15,4 +15,3 @@
     }
   ]
 }
-

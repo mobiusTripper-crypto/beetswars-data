@@ -25,6 +25,7 @@
       "percentreward": [{ "token": "CRE8R", "amount": "520", "isfixed": true }],
       "percentagethreshold": 0,
       "additionalrewards": [
+          {"tier": "bogusest_bribe", "factor": 1.0},
           {"tier": "basic_boosted", "factor": 2.2},
           {"tier": "boosted_bribe", "factor": 2.5},
           {"tier": "boosted_bonus", "factor": 2.7},

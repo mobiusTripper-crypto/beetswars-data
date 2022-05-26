@@ -1,10 +1,10 @@
 {
-  "version": "11.1.0",
+  "version": "11.1.1",
   "description": "Farming Incentive Gauge Vote (round 11)",
   "round": 11,
   "bribedata": [
     {
-      "voteindex": 28,
+      "voteindex": 27,
       "poolname": "Lonely Mountain (RING-USDC)",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "We offer 5,000 $ in RING-BPT LP tokens",

@@ -1,5 +1,5 @@
 {
-  "version": "11.5.0",
+  "version": "11.6.0",
   "description": "Farming Incentive Gauge Vote (round 11)",
   "round": 11,
   "bribedata": [
@@ -59,6 +59,16 @@
       "rewarddescription": "$12,000 in $LQDR",
       "assumption": "Additional 3 FNFTs (worth $500 each) not included in calculation",
       "fixedreward": [{ "token": "LQDR", "amount": 12000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 28,
+      "poolname": "Spooky Melodies (BOO-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "rewarddescription": "5,000 USD worth of BOO split among voters",
+      "assumption": "",
+      "fixedreward": [{ "token": "BOO", "amount": 5000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

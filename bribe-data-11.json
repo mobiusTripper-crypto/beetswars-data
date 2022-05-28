@@ -1,5 +1,5 @@
 {
-  "version": "11.6.0",
+  "version": "11.7.0",
   "description": "Farming Incentive Gauge Vote (round 11)",
   "round": 11,
   "bribedata": [
@@ -69,6 +69,16 @@
       "rewarddescription": "5,000 USD worth of BOO split among voters",
       "assumption": "",
       "fixedreward": [{ "token": "BOO", "amount": 5000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 38,
+      "poolname": "$FANG Never Too Old to Yearn (FANG-USDC-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "We're incentivising $FANG Never Too Old to Yearn w/ $1,000 USDC this time around",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

@@ -1,5 +1,5 @@
 {
-  "version": "12.0.0",
+  "version": "12.1.0",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
   "bribedata": [
@@ -14,6 +14,23 @@
       ],
       "percentreward": [],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 44,
+      "poolname": "CRE8R in F-Major (CRE8R-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "rewarddescription": "Boosted Bribes at least $520 per 1%.",
+      "assumption": "See personalized info at https://boosted-bribes.cre8r.vip/",
+      "fixedreward": [],
+      "percentreward": [{ "token": "CRE8R", "amount": "520", "isfixed": true }],
+      "percentagethreshold": 0,
+      "additionalrewards": [
+          {"tier": "bogusest_bribe", "factor": 1.0},
+          {"tier": "basic_boosted", "factor": 2.2},
+          {"tier": "boosted_bribe", "factor": 2.5},
+          {"tier": "boosted_bonus", "factor": 2.7},
+          {"tier": "boosted_bonanza", "factor": 3.2}
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "12.1.0",
+  "version": "12.3.0",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
   "bribedata": [
@@ -31,6 +31,16 @@
           {"tier": "boosted_bonus", "factor": 2.7},
           {"tier": "boosted_bonanza", "factor": 3.2}
       ]
+    },
+    {
+      "voteindex": 26,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "Rain or shine, we've got bribes coming your way: $12,000 in $LQDR",
+      "assumption": "Raffle for 3 FNFTs (worth $500 each) not included in calculation",
+      "fixedreward": [{ "token": "LQDR", "amount": 12000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

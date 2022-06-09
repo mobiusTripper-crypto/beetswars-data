@@ -1,5 +1,5 @@
 {
-  "version": "12.3.0",
+  "version": "12.4.0",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
   "bribedata": [
@@ -39,6 +39,16 @@
       "rewarddescription": "Rain or shine, we've got bribes coming your way: $12,000 in $LQDR",
       "assumption": "Raffle for 3 FNFTs (worth $500 each) not included in calculation",
       "fixedreward": [{ "token": "LQDR", "amount": 12000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 39,
+      "poolname": "Water Music (SPIRIT-LINSPIRIT)",
+      "poolurl": "https://beets.fi/#/pool/0x30a92a4eeca857445f41e4bb836e64d66920f1c0000200000000000000000071",
+      "rewarddescription": "Our offer is a share of $5,000 in LQDR for your fBEETS votes",
+      "assumption": "",
+      "fixedreward": [{ "token": "LQDR", "amount": 5000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

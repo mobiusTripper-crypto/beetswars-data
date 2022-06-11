@@ -1,5 +1,5 @@
 {
-  "version": "12.6.0",
+  "version": "12.7.0",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
   "bribedata": [
@@ -69,6 +69,16 @@
       "rewarddescription": "Vote for Dante Symphony & Get Your Share of 50k $BEETS",
       "assumption": "",
       "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 38,
+      "poolname": "$FANG Never Too Old to Yearn (FANG-USDC-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "Our bribe is as follows: A flat $1,000 in $USDC",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     }

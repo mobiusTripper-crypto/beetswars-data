@@ -89,7 +89,15 @@
       "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false, "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }],
       "percentreward": [],
       "percentagethreshold": 0,
-      "reward": []
+      "reward": [{ 
+                  "type": "fixed", 
+                  "percentagethreshold": 0,
+                  "token": "BEETS", 
+                  "amount": 50000, 
+                  "isfixed": false, 
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", 
+                  "coingeckoid": "beethoven-x" 
+                }]
     },
     {
       "voteindex": 38,

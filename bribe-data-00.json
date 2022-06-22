@@ -1,8 +1,8 @@
 {
+  "snapshot": "0x6f80a89e26ded765bf6b88400cf9b772f2a5dc3b34524cc1ef9e73324b9c5268",
   "version": "12.7.0",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
-  "snapshot": "0x6f80a89e26ded765bf6b88400cf9b772f2a5dc3b34524cc1ef9e73324b9c5268",
   "bribedata": [
     {
       "voteindex": 27,

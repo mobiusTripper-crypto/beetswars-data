@@ -60,7 +60,7 @@
       "rewarddescription": "5,800 $BEETS per 1% of votes, uncapped!",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "BEETS", "amount": 5800, "isfixed": false, "tokenaddress": "0xbla", "coingeckoid": "beethoven-x" }],
+      "percentreward": [{ "token": "BEETS", "amount": 5800, "isfixed": false, "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }],
       "percentagethreshold": 0
     },
     {
@@ -69,7 +69,7 @@
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
       "rewarddescription": "Vote for Dante Symphony & Get Your Share of 50k $BEETS",
       "assumption": "",
-      "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false, "tokenaddress": "0xbla", "coingeckoid": "beethoven-x" }],
+      "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false, "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }],
       "percentreward": [],
       "percentagethreshold": 0
     },

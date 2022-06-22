@@ -14,7 +14,8 @@
         { "token": "Lonely Mountain LP", "amount": 5000, "isfixed": true }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 44,
@@ -25,6 +26,7 @@
       "fixedreward": [],
       "percentreward": [{ "token": "CRE8R", "amount": "520", "isfixed": true }],
       "percentagethreshold": 0,
+      "reward": [],
       "additionalrewards": [
           {"tier": "bogusest_bribe", "factor": 1.0},
           {"tier": "basic_boosted", "factor": 2.2},
@@ -41,7 +43,8 @@
       "assumption": "Raffle for 3 FNFTs (worth $500 each) not included in calculation",
       "fixedreward": [{ "token": "LQDR", "amount": 12000, "isfixed": true }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 39,
@@ -51,7 +54,8 @@
       "assumption": "",
       "fixedreward": [{ "token": "LQDR", "amount": 5000, "isfixed": true }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 46,
@@ -84,7 +88,8 @@
       "assumption": "",
       "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false, "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 38,
@@ -94,7 +99,8 @@
       "assumption": "",
       "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     }
   ]
 }

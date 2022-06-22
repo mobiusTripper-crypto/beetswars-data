@@ -108,7 +108,15 @@
       "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0,
-      "reward": []
+      "reward": [{ 
+                  "type": "fixed", 
+                  "percentagethreshold": 0,
+                  "token": "OATH", 
+                  "amount": 50000, 
+                  "isfixed": false, 
+                  "tokenaddress": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6", 
+                  "coingeckoid": "oath" 
+                }]
     }
   ]
 }

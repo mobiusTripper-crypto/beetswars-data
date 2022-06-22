@@ -60,8 +60,21 @@
       "rewarddescription": "5,800 $BEETS per 1% of votes, uncapped!",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "BEETS", "amount": 5800, "isfixed": false, "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }],
-      "percentagethreshold": 0
+      "percentreward": [{ "token": "BEETS", 
+                          "amount": 5800, 
+                          "isfixed": false, 
+                          "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", 
+                          "coingeckoid": "beethoven-x" }],
+      "percentagethreshold": 0,
+      "reward": [{ 
+                  "type": "percent", 
+                  "percentagethreshold": 0,
+                  "token": "BEETS", 
+                  "amount": 5800, 
+                  "isfixed": false, 
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", 
+                  "coingeckoid": "beethoven-x" 
+                }]
     },
     {
       "voteindex": 25,

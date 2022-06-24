@@ -1,5 +1,6 @@
 {
-  "version": "13.5.1",
+  "version": "13.5.2",
+  "snapshot": "0x6e0973f4061c83b40ed8397bf7518e50c8519fd860b8e2476d7733bf71c4d0a9",
   "description": "Farming Incentive Gauge Vote (round 13)",
   "round": 13,
   "bribedata": [

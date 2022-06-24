@@ -1,5 +1,5 @@
 {
-  "version": "13.2.0",
+  "version": "13.3.0",
   "description": "Farming Incentive Gauge Vote (round 13)",
   "round": 13,
   "bribedata": [
@@ -32,6 +32,16 @@
       "rewarddescription": "offer for your $fBEETS votes: Water Music - $3,500 in LQDR",
       "assumption": "",
       "fixedreward": [{ "token": "LQDR", "amount": 3500, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 25,
+      "poolname": "Dante Symphony (WSTA-BEETS-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": "Vote for Dante Symphony Now & Get Your Share of 25k $BEETS",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 25000, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
     }

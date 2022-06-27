@@ -1,5 +1,6 @@
 {
-  "version": "12.7.0",
+  "version": "12.7.1",
+  "snapshot": "0x6f80a89e26ded765bf6b88400cf9b772f2a5dc3b34524cc1ef9e73324b9c5268",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
   "bribedata": [
@@ -60,7 +61,16 @@
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "BEETS", "amount": 5800, "isfixed": false }],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [{
+                  "type": "percent",
+                  "percentagethreshold": 0,
+                  "token": "BEETS",
+                  "amount": 5800,
+                  "isfixed": false,
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+                  "coingeckoid": "beethoven-x"
+                }]
     },
     {
       "voteindex": 25,
@@ -70,7 +80,16 @@
       "assumption": "",
       "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [{
+                  "type": "fixed",
+                  "percentagethreshold": 0,
+                  "token": "BEETS",
+                  "amount": 50000,
+                  "isfixed": false,
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+                  "coingeckoid": "beethoven-x"
+                }]
     },
     {
       "voteindex": 38,

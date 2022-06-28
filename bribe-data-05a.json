@@ -1,7 +1,14 @@
 {
   "version": "5.10.6",
+  "snapshot": "0x7b04419d3494e3bb120f32d448807cdfd545adafdfff0dd6d68aa44027f618a8",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
+  "tokendata": [
+    {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+    {  "token": "RING", "tokenaddress": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5", "coingeckoid": "onering" },
+    {  "token": "SUPA", "tokenaddress": "0x59d07a115fe3ffe5db3d52029d43cc0ef5e9ba08", "coingeckoid": "supa-foundation" },
+    {  "token": "FBEETS", "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1", "coingeckoid": "" }
+  ],
   "bribedata": [
     {
       "voteindex": 30,

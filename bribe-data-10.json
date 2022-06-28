@@ -1,7 +1,11 @@
 {
   "version": "10.2.2",
+  "snapshot": "0x60394a7155d15a295f3859ec3d3fbdb8677135f5b4c9c4c06546c8dcb0d216d9",
   "description": "Farming Incentive Gauge Vote (round 10)",
   "round": 10,
+  "tokendata": [
+    {  "token": "PANIC", "tokenaddress": "0xa882ceac81b22fc2bef8e1a82e823e3e9603310b", "coingeckoid": "panicswap" }
+  ],
   "bribedata": [
     {
       "voteindex": 29,
@@ -34,7 +38,7 @@
       "fixedreward": [],
       "percentreward": [{ "token": "CRE8R", "amount": "725", "isfixed": true }],
       "percentagethreshold": 0,
-       "additionalrewards": [
+      "additionalrewards": [
           {"tier": "basic_boosted", "factor": 2.2},
           {"tier": "boosted_bribe", "factor": 2.5},
           {"tier": "boosted_bonus", "factor": 2.7},

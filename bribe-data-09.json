@@ -1,7 +1,13 @@
 {
   "version": "9.7.0",
+  "snapshot": "0x52dae6401830de2baf203c921aa064839157e11dfb4fd1472b380ad58511c9ca",
   "description": "Farming Incentive Gauge Vote (round 9)",
   "round": 9,
+  "tokendata": [
+    {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+    {  "token": "FTM", "tokenaddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83", "coingeckoid": "fantom" },
+    {  "token": "PILLS", "tokenaddress": "0xb66b5d38e183de42f21e92abcaf3c712dd5d6286", "coingeckoid": "morpheus-token" }
+  ],
   "bribedata": [
     {
       "voteindex": 30,

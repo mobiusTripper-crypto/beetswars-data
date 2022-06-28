@@ -1,7 +1,12 @@
 {
   "version": "6.6.0",
+  "snapshot": "0x8445e20c316cefe585a59f3a52c3be47f969dfcc5c77ec35e075b618749f3a8a",
   "description": "Farming Incentive Gauge Vote (round 6)",
   "round": 6,
+  "tokendata": [
+    {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+    {  "token": "RING", "tokenaddress": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5", "coingeckoid": "onering" }
+  ],
   "bribedata": [
     {
       "voteindex": 28,

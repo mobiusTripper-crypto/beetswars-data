@@ -1,7 +1,21 @@
 {
   "version": "4.0",
+  "snapshot": "0xd00700ca5bf26078d979a55fbbb1f25651791afd1aff6f951422fa6903e3424c",
   "description": "Farming Incentive Gauge Vote (round 4)",
   "round": 4,
+  "tokendata": [
+    {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+    {  "token": "RING", "tokenaddress": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5", "coingeckoid": "onering" },
+    {  "token": "FBEETS", "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1", "coingeckoid": "" },
+    {  "token": "SHRAP", "tokenaddress": "0x", "coingeckoid": "" },
+    {  "token": "PGUNK", "tokenaddress": "0x", "coingeckoid": "" },
+    {  "token": "RVNT", "tokenaddress": "0x", "coingeckoid": "" },
+    {  "token": "WSTA", "tokenaddress": "0xceebde49ec95e21f7ee63c5c6f98cab3519570de", "coingeckoid": "wrapped-statera" },
+    {  "token": "CREDIT", "tokenaddress": "0x77128dfdd0ac859b33f44050c6fa272f34872b5e", "coingeckoid": "creditum" },
+    {  "token": "BELUGA", "tokenaddress": "0x4a13a2cf881f5378def61e430139ed26d843df9a", "coingeckoid": "beluga-fi" },
+    {  "token": "IMP", "tokenaddress": "0x", "coingeckoid": "" },
+    {  "token": "TAROT", "tokenaddress": "0xc5e2b037d30a390e62180970b3aa4e91868764cd", "coingeckoid": "tarot" }
+  ],
   "bribedata": [
     {
       "enabled": true,

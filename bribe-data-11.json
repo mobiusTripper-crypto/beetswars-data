@@ -1,5 +1,6 @@
 {
   "version": "11.7.0",
+  "snapshot": "0xe7a33f8691c0087999a21a6129f5f87ff01ca7ae952ee6304aac44e20c0b82db",
   "description": "Farming Incentive Gauge Vote (round 11)",
   "round": 11,
   "tokendata": [

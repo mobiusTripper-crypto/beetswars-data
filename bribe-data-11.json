@@ -2,6 +2,9 @@
   "version": "11.7.0",
   "description": "Farming Incentive Gauge Vote (round 11)",
   "round": 11,
+  "tokendata": [
+        {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }
+  ],
   "bribedata": [
     {
       "voteindex": 27,

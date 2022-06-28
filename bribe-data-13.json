@@ -4,6 +4,10 @@
   "description": "Farming Incentive Gauge Vote (round 13)",
   "round": 13,
   "bribedata": [
+  "tokendata": [
+        {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+        {  "token": "USDC", "tokenaddress": "0x04068da6c83afcfa0e13ba15a6696662335d5b75", "coingeckoid": "usd-coin" }
+  ],
     {
       "voteindex": 27,
       "poolname": "Lonely Mountain (RING-USDC)",

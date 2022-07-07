@@ -1,5 +1,5 @@
 {
-  "version": "14.1.0",
+  "version": "14.3.2",
   "snapshot": "0x9e89981a236c0de1aa0876eabc95537f7b2b33779c0942a81a5e5d0accc32a56",
   "description": "Farming Incentive Gauge Vote (round 14)",
   "round": 14,
@@ -19,6 +19,27 @@
       ],
       "percentreward": [],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 46,
+      "poolname": "Mor Steady Beets, Yearn Boosted (MOR/bb-yv-USD)",
+      "poolurl": "https://beets.fi/#/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
+      "rewarddescription": "5,000 $BEETS per 1% of votes, uncapped!",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "BEETS", "amount": 5000, "isfixed": false }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 13,
+      "poolname": "Lock, Staked, and two FTMs",
+      "poolurl": "https://beets.fi/#/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
+      "rewarddescription": "Vote now to get $450 in SD tokens per 1% of votes.  (Capped max 20%).",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "SD Token", "amount": 450, "isfixed": true }],
+      "percentagethreshold": 0,
+      "rewardcap": 9000
     }
   ]
 }

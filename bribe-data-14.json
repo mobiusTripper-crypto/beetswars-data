@@ -1,5 +1,5 @@
 {
-  "version": "14.3.1",
+  "version": "14.3.2",
   "snapshot": "0x9e89981a236c0de1aa0876eabc95537f7b2b33779c0942a81a5e5d0accc32a56",
   "description": "Farming Incentive Gauge Vote (round 14)",
   "round": 14,
@@ -38,7 +38,8 @@
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "SD Token", "amount": 450, "isfixed": true }],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "rewardcap": 9000
     }
   ]
 }

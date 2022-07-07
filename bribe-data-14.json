@@ -1,5 +1,5 @@
 {
-  "version": "14.1.0",
+  "version": "14.2.0",
   "snapshot": "0x9e89981a236c0de1aa0876eabc95537f7b2b33779c0942a81a5e5d0accc32a56",
   "description": "Farming Incentive Gauge Vote (round 14)",
   "round": 14,
@@ -19,6 +19,25 @@
       ],
       "percentreward": [],
       "percentagethreshold": 0
+    },
+    {
+      "voteindex": 46,
+      "poolname": "Mor Steady Beets, Yearn Boosted (MOR/bb-yv-USD)",
+      "poolurl": "https://beets.fi/#/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
+      "rewarddescription": "5,000 $BEETS per 1% of votes, uncapped!",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "BEETS", "amount": 5000, "isfixed": false }],
+      "percentagethreshold": 0,
+      "reward": [{
+                  "type": "percent",
+                  "percentagethreshold": 0,
+                  "token": "BEETS",
+                  "amount": 5000,
+                  "isfixed": false,
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+                  "coingeckoid": "beethoven-x"
+                }]
     }
   ]
 }

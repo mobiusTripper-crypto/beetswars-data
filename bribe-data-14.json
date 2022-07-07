@@ -1,0 +1,25 @@
+{
+  "version": "14.1.0",
+  "snapshot": "0x9e89981a236c0de1aa0876eabc95537f7b2b33779c0942a81a5e5d0accc32a56",
+  "description": "Farming Incentive Gauge Vote (round 14)",
+  "round": 14,
+  "tokendata": [
+        {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+        {  "token": "USDC", "tokenaddress": "0x04068da6c83afcfa0e13ba15a6696662335d5b75", "coingeckoid": "usd-coin" }
+  ],
+  "bribedata": [
+    {
+      "voteindex": 27,
+      "poolname": "Lonely Mountain (RING-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "We would like to offer 2500 $ in BPT-RING lp for next 2 weeks of Beets emissions",
+      "assumption": "",
+      "fixedreward": [
+        { "token": "Lonely Mountain LP", "amount": 2500, "isfixed": true }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    }
+  ]
+}
+

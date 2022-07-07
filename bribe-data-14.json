@@ -1,5 +1,5 @@
 {
-  "version": "14.2.0",
+  "version": "14.3.0",
   "snapshot": "0x9e89981a236c0de1aa0876eabc95537f7b2b33779c0942a81a5e5d0accc32a56",
   "description": "Farming Incentive Gauge Vote (round 14)",
   "round": 14,
@@ -28,16 +28,17 @@
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "BEETS", "amount": 5000, "isfixed": false }],
-      "percentagethreshold": 0,
-      "reward": [{
-                  "type": "percent",
-                  "percentagethreshold": 0,
-                  "token": "BEETS",
-                  "amount": 5000,
-                  "isfixed": false,
-                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
-                  "coingeckoid": "beethoven-x"
-                }]
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 13,
+      "poolname": "Lock, Staked, and two FTMs",
+      "poolurl": "https://beets.fi/#/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
+      "rewarddescription": "Vote now to get $450 in SD tokens per 1% of votes.  (Capped max 20%).",
+      "assumption": "",
+      "fixedreward": [],
+      "percentreward": [{ "token": "SD Token", "amount": 450, "isfixed": true }],
+      "percentagethreshold": 20
     }
   ]
 }

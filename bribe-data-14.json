@@ -1,5 +1,5 @@
 {
-  "version": "14.3.2",
+  "version": "14.4.1",
   "snapshot": "0x9e89981a236c0de1aa0876eabc95537f7b2b33779c0942a81a5e5d0accc32a56",
   "description": "Farming Incentive Gauge Vote (round 14)",
   "round": 14,
@@ -40,6 +40,23 @@
       "percentreward": [{ "token": "SD Token", "amount": 450, "isfixed": true }],
       "percentagethreshold": 0,
       "rewardcap": 9000
+    },
+    {
+      "voteindex": 44,
+      "poolname": "CRE8R in F-Major (CRE8R-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "rewarddescription": "Boosted Bribes at least $371 in $CRE8R per 1%.",
+      "assumption": "If CRE8R in F-Major gets over 20% this round we have a Beets Boosted Bribes Bearmarket Bonus for voters",
+      "fixedreward": [],
+      "percentreward": [{ "token": "CRE8R", "amount": "371", "isfixed": true }],
+      "percentagethreshold": 0,
+      "additionalrewards": [
+          {"tier": "bogusest_bribe", "factor": 1.0},
+          {"tier": "basic_boosted", "factor": 2.2},
+          {"tier": "boosted_bribe", "factor": 2.5},
+          {"tier": "boosted_bonus", "factor": 2.7},
+          {"tier": "boosted_bonanza", "factor": 3.2}
+      ]    
     }
   ]
 }

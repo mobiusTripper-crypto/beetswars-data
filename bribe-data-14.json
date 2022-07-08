@@ -77,8 +77,8 @@
       "fixedreward": [{ "token": "LQDR", "amount": 3500, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0  
-    }
-    {,
+    },
+    {
       "voteindex": 25,
       "poolname": "Dante Symphony (WSTA-BEETS-etc)",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",

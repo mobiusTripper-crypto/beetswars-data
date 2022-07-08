@@ -56,7 +56,27 @@
           {"tier": "boosted_bribe", "factor": 2.5},
           {"tier": "boosted_bonus", "factor": 2.7},
           {"tier": "boosted_bonanza", "factor": 3.2}
-      ]    
+      ]  
+    },
+    {
+      "voteindex": 26,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "offer for your $fBEETS votes: Pirate Party - $8,000 in $LQDR",
+      "assumption": "Raffle for 3 FNFTs (worth $400 each) not included in calculation",
+      "fixedreward": [{ "token": "LQDR", "amount": 8000, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 39,
+      "poolname": "Water Music (SPIRIT-LINSPIRIT)",
+      "poolurl": "https://beets.fi/#/pool/0x30a92a4eeca857445f41e4bb836e64d66920f1c0000200000000000000000071",
+      "rewarddescription": "offer for your $fBEETS votes: Water Music - $3,500 in LQDR",
+      "assumption": "",
+      "fixedreward": [{ "token": "LQDR", "amount": 3500, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0  
     }
   ]
 }

@@ -1,10 +1,11 @@
 {
-  "version": "12.7.1",
   "snapshot": "0x6f80a89e26ded765bf6b88400cf9b772f2a5dc3b34524cc1ef9e73324b9c5268",
+  "version": "12.7.0",
   "description": "Farming Incentive Gauge Vote (round 12)",
   "round": 12,
   "tokendata": [
-        {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }
+        {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
+        {  "token": "OATH", "tokenaddress": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6", "coingeckoid": "oath" }
   ],
   "bribedata": [
     {
@@ -17,7 +18,8 @@
         { "token": "Lonely Mountain LP", "amount": 5000, "isfixed": true }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 44,
@@ -28,6 +30,7 @@
       "fixedreward": [],
       "percentreward": [{ "token": "CRE8R", "amount": "520", "isfixed": true }],
       "percentagethreshold": 0,
+      "reward": [],
       "additionalrewards": [
           {"tier": "bogusest_bribe", "factor": 1.0},
           {"tier": "basic_boosted", "factor": 2.2},
@@ -44,7 +47,8 @@
       "assumption": "Raffle for 3 FNFTs (worth $500 each) not included in calculation",
       "fixedreward": [{ "token": "LQDR", "amount": 12000, "isfixed": true }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 39,
@@ -54,7 +58,8 @@
       "assumption": "",
       "fixedreward": [{ "token": "LQDR", "amount": 5000, "isfixed": true }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": []
     },
     {
       "voteindex": 46,
@@ -63,8 +68,21 @@
       "rewarddescription": "5,800 $BEETS per 1% of votes, uncapped!",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "BEETS", "amount": 5800, "isfixed": false }],
-      "percentagethreshold": 0
+      "percentreward": [{ "token": "BEETS", 
+                          "amount": 5800, 
+                          "isfixed": false, 
+                          "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", 
+                          "coingeckoid": "beethoven-x" }],
+      "percentagethreshold": 0,
+      "reward": [{ 
+                  "type": "percent", 
+                  "percentagethreshold": 0,
+                  "token": "BEETS", 
+                  "amount": 5800, 
+                  "isfixed": false, 
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", 
+                  "coingeckoid": "beethoven-x" 
+                }]
     },
     {
       "voteindex": 25,
@@ -72,17 +90,17 @@
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
       "rewarddescription": "Vote for Dante Symphony & Get Your Share of 50k $BEETS",
       "assumption": "",
-      "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false }],
+      "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false, "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }],
       "percentreward": [],
       "percentagethreshold": 0,
-      "reward": [{
-                  "type": "fixed",
+      "reward": [{ 
+                  "type": "fixed", 
                   "percentagethreshold": 0,
-                  "token": "BEETS",
-                  "amount": 50000,
-                  "isfixed": false,
-                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
-                  "coingeckoid": "beethoven-x"
+                  "token": "BEETS", 
+                  "amount": 50000, 
+                  "isfixed": false, 
+                  "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", 
+                  "coingeckoid": "beethoven-x" 
                 }]
     },
     {
@@ -93,7 +111,17 @@
       "assumption": "",
       "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [{ 
+                  "type": "fixed", 
+                  "percentagethreshold": 0,
+                  "token": "OATH", 
+                  "amount": 50000, 
+                  "isfixed": false, 
+                  "tokenaddress": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6", 
+                  "coingeckoid": "oath" 
+                }]
     }
   ]
 }
+

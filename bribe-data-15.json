@@ -9,7 +9,7 @@
       "voteindex": 52,
       "poolname": "The Empire's Anthem (GEM-USDC-FTM)",
       "poolurl": "https://beets.fi/#/pool/0xa8eeb38ebfa215d4d3c7499532d5066b8bc6ed450001000000000000000004f6",
-      "rewarddescription": "Vote for "Empire's Anthem" and receive a share of 1,500 $USDC",
+      "rewarddescription": "Vote for 'Empire's Anthem' and receive a share of 1,500 $USDC",
       "assumption": "",
       "fixedreward": [{ "token": "USDC", "amount": 1500, "isfixed": true }],
       "percentreward": [],

@@ -1,2 +1,4 @@
 run locally with vercel dev
 will start a server at localhost:3000. 
+
+Please note: When publishing vote-data file before voting started, please leave tokendata and bribedata arrays empty!

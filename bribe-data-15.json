@@ -1,9 +1,20 @@
 {
-  "version": "15.0.0",
+  "version": "15.1.0",
   "snapshot": "0x9b3b328e77e2d5b99a26ede7b4f6c36ee0bf6b4c06241e84f50f01735270d6e9",
   "description": "Farming Incentive Gauge Vote (round 15)",
   "round": 15,
   "tokendata": [ ],
-  "bribedata": [ ]
+  "bribedata": [ 
+    {
+      "voteindex": 52,
+      "poolname": "The Empire's Anthem (GEM-USDC-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0xa8eeb38ebfa215d4d3c7499532d5066b8bc6ed450001000000000000000004f6",
+      "rewarddescription": "Vote for 'Empire's Anthem' and receive a share of 1,500 $USDC",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 1500, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    }
+  ]
 }
 

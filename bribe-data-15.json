@@ -65,8 +65,18 @@
       "rewarddescription": "4,700 $BEETS per 1% of votes, uncapped!",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "BEETS", "amount": 4700, "isfixed": false }],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "percentagethreshold": 0,
+          "token": "BEETS",
+          "amount": 4700,
+          "isfixed": false,
+          "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+          "coingeckoid": "beethoven-x"
+        }
+      ]
     }
   ]
 }

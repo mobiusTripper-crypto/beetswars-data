@@ -86,6 +86,18 @@
       "percentreward": [{ "token": "SD Token", "amount": 450, "isfixed": true }],
       "percentagethreshold": 0,                                                                                                                                
       "rewardcap": 9000                                                        
-    }                 
+    },                 
+    {                                                                                                                                                          
+      "voteindex": 27,                                                                                                                                         
+      "poolname": "Lonely Mountain (RING-USDC)",                                                                                                               
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "Would like to announce a flat bribe of 2500$ in Lp tokens for next two weeks of beets emissions",
+      "assumption": "",       
+      "fixedreward": [
+        { "token": "Lonely Mountain LP", "amount": 2500, "isfixed": true }
+      ],              
+      "percentreward": [],                                                     
+      "percentagethreshold": 0                                                                                                                                 
+    }                                                                                                                                                         
   ]
 }

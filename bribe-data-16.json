@@ -1,5 +1,5 @@
 {
-  "version": "16.6.2",
+  "version": "16.6.3",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -8,11 +8,6 @@
       "token": "BEETS",
       "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
       "coingeckoid": "beethoven-x"
-    },
-    {
-      "token": "GEM",
-      "tokenaddress": "0x68efc4716507709691d5e7ad9906a44fabcdb1ca",
-      "coingeckoid": "mine-empire"
     }
   ],
   "bribedata": [
@@ -45,8 +40,7 @@
       "rewarddescription": "This round we are keeping the 1500 USDC and throwing an additional 11 GEMs to our bribe for a total value of $2478.",
       "assumption": "",
       "fixedreward": [
-        { "token": "USDC", "amount": 1500, "isfixed": true },
-        { "token": "GEM", "amount": 11, "isfixed": false }
+        { "token": "USDC", "amount": 2478, "isfixed": true }
       ],
       "percentreward": [],
       "percentagethreshold": 0

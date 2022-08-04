@@ -1,5 +1,5 @@
 {
-  "version": "16.1.1",
+  "version": "16.2.0",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -17,9 +17,21 @@
       "poolurl": "https://beets.fi/#/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
       "rewarddescription": "13.37K of BPT-4ECHUSD tokens for voting Echelon Trance (latest entrant), if it gets 1.337% votes or higher",
       "assumption": "",
-      "fixedreward": [{ "token": "BPT-4ECHUSD", "amount": 360.99, "isfixed": true }],
+      "fixedreward": [{ "token": "BPT-4ECHUSD", "amount": 340.96, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 1.337
+    },                 
+    {                                                                                                                                                          
+      "voteindex": 27,                                                                                                                                         
+      "poolname": "Lonely Mountain (RING-USDC)",                                                                                                               
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "We Would like to announce a Bribe of 2000$ in BPT-RING lp for Next 2 weeks of Beets emissions.",
+      "assumption": "",       
+      "fixedreward": [
+        { "token": "Lonely Mountain LP", "amount": 2000, "isfixed": true }
+      ],              
+      "percentreward": [],                                                     
+      "percentagethreshold": 0
     }
   ]
 }

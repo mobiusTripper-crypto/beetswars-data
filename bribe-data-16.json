@@ -107,7 +107,7 @@
         { "tier": "bogusest_bribe", "factor": 1.0 },
         { "tier": "basic_boosted", "factor": 2.2 },
         { "tier": "boosted_bribe", "factor": 2.5 },
-        { "tier": "boosted_bonus", "factor": 3.2 },
+        { "tier": "boosted_bonus", "factor": 3.2 }
       ]
     }
   ]

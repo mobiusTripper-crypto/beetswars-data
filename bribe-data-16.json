@@ -16,6 +16,15 @@
     }
   ],
   "bribedata": [
-   
+    {
+      "voteindex": 54,
+      "poolname": "Echelon Trance (bECH-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
+      "rewarddescription": "13.37K of BPT-4ECHUSD tokens for voting Echelon Trance (latest entrant), if it gets 1.337% votes or higher",
+      "assumption": "",
+      "fixedreward": [{ "token": "BPT-4ECHUSD", "amount": 36.099, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 1.337
+    }
   ]
 }

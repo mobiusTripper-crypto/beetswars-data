@@ -1,5 +1,5 @@
 {
-  "version": "16.6.0",
+  "version": "16.6.1",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -107,7 +107,7 @@
         { "tier": "bogusest_bribe", "factor": 1.0 },
         { "tier": "basic_boosted", "factor": 2.2 },
         { "tier": "boosted_bribe", "factor": 2.5 },
-        { "tier": "boosted_bonus", "factor": 3.2 },
+        { "tier": "boosted_bonus", "factor": 3.2 }
       ]
     }
   ]

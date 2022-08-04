@@ -1,5 +1,5 @@
 {
-  "version": "16.0.0",
+  "version": "16.1.0",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -8,11 +8,6 @@
       "token": "BEETS",
       "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
       "coingeckoid": "beethoven-x"
-    },
-    {
-      "token": "ECH",
-      "tokenaddress": "0xb868b46bcec6595a953e351e6d8459bedef6805e",
-      "coingeckoid": "echelon"
     }
   ],
   "bribedata": [
@@ -22,7 +17,7 @@
       "poolurl": "https://beets.fi/#/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
       "rewarddescription": "13.37K of BPT-4ECHUSD tokens for voting Echelon Trance (latest entrant), if it gets 1.337% votes or higher",
       "assumption": "",
-      "fixedreward": [{ "token": "BPT-4ECHUSD", "amount": 36.099, "isfixed": false }],
+      "fixedreward": [{ "token": "BPT-4ECHUSD", "amount": 36.099, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 1.337
     }

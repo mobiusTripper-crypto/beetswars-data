@@ -1,5 +1,5 @@
 {
-  "version": "16.6.3",
+  "version": "16.7.0",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -111,6 +111,16 @@
         { "tier": "boosted_bribe", "factor": 2.5 },
         { "tier": "boosted_bonus", "factor": 3.2 }
       ]
+    },
+    {
+      "voteindex": 25,
+      "poolname": "Dante Symphony (WSTA-BEETS-etc)",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": "Time to Vote for Dante Symphony again to get Your share of 25K BEETS!",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 25000, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

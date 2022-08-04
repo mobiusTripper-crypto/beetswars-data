@@ -1,5 +1,5 @@
 {
-  "version": "16.4.0",
+  "version": "16.5.0",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -71,6 +71,26 @@
       "rewarddescription": "offer for your $fBEETS votes: Water Music - $4,500 in LQDR",
       "assumption": "",
       "fixedreward": [{ "token": "LQDR", "amount": 4500, "isfixed": true }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 0,
+      "poolname": "Fantom of the Opera (FTM-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xcdf68a4d525ba2e90fe959c74330430a5a6b8226000200000000000000000008",
+      "rewarddescription": "BEETS Reward 60,563.51 BEETS",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 60563.51, "isfixed": false }],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 3,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/#/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "BEETS Reward 60,563.51 BEETS",
+      "assumption": "",
+      "fixedreward": [{ "token": "BEETS", "amount": 60563.51, "isfixed": false }],
       "percentreward": [],
       "percentagethreshold": 0
     }

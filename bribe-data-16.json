@@ -1,5 +1,5 @@
 {
-  "version": "16.10.0",
+  "version": "16.10.1",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -128,7 +128,7 @@
       "poolurl": "https://beets.fi/#/pool/0xd74519da8842176305022cab361327e0098fc1f500020000000000000000039f",
       "rewarddescription": "$1060 per 2% in COMB (capped at 20%) 🤯",
       "assumption": "",
-      "percentreward": [ { "token": "COMB", "amount": 1060, "isfixed": true } ],              
+      "percentreward": [ { "token": "COMB", "amount": 530, "isfixed": true } ],              
       "fixedreward": [], 
       "percentagethreshold": 2,
       "rewardcap": 10600

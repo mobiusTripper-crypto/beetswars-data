@@ -1,5 +1,5 @@
 {
-  "version": "16.10.4",
+  "version": "16.10.5",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -22,7 +22,7 @@
       "rewarddescription": "13.37K of BPT-4ECHUSD tokens for voting Echelon Trance (latest entrant), if it gets 1.337% votes or higher",
       "assumption": "",
       "fixedreward": [
-        { "token": "BPT-4ECHUSD", "amount": 339.98, "isfixed": false }
+        { "token": "BPT-4ECHUSD", "amount": 13370, "isfixed": false }
       ],
       "percentreward": [],
       "percentagethreshold": 0,

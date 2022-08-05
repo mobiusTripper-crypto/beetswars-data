@@ -17,20 +17,22 @@
       "poolurl": "https://beets.fi/#/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
       "rewarddescription": "13.37K of BPT-4ECHUSD tokens for voting Echelon Trance (latest entrant), if it gets 1.337% votes or higher",
       "assumption": "",
-      "fixedreward": [{ "token": "BPT-4ECHUSD", "amount": 339.98, "isfixed": true }],
+      "fixedreward": [
+        { "token": "BPT-4ECHUSD", "amount": 339.98, "isfixed": true }
+      ],
       "percentreward": [],
       "percentagethreshold": 1.337
-    },                 
-    {                                                                                                                                                          
-      "voteindex": 27,                                                                                                                                         
-      "poolname": "Lonely Mountain (RING-USDC)",                                                                                                               
+    },
+    {
+      "voteindex": 27,
+      "poolname": "Lonely Mountain (RING-USDC)",
       "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "We Would like to announce a Bribe of 2000$ in BPT-RING lp for Next 2 weeks of Beets emissions.",
-      "assumption": "",       
+      "assumption": "",
       "fixedreward": [
         { "token": "Lonely Mountain LP", "amount": 2000, "isfixed": true }
-      ],              
-      "percentreward": [],                                                     
+      ],
+      "percentreward": [],
       "percentagethreshold": 0
     },
     {
@@ -39,21 +41,21 @@
       "poolurl": "https://beets.fi/#/pool/0xa8eeb38ebfa215d4d3c7499532d5066b8bc6ed450001000000000000000004f6",
       "rewarddescription": "This round we are keeping the 1500 USDC and throwing an additional 11 GEMs to our bribe for a total value of $2478.",
       "assumption": "",
-      "fixedreward": [
-        { "token": "USDC", "amount": 2478, "isfixed": true }
-      ],
+      "fixedreward": [{ "token": "USDC", "amount": 2478, "isfixed": true }],
       "percentreward": [],
       "percentagethreshold": 0
     },
-    {                  
-      "voteindex": 13,                                                                                                                                         
+    {
+      "voteindex": 13,
       "poolname": "Lock, Staked, and two FTMs",
       "poolurl": "https://beets.fi/#/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
       "rewarddescription": "You can get $440 in SD tokens per 1% of votes (Capped at 22% votes max)",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "SD Token", "amount": 440, "isfixed": true }],
-      "percentagethreshold": 0,                                                                                                                                
+      "percentreward": [
+        { "token": "SD Token", "amount": 440, "isfixed": true }
+      ],
+      "percentagethreshold": 0,
       "rewardcap": 9680
     },
     {
@@ -82,7 +84,9 @@
       "poolurl": "https://beets.fi/#/pool/0xcdf68a4d525ba2e90fe959c74330430a5a6b8226000200000000000000000008",
       "rewarddescription": "BEETS Reward 60,563.51 BEETS",
       "assumption": "",
-      "fixedreward": [{ "token": "BEETS", "amount": 60563.51, "isfixed": false }],
+      "fixedreward": [
+        { "token": "BEETS", "amount": 60563.51, "isfixed": false }
+      ],
       "percentreward": [],
       "percentagethreshold": 0
     },
@@ -92,7 +96,9 @@
       "poolurl": "https://beets.fi/#/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
       "rewarddescription": "BEETS Reward 60,563.51 BEETS",
       "assumption": "",
-      "fixedreward": [{ "token": "BEETS", "amount": 60563.51, "isfixed": false }],
+      "fixedreward": [
+        { "token": "BEETS", "amount": 60563.51, "isfixed": false }
+      ],
       "percentreward": [],
       "percentagethreshold": 0
     },
@@ -122,15 +128,14 @@
       "percentreward": [],
       "percentagethreshold": 0
     },
-    {                                                                                                                                                          
+    {
       "voteindex": 41,
       "poolname": "Bee-Thoven and BEARS (COMB-USDC)",
       "poolurl": "https://beets.fi/#/pool/0xd74519da8842176305022cab361327e0098fc1f500020000000000000000039f",
       "rewarddescription": "$1060 per 2% in COMB (capped at 20%) 🤯",
       "assumption": "",
-      "percentreward": [ { "token": "COMB", "amount": 530, "isfixed": true } ],              
-      "fixedreward": [], 
-      "percentagethreshold": 2,
+      "percentreward": [{ "token": "COMB", "amount": 530, "isfixed": true }],
+      "fixedreward": [],
       "rewardcap": 10600
     },
     {
@@ -141,7 +146,7 @@
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "BEETS", "amount": 4500, "isfixed": false }],
-      "percentagethreshold": 0  
+      "percentagethreshold": 0
     }
   ]
 }

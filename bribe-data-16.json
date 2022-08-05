@@ -1,5 +1,5 @@
 {
-  "version": "16.10.2",
+  "version": "16.10.3",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -8,6 +8,10 @@
       "token": "BEETS",
       "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
       "coingeckoid": "beethoven-x"
+    },
+    {
+      "token": "BPT-4ECHUSD",
+      "bptpoolid": "0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4"
     }
   ],
   "bribedata": [

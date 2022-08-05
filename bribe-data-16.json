@@ -136,7 +136,8 @@
       "assumption": "",
       "percentreward": [{ "token": "COMB", "amount": 530, "isfixed": true }],
       "fixedreward": [],
-      "rewardcap": 10600
+      "rewardcap": 10600,
+      "percentagethreshold": 0
     },
     {
       "voteindex": 46,

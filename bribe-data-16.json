@@ -1,5 +1,5 @@
 {
-  "version": "16.10.1",
+  "version": "16.10.2",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -21,7 +21,8 @@
         { "token": "BPT-4ECHUSD", "amount": 339.98, "isfixed": true }
       ],
       "percentreward": [],
-      "percentagethreshold": 1.337
+      "percentagethreshold": 0,
+      "payoutthreshold": 1.337
     },
     {
       "voteindex": 27,

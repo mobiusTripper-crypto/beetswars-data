@@ -1,5 +1,5 @@
 {
-  "version": "16.13.0",
+  "version": "16.13.1",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -8,10 +8,6 @@
       "token": "BEETS",
       "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
       "coingeckoid": "beethoven-x"
-    },
-    {
-      "token": "BPT-4ECHUSD",
-      "bptpoolid": "0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4"
     }
   ],
   "bribedata": [
@@ -21,12 +17,10 @@
       "poolurl": "https://beets.fi/#/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
       "rewarddescription": "$.00073 for each vote. up to $1815. $420 in USDC to top voters. $1337 in USDC-ECH bpt. FTM for everyone else.",
       "assumption": "",
-      "fixedreward": [
-        { "token": "USDC", "amount": 1815, "isfixed": true }
-      ],
+      "fixedreward": [ { "token": "USDC", "amount": 0.00073, "isfixed": true, "ispaypervote": true } ],
       "percentreward": [],
       "percentagethreshold": 0,
-      "payoutthreshold": 1.337
+      "rewardcap": 1815
     },
     {
       "voteindex": 27,

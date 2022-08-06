@@ -12,11 +12,6 @@
     {
       "token": "BPT-4ECHUSD",
       "bptpoolid": "0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4"
-    },
-    {
-      "token": "GEM",
-      "tokenaddress": "0x68efc4716507709691d5e7ad9906a44fabcdb1ca",
-      "coingeckoid": "mine-empire"
     }
   ],
   "bribedata": [

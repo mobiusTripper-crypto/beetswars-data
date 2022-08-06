@@ -12,6 +12,11 @@
     {
       "token": "BPT-4ECHUSD",
       "bptpoolid": "0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4"
+    },
+    {
+      "token": "GEM",
+      "tokenaddress": "0x68EFc4716507709691d5e7AD9906a44FaBCdb1CA",
+      "coingeckoid": "mine-empire"
     }
   ],
   "bribedata": [
@@ -46,7 +51,10 @@
       "poolurl": "https://beets.fi/#/pool/0xa8eeb38ebfa215d4d3c7499532d5066b8bc6ed450001000000000000000004f6",
       "rewarddescription": "This round we are keeping the 1500 USDC and throwing an additional 11 GEMs to our bribe for a total value of $2478.",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 2478, "isfixed": true }],
+      "fixedreward": [
+        { "token": "USDC", "amount": 1500, "isfixed": true },
+        { "token": "GEM", "amount": 11, "isfixed": false }
+      ],
       "percentreward": [],
       "percentagethreshold": 0
     },

@@ -1,5 +1,5 @@
 {
-  "version": "16.10.1",
+  "version": "16.13.3",
   "snapshot": "0xbc5785e1323c70986d77d33ab734c1c18f122c2a6082f84fbc437c549d8b84ad",
   "description": "Farming Incentive Gauge Vote (round 16)",
   "round": 16,
@@ -15,13 +15,12 @@
       "voteindex": 54,
       "poolname": "Echelon Trance (bECH-USDC)",
       "poolurl": "https://beets.fi/#/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
-      "rewarddescription": "13.37K of BPT-4ECHUSD tokens for voting Echelon Trance (latest entrant), if it gets 1.337% votes or higher",
-      "assumption": "",
-      "fixedreward": [
-        { "token": "BPT-4ECHUSD", "amount": 339.98, "isfixed": true }
-      ],
+      "rewarddescription": "$.911 for 1000 votes. up to $2407. $666 in USDC to top voters. $1337 in USDC-ECH bpt. $420 in FTM for others.",
+      "assumption": "in case of less than .15% total votes we will still pay all loyal voters",
+      "fixedreward": [ { "token": "USDC", "amount": 0.000911, "isfixed": true, "ispaypervote": true } ],
       "percentreward": [],
-      "percentagethreshold": 1.337
+      "percentagethreshold": 0,
+      "rewardcap": 2407
     },
     {
       "voteindex": 27,
@@ -107,7 +106,7 @@
       "poolname": "CRE8R in F-Major (CRE8R-FTM)",
       "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
       "rewarddescription": "Boosted Bribes at least $332 in $CRE8R per 1%.",
-      "assumption": "",
+      "assumption": "additional $AMP rewards possible, please read announcement https://twitter.com/CRE8RDAO/status/1555876840832929793",
       "fixedreward": [],
       "percentreward": [{ "token": "CRE8R", "amount": "332", "isfixed": true }],
       "percentagethreshold": 0,
@@ -136,7 +135,8 @@
       "assumption": "",
       "percentreward": [{ "token": "COMB", "amount": 530, "isfixed": true }],
       "fixedreward": [],
-      "rewardcap": 10600
+      "rewardcap": 10600,
+      "percentagethreshold": 0
     },
     {
       "voteindex": 46,
@@ -146,6 +146,16 @@
       "assumption": "",
       "fixedreward": [],
       "percentreward": [{ "token": "BEETS", "amount": 4500, "isfixed": false }],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 38,
+      "poolname": "$FANG Never Too Old to Yearn (FANG-USDC-FTM)",
+      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "rewarddescription": "We're incentivising with a flat 1,000 $USDC 💰 ",
+      "assumption": "",
+      "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
+      "percentreward": [],
       "percentagethreshold": 0
     }
   ]

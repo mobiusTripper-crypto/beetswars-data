@@ -1,6 +1,6 @@
 # Bribefile Documentation
 
-Bribefiles are the data storage for the [Beetswars.live](https://www.beetswars.live/) website. While voting is active, offers are listed here by volunteers. Bribefiles are published under [MIT-License](./LICENSE)
+Bribefiles are the data storage for the [Beetswars.live](https://www.beetswars.live/) website. While voting is active, incentive offers are listed there by volunteers. Bribefiles are published under [MIT-License](./LICENSE)
 
 **All offers are subject to change until voting closes. We work with care, but errors can not always be avoided. Please do your own research, read original announcements on Discord or Twitter. This is not financial advice!**
 

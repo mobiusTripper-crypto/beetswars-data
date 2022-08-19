@@ -4,125 +4,329 @@
   "description": "Farming Incentive Gauge Vote (round 7)",
   "round": 7,
   "tokendata": [
-    {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" },
-    {  "token": "OATH", "tokenaddress": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6", "coingeckoid": "oath" }
+    {
+      "token": "BEETS",
+      "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+      "coingeckoid": "beethoven-x"
+    },
+    {
+      "token": "OATH",
+      "tokenaddress": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+      "coingeckoid": "oath"
+    }
   ],
   "bribedata": [
     {
       "voteindex": 29,
       "poolname": "Hall of Mountain King (SUMMIT)",
-      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
+      "poolurl": "https://beets.fi/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
       "rewarddescription": "$24,000 USDC flat",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 24000, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "USDC",
+          "amount": 24000,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 24000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 28,
       "poolname": "Lonely Mountain (RING-USDC)",
-      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "poolurl": "https://beets.fi/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "For every % of votes we offer- 4,000 $ in $RING - 1,000 $USDC",
       "assumption": "",
       "fixedreward": [],
       "percentreward": [
-        { "token": "USDC", "amount": 1000, "isfixed": true },
-        { "token": "RING", "amount": 4000, "isfixed": true }
+        {
+          "token": "USDC",
+          "amount": 1000,
+          "isfixed": true
+        },
+        {
+          "token": "RING",
+          "amount": 4000,
+          "isfixed": true
+        }
       ],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": 1000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        },
+        {
+          "type": "percent",
+          "token": "RING",
+          "amount": 4000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 45,
       "poolname": "$FANG Never Too Old to Yearn",
-      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "poolurl": "https://beets.fi/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
       "rewarddescription": "5K $BEETS & 5K $OATH",
       "assumption": "",
       "fixedreward": [
-        { "token": "BEETS", "amount": 5000, "isfixed": false },
-        { "token": "OATH", "amount": 5000, "isfixed": false }
+        {
+          "token": "BEETS",
+          "amount": 5000,
+          "isfixed": false
+        },
+        {
+          "token": "OATH",
+          "amount": 5000,
+          "isfixed": false
+        }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 5000,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        },
+        {
+          "type": "fixed",
+          "token": "OATH",
+          "amount": 5000,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 37,
       "poolname": "Beet Mason`s Oath (OATH-BEETS)",
-      "poolurl": "https://beets.fi/#/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
+      "poolurl": "https://beets.fi/pool/0x644dd9c08e1848cae0ddf892686a642acefc9ccf0002000000000000000002d0",
       "rewarddescription": "Flat share of 9.8k USDC",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 9800, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "USDC",
+          "amount": 9800,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 9800,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 26,
       "poolname": "Pirate Party (LQDR-FTM)",
-      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "poolurl": "https://beets.fi/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "$6,000 in $LQDR per % of votes gained, UNCAPPED [plus NFTs, see tweet]",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "LQDR", "amount": 6000, "isfixed": true }],
-      "percentagethreshold": 0
+      "percentreward": [
+        {
+          "token": "LQDR",
+          "amount": 6000,
+          "isfixed": true
+        }
+      ],
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "LQDR",
+          "amount": 6000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 44,
       "poolname": "Pirate in C (LQDR-cLQDR)",
-      "poolurl": "https://beets.fi/#/pool/0xeadcfa1f34308b144e96fcd7a07145e027a8467d000000000000000000000331",
+      "poolurl": "https://beets.fi/pool/0xeadcfa1f34308b144e96fcd7a07145e027a8467d000000000000000000000331",
       "rewarddescription": "$8000 in $LQDR and $GRO for every 1% up to 4%",
       "fixedreward": [],
-      "percentreward": [{ "token": "LQDR", "amount": 8000, "isfixed": true }],
+      "percentreward": [
+        {
+          "token": "LQDR",
+          "amount": 8000,
+          "isfixed": true
+        }
+      ],
       "percentagethreshold": 0,
-      "rewardcap": 32000
+      "rewardcap": 32000,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "LQDR",
+          "amount": 8000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 32000
+        }
+      ]
     },
     {
       "voteindex": 38,
       "poolname": "A Beefy Tale (FTM-beFTM)",
-      "poolurl": "https://beets.fi/#/pool/0x3bd4c3d1f6f40d77b2e9d0007d6f76e4f183a46d0002000000000000000002d7",
+      "poolurl": "https://beets.fi/pool/0x3bd4c3d1f6f40d77b2e9d0007d6f76e4f183a46d0002000000000000000002d7",
       "rewarddescription": "$7K paid in $USDC for every 1% of the vote up to $14K.",
       "fixedreward": [],
-      "percentreward": [{ "token": "USDC", "amount": 7000, "isfixed": true }],
+      "percentreward": [
+        {
+          "token": "USDC",
+          "amount": 7000,
+          "isfixed": true
+        }
+      ],
       "percentagethreshold": 0,
-      "rewardcap": 14000
+      "rewardcap": 14000,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": 7000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 14000
+        }
+      ]
     },
     {
       "voteindex": 40,
       "poolname": "God b/w Two Stables (DEI-USDC)",
-      "poolurl": "https://beets.fi/#/pool/0x8b858eaf095a7337de6f9bc212993338773ca34e00020000000000000000023c",
+      "poolurl": "https://beets.fi/pool/0x8b858eaf095a7337de6f9bc212993338773ca34e00020000000000000000023c",
       "rewarddescription": "5000$ in DEUS + 2000$ in veDEUS (locked 4 years) per % [plus NFTs, see tweet] ",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "DEUS", "amount": 7000, "isfixed": true }],
-      "percentagethreshold": 0
+      "percentreward": [
+        {
+          "token": "DEUS",
+          "amount": 7000,
+          "isfixed": true
+        }
+      ],
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "DEUS",
+          "amount": 7000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 25,
       "poolname": "Dante Symphony (WSTA-BEETS-etc)",
-      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "poolurl": "https://beets.fi/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
       "rewarddescription": "We're incentivising Dante Symphony with 75k BEETS",
       "assumption": "",
-      "fixedreward": [{ "token": "BEETS", "amount": 75000, "isfixed": false }],
+      "fixedreward": [
+        {
+          "token": "BEETS",
+          "amount": 75000,
+          "isfixed": false
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 75000,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 32,
       "poolname": "Spooky Melodies (BOO-USDC)",
-      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "poolurl": "https://beets.fi/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
       "rewarddescription": " Their share of $30k of BOO",
       "assumption": "",
-      "fixedreward": [{ "token": "BOO", "amount": 30000, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "BOO",
+          "amount": 30000,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BOO",
+          "amount": 30000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 31,
       "poolname": "Statera Maxi Duet (wSTA-BEETS)",
-      "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
+      "poolurl": "https://beets.fi/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
       "rewarddescription": "$20k, in $USDC",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 20000, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "USDC",
+          "amount": 20000,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 20000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     }
   ]
 }

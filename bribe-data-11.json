@@ -4,87 +4,216 @@
   "description": "Farming Incentive Gauge Vote (round 11)",
   "round": 11,
   "tokendata": [
-        {  "token": "BEETS", "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e", "coingeckoid": "beethoven-x" }
+    {
+      "token": "BEETS",
+      "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+      "coingeckoid": "beethoven-x"
+    }
   ],
   "bribedata": [
     {
       "voteindex": 27,
       "poolname": "Lonely Mountain (RING-USDC)",
-      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "poolurl": "https://beets.fi/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "We offer 5,000 $ in RING-BPT LP tokens",
       "assumption": "",
       "fixedreward": [
-        { "token": "Lonely Mountain LP", "amount": 5000, "isfixed": true }
+        {
+          "token": "Lonely Mountain LP",
+          "amount": 5000,
+          "isfixed": true
+        }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "Lonely Mountain LP",
+          "amount": 5000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 45,
       "poolname": "CRE8R in F-Major (CRE8R-FTM)",
-      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "poolurl": "https://beets.fi/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
       "rewarddescription": "Boosted Bribes at least $520 per 1%.",
       "assumption": "View personalized info at https://boosted-bribes.cre8r.vip/",
       "fixedreward": [],
-      "percentreward": [{ "token": "CRE8R", "amount": "520", "isfixed": true }],
+      "percentreward": [
+        {
+          "token": "CRE8R",
+          "amount": "520",
+          "isfixed": true
+        }
+      ],
       "percentagethreshold": 0,
       "additionalrewards": [
-          {"tier": "bogusest_bribe", "factor": 1.0},
-          {"tier": "basic_boosted", "factor": 2.2},
-          {"tier": "boosted_bribe", "factor": 2.5},
-          {"tier": "boosted_bonus", "factor": 2.7},
-          {"tier": "boosted_bonanza", "factor": 3.2}
+        {
+          "tier": "bogusest_bribe",
+          "factor": 1.0
+        },
+        {
+          "tier": "basic_boosted",
+          "factor": 2.2
+        },
+        {
+          "tier": "boosted_bribe",
+          "factor": 2.5
+        },
+        {
+          "tier": "boosted_bonus",
+          "factor": 2.7
+        },
+        {
+          "tier": "boosted_bonanza",
+          "factor": 3.2
+        }
+      ],
+      "reward": [
+        {
+          "type": "percent",
+          "token": "CRE8R",
+          "amount": "520",
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
       ]
     },
     {
       "voteindex": 25,
       "poolname": "Dante Symphony (WSTA-BEETS-etc)",
-      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "poolurl": "https://beets.fi/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
       "rewarddescription": "Vote for Dante Symphony & Get Your Share of 50k $BEETS",
       "assumption": "",
-      "fixedreward": [{ "token": "BEETS", "amount": 50000, "isfixed": false }],
+      "fixedreward": [
+        {
+          "token": "BEETS",
+          "amount": 50000,
+          "isfixed": false
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 50000,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 47,
       "poolname": "Mor Steady Beets, Yearn Boosted (MOR/bb-yv-USD)",
-      "poolurl": "https://beets.fi/#/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
+      "poolurl": "https://beets.fi/pool/0xa55318e5d8b7584b8c0e5d3636545310bf9eeb8f000000000000000000000337",
       "rewarddescription": "6,000 $BEETS per 1% of votes, uncapped!",
       "assumption": "",
       "fixedreward": [],
-      "percentreward": [{ "token": "BEETS", "amount": 6000, "isfixed": false }],
-      "percentagethreshold": 0
+      "percentreward": [
+        {
+          "token": "BEETS",
+          "amount": 6000,
+          "isfixed": false
+        }
+      ],
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "BEETS",
+          "amount": 6000,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 26,
       "poolname": "Pirate Party (LQDR-FTM)",
-      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "poolurl": "https://beets.fi/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "$12,000 in $LQDR",
       "assumption": "Additional 3 FNFTs (worth $500 each) not included in calculation",
-      "fixedreward": [{ "token": "LQDR", "amount": 12000, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "LQDR",
+          "amount": 12000,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "LQDR",
+          "amount": 12000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 28,
       "poolname": "Spooky Melodies (BOO-USDC)",
-      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "poolurl": "https://beets.fi/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
       "rewarddescription": "5,000 USD worth of BOO split among voters",
       "assumption": "",
-      "fixedreward": [{ "token": "BOO", "amount": 5000, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "BOO",
+          "amount": 5000,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BOO",
+          "amount": 5000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 38,
       "poolname": "$FANG Never Too Old to Yearn (FANG-USDC-FTM)",
-      "poolurl": "https://beets.fi/#/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
+      "poolurl": "https://beets.fi/pool/0x78ab08bf98f90f29a09c9b1d85b3b549369b03a3000100000000000000000354",
       "rewarddescription": "We're incentivising $FANG Never Too Old to Yearn w/ $1,000 USDC this time around",
       "assumption": "",
-      "fixedreward": [{ "token": "USDC", "amount": 1000, "isfixed": true }],
+      "fixedreward": [
+        {
+          "token": "USDC",
+          "amount": 1000,
+          "isfixed": true
+        }
+      ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 1000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     }
   ]
 }

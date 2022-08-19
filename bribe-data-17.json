@@ -1,5 +1,5 @@
 {
-  "version": "17.4.0",
+  "version": "17.6.0",
   "snapshot": "0xf161196029cb7848d69154c87884de87c5c7a6d41686c9e7346bdc39d3620325",
   "description": "Farming Incentive Gauge Vote (round 17)",
   "round": 17,
@@ -52,6 +52,30 @@
       "percentreward": [],
       "percentagethreshold": 0,
       "rewardcap": 2022
+    },
+    {
+      "voteindex": 0,
+      "poolname": "Fantom of the Opera (FTM-USDC)",
+      "poolurl": "https://beets.fi/#/pool/0xcdf68a4d525ba2e90fe959c74330430a5a6b8226000200000000000000000008",
+      "rewarddescription": "BEETS Reward 60,563.51 BEETS",
+      "assumption": "",
+      "fixedreward": [
+        { "token": "BEETS", "amount": 60563.51, "isfixed": false }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
+    },
+    {
+      "voteindex": 3,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/#/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "BEETS Reward 60,563.51 BEETS",
+      "assumption": "",
+      "fixedreward": [
+        { "token": "BEETS", "amount": 60563.51, "isfixed": false }
+      ],
+      "percentreward": [],
+      "percentagethreshold": 0
     }
   ]
 }

@@ -25,7 +25,17 @@
         }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "LQDR",
+          "amount": 11000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 38,
@@ -41,7 +51,17 @@
         }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "LQDR",
+          "amount": 4500,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 13,
@@ -64,7 +84,25 @@
         }
       ],
       "percentagethreshold": 6.6667,
-      "rewardcap": 8250
+      "rewardcap": 8250,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "SD Token",
+          "amount": 3000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        },
+        {
+          "type": "percent",
+          "token": "SD Token",
+          "amount": 450,
+          "isfixed": true,
+          "percentagethreshold": 6.6667,
+          "rewardcap": 8250
+        }
+      ]
     },
     {
       "voteindex": 52,
@@ -81,7 +119,17 @@
         }
       ],
       "percentagethreshold": 0,
-      "rewardcap": 3080
+      "rewardcap": 3080,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "BEETS",
+          "amount": "555",
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 3080
+        }
+      ]
     },
     {
       "voteindex": 0,
@@ -97,7 +145,17 @@
         }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 60563.51,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 3,
@@ -113,12 +171,22 @@
         }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 60563.51,
+          "isfixed": false,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 42,
       "poolname": "CRE8R in F-Major (CRE8R-FTM)",
-      "poolurl": "https://beets.fi/#/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
+      "poolurl": "https://beets.fi/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
       "rewarddescription": "Boosted Bribes at least $332 in $CRE8R per 1%.",
       "assumption": "for additional $AMP rewards use vote button on https://amplifi.gg/wxl",
       "fixedreward": [],
@@ -147,6 +215,16 @@
           "tier": "boosted_bonus",
           "factor": 3.2
         }
+      ],
+      "reward": [
+        {
+          "type": "percent",
+          "token": "CRE8R",
+          "amount": "332",
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
       ]
     },
     {
@@ -163,7 +241,17 @@
         }
       ],
       "percentreward": [],
-      "percentagethreshold": 0
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "Lonely Mountain LP",
+          "amount": 2000,
+          "isfixed": true,
+          "percentagethreshold": 0,
+          "rewardcap": 0
+        }
+      ]
     },
     {
       "voteindex": 37,

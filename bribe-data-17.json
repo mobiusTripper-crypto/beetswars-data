@@ -1,5 +1,5 @@
 {
-  "version": "17.9.1",
+  "version": "17.9.2",
   "snapshot": "0xf161196029cb7848d69154c87884de87c5c7a6d41686c9e7346bdc39d3620325",
   "description": "Farming Incentive Gauge Vote (round 17)",
   "round": 17,
@@ -71,18 +71,17 @@
       "poolname": "Echelon Trance (bECH-USDC)",
       "poolurl": "https://beets.fi/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
       "rewarddescription": "$0.0009 for each vote. up to $2022. $420 in FTM, $420 in USDC, $1111 in bECH",
-      "assumption": "",
-      "pervotereward": [
+      "assumption": "Final Bribe upgrade for Echelon Trance:  $555 per % paid out in BEETS, upto 5.55%. ",
+      "pervotereward": [],
+      "percentreward": [
         {
-          "token": "FTM",
-          "amount": 0.0009,
-          "isfixed": true,
-          "ispaypervote": true
+          "token": "BEETS",
+          "amount": "555",
+          "isfixed": true
         }
       ],
-      "percentreward": [],
       "percentagethreshold": 0,
-      "rewardcap": 2022
+      "rewardcap": 3080
     },
     {
       "voteindex": 0,

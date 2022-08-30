@@ -1,5 +1,5 @@
 {
-  "version": "5.10.6",
+  "version": "5.10.7",
   "snapshot": "0x7b04419d3494e3bb120f32d448807cdfd545adafdfff0dd6d68aa44027f618a8",
   "description": "Farming Incentive Gauge Vote (round 5)",
   "round": 5,
@@ -22,7 +22,9 @@
     {
       "token": "FBEETS",
       "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1",
-      "coingeckoid": ""
+      "coingeckoid": "",
+      "isbpt": true,
+      "lastprice": 0.73821
     }
   ],
   "bribedata": [

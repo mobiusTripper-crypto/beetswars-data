@@ -7,9 +7,13 @@ Bribefiles are the data storage for the [Beetswars.live](https://www.beetswars.l
 To contribute to the project, please read the following documentation carefully!
 
 All values marked with an asterisk (*) are optional.
-**Please note:** When publishing vote-data file before voting started, please leave tokendata and bribedata arrays empty!
+**Please note:** When publishing vote-data file before voting started, please leave bribedata array empty!
+
+The bribe-data files are noted as a JSON object, containing exactly one level-0 entry. For each round an new file is created. 
 
 ## level 0
+
+This is the main object for the voting round, containing general information about the round.
 
 `"version"` - Version number of the data file, using semantic versioning: first part represents the voting round, second part represents the count of incentive offers, third part counts the version without adding new offers, starting with 0  
 `"snapshot"` - Hexadecimal key for the snapshot vote. This string can be extracted from the snapshot.org URL for the actual vote. It always starts with "0x" followed by 64 hexadecimal digits.  
@@ -20,6 +24,8 @@ All values marked with an asterisk (*) are optional.
 
 ## level 1 - tokendata
 
+This array contains token information to calculate USD price, if offers contain a fixed number of tokens instead of USD value.
+
 `"token"` - short name for the Token, like shown in brackets on coingecko.com or in the ERC-20 token list on ftmscan.com  
 `"tokenaddress"` * - String contains hexadecimal value of the token's smart contract starting with "0x" followed by 40 hexadecimal digits. Info can be found on coingecko.com (make sure you chose the Fantom network), on ftmscan or in the token project documentation.  
 `"coingeckoid"` * - String contains the API ID from coingecko.com  
@@ -29,43 +35,32 @@ For a single token, tokenadress and coingeckoid are mandatory, for a pool bptpoo
 
 ## level 1 - bribedata
 
-`"voteindex"` - Numeric value representing the position of the incentivized pool within the voting list on snapshot.org. Counting starts with 0, so the first offer has 0, the second offer has 1 ...  
+This array contains the incentive offers, one entry for each rewarded pool. 
+
+`"voteindex"` - Numeric value representing the position of the incentivised pool within the voting list on snapshot.org. Counting starts with 0, so the first offer has 0, the second offer has 1 ...  
 `"poolname"` - Short name for the pool, like displayed on the voting list on snapshot.org  
-`"poolurl"` - String contains the full URL for the pool website on beets.fi, always starting with "https://beets.fi/#/pool"  
+`"poolurl"` - String contains the full URL for the pool website on beets.fi, always starting with "https://beets.fi/pool"  
 `"rewarddescription"` - String contains a short description for the offer, best copied from the announcement on twitter.  
 `"assumption"` - String contains any restrictions to the offer, if given. Can be an empty string.  
-`"fixedreward"` * - Array of rewards offered independently on the vote count. See level 2.  
-`"pervotereward"` * - Array of rewards offered per single vote, no matter what percentage it gains. See level 2.  
-`"percentreward"` * - Array of rewards offered per percent of the total votes captured by the incentivized pool. See level 2.  
-`"percentagethreshold"` * - Floating point value, offer is only available, if the voting percentage is at or over the given value. Only applicable to percentreward.  
+`"percentagethreshold"` * - Floating point value, offer is only available, if the voting percentage is at or over the given value. Only applicable to the "percent" reward type. Use this value, if the percent reward is combined with "fixed" or "pervote" rewards within the same offer. For single "percent" offers with threshold use "payoutthreshold" instead.   
 `"rewardcap"` * - Number. Overall reward is capped at the given value in USD or in native tokens, if not USD based.  
 `"additionalrewards"` * - Array of additional rewards offered, calculated with a factor of the original reward. See level 2.  
-`"reward"` * - Array of any rewards. This is the new file format and needs to be available for newer app versions. It can be given next to the old format for forwards/backwards compatibility.  
+`"reward"` - Array of any rewards. This is the new file format and needs to be available for newer app versions. It can be given next to the old format for forwards/backwards compatibility.  
+`"payoutthreshold"` * - Floating point value, offer is only available, if the voting percentage is at or over the given value. Only applicable to the "percent" reward type. Use this value, if there is only one "percent" reward and no other reward types for the offer. This will display a warning, if threshold is not reached.  
   
-For the old file format at least one of `"fixedreward"`, `"pervotereward"` or `"percentreward"` should be given.
-For the new file format, the `"reward"` array should contain at least one entry.
+For the new file format, the `"reward"` array must contain at least one entry.
 
-## level 2 - fixedreward *
+## level 2 - reward
 
-`"token"` - short name for the Token, like shown in brackets on coingecko.com or in the ERC-20 token list on ftmscan.com. Must be identical to the "token" in tokendata, if price must be calculated  
-`"amount"` - Number representing the offered tokens or the USD value of the offered tokens.  
-`"isfixed"` - Boolean. If true, the offer is made as an USD value, no matter what tokens or pool-tokens are offered. Always true if token is "USDC". If false, the given amount is the count of "token" offered. Dollar value is calculated on the fly. In this case, "tokendata" for the given token must be filled.
-
-## level 2 - percentreward *
-
-`"token"` - short name for the Token, like shown in brackets on coingecko.com or in the ERC-20 token list on ftmscan.com. Must be identical to the "token" in tokendata, if price must be calculated  
-`"amount"` - Number representing the offered tokens or the USD value of the offered tokens per percent of the votes captured by the incentivized pool.  
-`"isfixed"` - Boolean. If true, the offer is made as an USD value, no matter what tokens or pool-tokens are offered. Always true if token is "USDC". If false, the given amount is the count of "token" offered. Dollar value is calculated on the fly. In this case, "tokendata" for the given token must be filled.
+General description for any fixed, per percent or per vote reward. **This new file format will replace the single reward types in a future version of the app.**
+Each offer can contain one or more reward entries.  
   
-In case of percentreward, the "percentagethreshold" and "rewardcap" values in level 1 "bribedata" are regarded.   
-
-## level 2 - pervotereward *
-
-This is a special case introduced by a respective offer from Echelon. This offer can stand alone or combined with fixed or percent rewards.
-
+`"type"` - String, one of ["fixed", "percent", "pervote"]  
 `"token"` - short name for the Token, like shown in brackets on coingecko.com or in the ERC-20 token list on ftmscan.com. Must be identical to the "token" in tokendata, if price must be calculated  
-`"amount"` - Number representing the offered tokens or the USD value of the offered tokens per one single fBEETS vote.  
-`"isfixed"` - Boolean. If true, the offer is made as an USD value, no matter what tokens or pool-tokens are offered. Always true if token is "USDC". If false, the given amount is the count of "token" offered. Dollar value is calculated on the fly. In this case, "tokendata" for the given token must be filled.
+`"amount"` - Number representing the offered tokens or the USD value of the offered tokens overall ("fixed"), per percent of votes ("percent") or per one single fBEETS vote ("pervote").  
+`"isfixed"` - Boolean. If true, the offer is made as an USD value, no matter what tokens or pool-tokens are offered. Always true if token is "USDC". If false, the given amount is the count of "token" offered. Dollar value is calculated on the fly. In this case, "tokendata" for the given token must be filled.  
+~~"rewardcap"~~ - moved up to the bribedata object. Please do not use here.  
+~~"percentagethreshold"~~ - moved up to the bribedata object. Please do not use here.  
 
 ## level 2 - additionalrewards * 
 
@@ -73,17 +68,6 @@ This is a special case for the new CRE8R incentivizing system, where you can get
   
 `"tier"` - String representing the name of the special offer.  
 `"factor"` - Floating point number. The offer's base value is multiplied with this factor.
-
-## level 2 - reward
-
-General description for any fixed, per percent or per vote reward. **This new file format will replace the single reward types in a future version of the app.**  
-  
-`"type"` - Sting, one of ["fixed", "percent", "pervote"]  
-`"percentagethreshold"` - Number, please set to 0 if reward type is not "percent" or no threshold given.  
-`"token"` - short name for the Token, like shown in brackets on coingecko.com or in the ERC-20 token list on ftmscan.com. Must be identical to the "token" in tokendata, if price must be calculated  
-`"amount"` - Number representing the offered tokens or the USD value of the offered tokens overall ("fixed"), per percent of votes ("percent") or per one single fBEETS vote ("pervote").  
-`"rewardcap"` - Number. Overall reward is capped at the given value in USD or in native tokens, if not USD based. Set to 0 if no cap given.  
-`"isfixed"` - Boolean. If true, the offer is made as an USD value, no matter what tokens or pool-tokens are offered. Always true if token is "USDC". If false, the given amount is the count of "token" offered. Dollar value is calculated on the fly. In this case, "tokendata" for the given token must be filled.
 
 ## Styleguide
 
@@ -100,4 +84,5 @@ General description for any fixed, per percent or per vote reward. **This new fi
 * Voting is published on [Snapshot.org](https://snapshot.org/#/beets.eth)
 
 ## Version
-Documentation version 0.2 published on 2022/08/17
+Documentation version 0.2 published on 2022/08/17  
+V 0.3 updated on 2022/08/30 - new file format activated  

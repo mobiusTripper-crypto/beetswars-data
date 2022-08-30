@@ -30,6 +30,8 @@ This array contains token information to calculate USD price, if offers contain 
 `"tokenaddress"` * - String contains hexadecimal value of the token's smart contract starting with "0x" followed by 40 hexadecimal digits. Info can be found on coingecko.com (make sure you chose the Fantom network), on ftmscan or in the token project documentation.  
 `"coingeckoid"` * - String contains the API ID from coingecko.com  
 `"bptpoolid"` * - String contains the pool ID for a liquidity pool on beets.fi - this ID can be found in the pool's URL starting with "0x" followed by 64 hexadecimal numbers  
+`"isbpt"` * - Boolean, set to true, if the bribe is a pool instead of a single token  
+`"lastprice"` * - Number, can hold a manual entry for the price of a pool at vote ending, if no historic price available  
   
 For a single token, tokenadress and coingeckoid are mandatory, for a pool bptpoolid is mandatory.
 
@@ -45,15 +47,14 @@ This array contains the incentive offers, one entry for each rewarded pool.
 `"percentagethreshold"` * - Floating point value, offer is only available, if the voting percentage is at or over the given value. Only applicable to the "percent" reward type. Use this value, if the percent reward is combined with "fixed" or "pervote" rewards within the same offer. For single "percent" offers with threshold use "payoutthreshold" instead.   
 `"rewardcap"` * - Number. Overall reward is capped at the given value in USD or in native tokens, if not USD based.  
 `"additionalrewards"` * - Array of additional rewards offered, calculated with a factor of the original reward. See level 2.  
-`"reward"` - Array of any rewards. This is the new file format and needs to be available for newer app versions. It can be given next to the old format for forwards/backwards compatibility.  
+`"reward"` - Array of any rewards. This is the current file format and needs to be available for newer app versions.  See level 2.
 `"payoutthreshold"` * - Floating point value, offer is only available, if the voting percentage is at or over the given value. Only applicable to the "percent" reward type. Use this value, if there is only one "percent" reward and no other reward types for the offer. This will display a warning, if threshold is not reached.  
   
-For the new file format, the `"reward"` array must contain at least one entry.
+For the current file format, the `"reward"` array must contain at least one entry.
 
 ## level 2 - reward
 
-General description for any fixed, per percent or per vote reward. **This new file format will replace the single reward types in a future version of the app.**
-Each offer can contain one or more reward entries.  
+General description for any fixed, per percent or per vote reward. **This new file format has replaced the single reward types in the app.** Please do not use "pervotereward", "percentreward" or "fixedreward" any longer. Each offer can contain one or more reward entries.  
   
 `"type"` - String, one of ["fixed", "percent", "pervote"]  
 `"token"` - short name for the Token, like shown in brackets on coingecko.com or in the ERC-20 token list on ftmscan.com. Must be identical to the "token" in tokendata, if price must be calculated  
@@ -86,3 +87,4 @@ This is a special case for the new CRE8R incentivizing system, where you can get
 ## Version
 Documentation version 0.2 published on 2022/08/17  
 V 0.3 updated on 2022/08/30 - new file format activated  
+V 0.4 on 2022/08/30 - minor updates  

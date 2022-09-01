@@ -1,5 +1,5 @@
 {
-  "version": "18.0.0",
+  "version": "18.2.0",
   "snapshot": "0xa043b7eea5b8714c80f8c7c0caf7b6246e3ee20f1474ce717ee3301d848bed2d",
   "description": "Farming Incentive Gauge Vote (round 18)",
   "round": 18,
@@ -10,5 +10,38 @@
       "coingeckoid": "beethoven-x"
     }
   ],
-  "bribedata": []
+  "bribedata": [
+    {
+      "voteindex": 26,
+      "poolname": "Pirate Party (LQDR-FTM)",
+      "poolurl": "https://beets.fi/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "offer for your $fBEETS votes: Pirate Party - $6,000 in $LQDR",
+      "assumption": "Raffle for 3 FNFTs (worth $250 each) not included in calculation",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "LQDR",
+          "amount": 6000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 38,
+      "poolname": "Water Music (SPIRIT-LINSPIRIT)",
+      "poolurl": "https://beets.fi/pool/0x30a92a4eeca857445f41e4bb836e64d66920f1c0000200000000000000000071",
+      "rewarddescription": "offer for your $fBEETS votes: Water Music - $3,000 in LQDR",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "LQDR",
+          "amount": 3000,
+          "isfixed": true
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "18.2.0",
+  "version": "18.3.0",
   "snapshot": "0xa043b7eea5b8714c80f8c7c0caf7b6246e3ee20f1474ce717ee3301d848bed2d",
   "description": "Farming Incentive Gauge Vote (round 18)",
   "round": 18,
@@ -39,6 +39,23 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 3000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 52,
+      "poolname": "Echelon Trance (bECH-USDC)",
+      "poolurl": "https://beets.fi/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
+      "rewarddescription": "our initial bribe offering - $250 in USDC per % upto $2500!",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "rewardcap": 2500,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": "250",
           "isfixed": true
         }
       ]

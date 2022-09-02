@@ -42,6 +42,23 @@
           "isfixed": true
         }
       ]
+    },
+    {
+      "voteindex": 52,
+      "poolname": "Echelon Trance (bECH-USDC)",
+      "poolurl": "https://beets.fi/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
+      "rewarddescription": "our initial bribe offering - $250 in USDC per % upto $2500!",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "rewardcap": 2500,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": "250",
+          "isfixed": true
+        }
+      ]
     }
   ]
 }

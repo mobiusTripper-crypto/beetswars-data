@@ -1,5 +1,5 @@
 {
-  "version": "18.4.0",
+  "version": "18.4.1",
   "snapshot": "0xa043b7eea5b8714c80f8c7c0caf7b6246e3ee20f1474ce717ee3301d848bed2d",
   "description": "Farming Incentive Gauge Vote (round 18)",
   "round": 18,
@@ -64,32 +64,28 @@
       "voteindex": 42,
       "poolname": "CRE8R in F-Major (CRE8R-FTM)",
       "poolurl": "https://beets.fi/pool/0xbb4607bede4610e80d35c15692efcb7807a2d0a6000200000000000000000140",
-      "rewarddescription": "Our Bribe this week is at least $160 in $CRE8R per 1%.",
+      "rewarddescription": "Basic Bribe this week is at least $320 in $CRE8R per 1%.",
       "assumption": "plus matching $AMP (which is super close to launch now): use vote button on https://amplifi.gg/t93",
       "percentagethreshold": 0,
       "additionalrewards": [
         {
-          "tier": "bogusest_bribe",
-          "factor": 1.0
-        },
-        {
           "tier": "basic_boosted",
-          "factor": 2.2
+          "factor": 1.1
         },
         {
           "tier": "boosted_bribe",
-          "factor": 2.5
+          "factor": 1.25
         },
         {
           "tier": "boosted_bonus",
-          "factor": 3.2
+          "factor": 1.6
         }
       ],
       "reward": [
         {
           "type": "percent",
           "token": "CRE8R",
-          "amount": "160",
+          "amount": "320",
           "isfixed": true
         }
       ]

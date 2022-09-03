@@ -1,5 +1,5 @@
 {
-  "version": "18.5.1",
+  "version": "18.6.0",
   "snapshot": "0xa043b7eea5b8714c80f8c7c0caf7b6246e3ee20f1474ce717ee3301d848bed2d",
   "description": "Farming Incentive Gauge Vote (round 18)",
   "round": 18,
@@ -111,6 +111,22 @@
           "token": "SD Token",
           "amount": 350,
           "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 3,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "BEETS Reward 63,129.64 BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 63129.64,
+          "isfixed": false
         }
       ]
     }

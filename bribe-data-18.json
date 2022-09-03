@@ -1,5 +1,5 @@
 {
-  "version": "18.5.0",
+  "version": "18.5.1",
   "snapshot": "0xa043b7eea5b8714c80f8c7c0caf7b6246e3ee20f1474ce717ee3301d848bed2d",
   "description": "Farming Incentive Gauge Vote (round 18)",
   "round": 18,
@@ -50,12 +50,13 @@
       "rewarddescription": "our initial bribe offering - $250 in USDC per % upto $2500!",
       "assumption": "",
       "percentagethreshold": 0,
+      "payoutthreshold": -1,
       "rewardcap": 2500,
       "reward": [
         {
           "type": "percent",
           "token": "USDC",
-          "amount": "250",
+          "amount": 250,
           "isfixed": true
         }
       ]
@@ -85,7 +86,7 @@
         {
           "type": "percent",
           "token": "CRE8R",
-          "amount": "320",
+          "amount": 320,
           "isfixed": true
         }
       ]

@@ -70,7 +70,6 @@
       "rewarddescription": "$6350 $USDC for EVERY 1% of the vote we secure!! As it’s USDC no worrying about pumped up coin prices and liquidity with your bribe 🔥",
       "assumption": "Also if we get Top 3 - Exclusive Dev Feet pic NFTs!!! 🦶",
       "percentagethreshold": 0,
-      "rewardcap": 0,
       "reward": [
         {
           "type": "percent",
@@ -87,7 +86,6 @@
       "rewarddescription": "13K fBEETS ( per every 1% of vote emissions (estimate base on 100% beets given from the POL LP)",
       "assumption": "",
       "percentagethreshold": 0,
-      "rewardcap": 0,
       "reward": [
         {
           "type": "percent",
@@ -104,7 +102,6 @@
       "rewarddescription": "Our Entry was Swag, Our EXIT will be like a KING After reconsidering our offer, We landed on 28k RING(80000$), 600 RING ($1900) for every % above 10, Standing @ 31,020$.",
       "assumption": "Counting the 3 Ludwigs, 3 Magicats and 1 8Bit Land. Our Total offering,185k$",
       "percentagethreshold": 10,
-      "rewardcap": 0,
       "reward": [
         {
           "type": "fixed",
@@ -148,8 +145,8 @@
         {
           "type": "percent",
           "token": "BEETS",
-          "amount": 10000,
-          "isfixed": false
+          "amount": 8650,
+          "isfixed": true
         }
       ]
     },
@@ -160,7 +157,6 @@
       "rewarddescription": " $50k of BOO - 📈 Every 1% above 20% adds $1.5k",
       "assumption": "✨ 3 lucky voters receive a Magicat NFT worth over 500 $FTM",
       "percentagethreshold": 20,
-      "rewardcap": 0,
       "reward": [
         {
           "type": "fixed",
@@ -205,7 +201,6 @@
       "rewarddescription": "80 SHRAP (28.5K$)\n+ 33K$ USDC\n+ 50K PGUNK (10K$)\n+ 1500 RVNT (1 RVNT can be claimed for 10 credit) = $35K",
       "assumption": "",
       "percentagethreshold": 0,
-      "rewardcap": 0,
       "reward": [
         {
           "type": "fixed",
@@ -250,8 +245,8 @@
         {
           "type": "pervote",
           "token": "WSTA",
-          "amount": 1,
-          "isfixed": false
+          "amount": 0.08965,
+          "isfixed": true
         }
       ]
     },
@@ -332,10 +327,7 @@
       "poolurl": "https://beets.fi/#/pool/0xfc092f85125907ffcb0f9012e6e40b3f37c4de60000100000000000000000044",
       "rewarddescription": "Tarot has allocated the following rewards to $fBEETS holders who vote 100% for the @beethoven_x Ghost Reveries (TAROT-FTM) pool:  25,000 $TAROT ($11,000) + 5,000 $USDC",
       "assumption": "This calculation may not be correct because we cannot account for the non 100% voters at this time",
-      "rewardamount": 16000,
-      "percentage": false,
       "percentagethreshold": 0,
-      "percentagerewardamount": 0,
       "reward": [
         {
           "type": "fixed",

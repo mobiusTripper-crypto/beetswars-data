@@ -1,0 +1,355 @@
+{
+  "version": "4.0",
+  "snapshot": "0xd00700ca5bf26078d979a55fbbb1f25651791afd1aff6f951422fa6903e3424c",
+  "description": "Farming Incentive Gauge Vote (round 4)",
+  "round": 4,
+  "tokendata": [
+    {
+      "token": "BEETS",
+      "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+      "coingeckoid": "beethoven-x"
+    },
+    {
+      "token": "RING",
+      "tokenaddress": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5",
+      "coingeckoid": "onering"
+    },
+    {
+      "token": "FBEETS",
+      "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1",
+      "coingeckoid": "",
+      "isbpt": true,
+      "lastprice": 1.078
+    },
+    {
+      "token": "SHRAP",
+      "tokenaddress": "0x",
+      "coingeckoid": ""
+    },
+    {
+      "token": "PGUNK",
+      "tokenaddress": "0x",
+      "coingeckoid": ""
+    },
+    {
+      "token": "RVNT",
+      "tokenaddress": "0x",
+      "coingeckoid": ""
+    },
+    {
+      "token": "WSTA",
+      "tokenaddress": "0xceebde49ec95e21f7ee63c5c6f98cab3519570de",
+      "coingeckoid": "wrapped-statera"
+    },
+    {
+      "token": "CREDIT",
+      "tokenaddress": "0x77128dfdd0ac859b33f44050c6fa272f34872b5e",
+      "coingeckoid": "creditum"
+    },
+    {
+      "token": "BELUGA",
+      "tokenaddress": "0x4a13a2cf881f5378def61e430139ed26d843df9a",
+      "coingeckoid": "beluga-fi"
+    },
+    {
+      "token": "IMP",
+      "tokenaddress": "0x",
+      "coingeckoid": ""
+    },
+    {
+      "token": "TAROT",
+      "tokenaddress": "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
+      "coingeckoid": "tarot"
+    }
+  ],
+  "bribedata": [
+    {
+      "voteindex": 34,
+      "poolname": "In The Hall Of The Mountain King",
+      "poolurl": "https://beets.fi/#/pool/0x1577eb091d3933a89be62130484e090bb8bd0e5800010000000000000000020f",
+      "rewarddescription": "$6350 $USDC for EVERY 1% of the vote we secure!! As it’s USDC no worrying about pumped up coin prices and liquidity with your bribe 🔥",
+      "assumption": "Also if we get Top 3 - Exclusive Dev Feet pic NFTs!!! 🦶",
+      "percentagethreshold": 0,
+      "rewardcap": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": 6350,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 26,
+      "poolname": "The Monolith",
+      "poolurl": "https://beets.fi/#/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
+      "rewarddescription": "13K fBEETS ( per every 1% of vote emissions (estimate base on 100% beets given from the POL LP)",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "rewardcap": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "FBEETS",
+          "amount": 13000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 30,
+      "poolname": "Lonely Mountain",
+      "poolurl": "https://beets.fi/#/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
+      "rewarddescription": "Our Entry was Swag, Our EXIT will be like a KING After reconsidering our offer, We landed on 28k RING(80000$), 600 RING ($1900) for every % above 10, Standing @ 31,020$.",
+      "assumption": "Counting the 3 Ludwigs, 3 Magicats and 1 8Bit Land. Our Total offering,185k$",
+      "percentagethreshold": 10,
+      "rewardcap": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "RING",
+          "amount": 80000,
+          "isfixed": true
+        },
+        {
+          "type": "percent",
+          "token": "RING",
+          "amount": 1900,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 41,
+      "poolname": "A $FANG Good Time",
+      "poolurl": "https://beets.fi/#/pool/0xc98e9c812f5137667058978650d563a5d7f7a642000100000000000000000220",
+      "rewarddescription": "We are aiming for 5% of the vote but will still participate if we end up under 5% with $2,000 USDC allocated for every 1% vote.",
+      "assumption": "The goal is 5% with a bribe of $10,000",
+      "percentagethreshold": 0,
+      "rewardcap": 10000,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": 2000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 24,
+      "poolname": "Dante Symphony",
+      "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
+      "rewarddescription": " 10k BEETS ($8650) per 1% of the vote that Dante Symphony receives!",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "BEETS",
+          "amount": 10000,
+          "isfixed": false
+        }
+      ]
+    },
+    {
+      "voteindex": 36,
+      "poolname": "Spooky Melodies",
+      "poolurl": "https://beets.fi/#/pool/0x0459a6e0478644a87ee1371ecf944f403ac65522000200000000000000000222",
+      "rewarddescription": " $50k of BOO - 📈 Every 1% above 20% adds $1.5k",
+      "assumption": "✨ 3 lucky voters receive a Magicat NFT worth over 500 $FTM",
+      "percentagethreshold": 20,
+      "rewardcap": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BOO",
+          "amount": 50000,
+          "isfixed": true
+        },
+        {
+          "type": "percent",
+          "token": "BOO",
+          "amount": 1500,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 25,
+      "poolname": "Pirate Party",
+      "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
+      "rewarddescription": "☑️ $5,000 of $LQDR and $1,000 of $FTM per %",
+      "assumption": "= $102,000 if the votes reach 17%",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "LQDR",
+          "amount": 5000,
+          "isfixed": true
+        },
+        {
+          "type": "percent",
+          "token": "FTM",
+          "amount": 1000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 33,
+      "poolname": "Exploading Shrapnel",
+      "poolurl": "https://beets.fi/#/pool/0x2ba4953c75860e70cd70f15a2d5fe07de832bcd1000200000000000000000210",
+      "rewarddescription": "80 SHRAP (28.5K$)\n+ 33K$ USDC\n+ 50K PGUNK (10K$)\n+ 1500 RVNT (1 RVNT can be claimed for 10 credit) = $35K",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "rewardcap": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "SHRAP",
+          "amount": 28500,
+          "isfixed": true
+        },
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 33000,
+          "isfixed": true
+        },
+        {
+          "type": "fixed",
+          "token": "PGUNK",
+          "amount": 10000,
+          "isfixed": true
+        },
+        {
+          "type": "fixed",
+          "token": "RVNT",
+          "amount": 35000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 35,
+      "poolname": "Statera Maxi Duet",
+      "poolurl": "https://beets.fi/#/pool/0x5bb2dee206c2bcc5768b9b2865ea971bd9c0ff19000200000000000000000219",
+      "rewarddescription": "50K USDC shared weighted between all who vote + An extra 1000 WSTA for each 1000 fbeets voted (extra not included in ROI calculation)",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 50000,
+          "isfixed": true
+        },
+        {
+          "type": "pervote",
+          "token": "WSTA",
+          "amount": 1,
+          "isfixed": false
+        }
+      ]
+    },
+    {
+      "voteindex": 42,
+      "poolname": "Stable Credit Sonata",
+      "poolurl": "https://beets.fi/#/pool/0x1b1d74a1ab76338653e3aaae79634d6a153d6514000100000000000000000225",
+      "rewarddescription": "💳 3000$ in $Credit  (appx $6,000) for each 1% (maximum of 10%)\n💵 3000$ in USDC for every 1% above 10% (maximum of another 10%) ",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "rewardcap": 60000,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "CREDIT/USDC",
+          "amount": 3000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 23,
+      "poolname": "Coral Symphony",
+      "poolurl": "https://beets.fi/#/pool/0xc7f084bcb91f779617b41602f85102849098d6a2000200000000000000000023",
+      "rewarddescription": "10 $BELUGA (currently valued at $4k)",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BELUGA",
+          "amount": 4000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 43,
+      "poolname": "Sigma`s Wrapped Symphony",
+      "poolurl": "https://beets.fi/#/pool/0x43d668c6f709c9d7f05c9404707a10d968b0348c00020000000000000000020b",
+      "rewarddescription": "9,500 $DAI",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "DAI",
+          "amount": 9500,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 40,
+      "poolname": "Melody From Hell",
+      "poolurl": "https://beets.fi/#/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
+      "rewarddescription": "35k DAI No limits, no conditions + $10k $IMP",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "DAI",
+          "amount": 35000,
+          "isfixed": true
+        },
+        {
+          "type": "fixed",
+          "token": "IMP",
+          "amount": 10000,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 38,
+      "poolname": "Ghost Gooley",
+      "poolurl": "https://beets.fi/#/pool/0xfc092f85125907ffcb0f9012e6e40b3f37c4de60000100000000000000000044",
+      "rewarddescription": "Tarot has allocated the following rewards to $fBEETS holders who vote 100% for the @beethoven_x Ghost Reveries (TAROT-FTM) pool:  25,000 $TAROT ($11,000) + 5,000 $USDC",
+      "assumption": "This calculation may not be correct because we cannot account for the non 100% voters at this time",
+      "rewardamount": 16000,
+      "percentage": false,
+      "percentagethreshold": 0,
+      "percentagerewardamount": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "TAROT",
+          "amount": 11000,
+          "isfixed": true
+        },
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 5000,
+          "isfixed": true
+        }
+      ]
+    }
+  ]
+}

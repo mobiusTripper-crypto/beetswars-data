@@ -1,5 +1,5 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "snapshot": "0x8f28b88f32c80b3212afb0e850c6230023284fa33ccc2c14690c20195a086cb7",
   "description": "Farming Incentive Gauge Vote (round 3)",
   "round": 3,
@@ -10,7 +10,7 @@
       "poolname": "The Monolith",
       "poolurl": "https://beets.fi/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
       "rewarddescription": "$1k $DAI increase per 1% vote increase on 'The Monolith' pool. ",
-      "assumption": "",
+      "assumption": "https://twitter.com/EXODIAFinance/status/1489651265512480772",
       "percentagethreshold": 0,
       "reward": [
         {
@@ -25,8 +25,8 @@
       "voteindex": 30,
       "poolname": "Lonely Mountain",
       "poolurl": "https://beets.fi/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
-      "rewarddescription": "We are increasing our bribe on beethoven_x:15,000 $USDC; 6,000 $RING; 15,000 $Beets",
-      "assumption": "-> Currently thats 32,000$ altogether for voters.",
+      "rewarddescription": "We are increasing our bribe on beethoven_x:15,000 $USDC; 6,000 $RING; 15,000 $Beets -> Currently thats 32,000$ altogether for voters.",
+      "assumption": "https://twitter.com/Onering_Tools/status/1489533289710948353",
       "percentagethreshold": 0,
       "reward": [
         {
@@ -42,7 +42,7 @@
       "poolname": "Pirate Party",
       "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "We ARE doing something. We'll bribe @beethoven_x for the Pirate Party with 400 $LQDR from the dev wallet 💰",
-      "assumption": "",
+      "assumption": "https://twitter.com/LiquidDriver/status/1489300905363226630",
       "percentagethreshold": 0,
       "reward": [
         {
@@ -58,7 +58,7 @@
       "poolname": "When Two Became One (Hundred)",
       "poolurl": "https://beets.fi/pool/0xd57cda2caebb9b64bb88905c4de0f0da217a77d7000100000000000000000073",
       "rewarddescription": "We will distribute 1k HND to those who vote for our precious pool: 'When two become one Hundred' 👀",
-      "assumption": "",
+      "assumption": "https://twitter.com/HundredFinance/status/1489305867283480584",
       "percentagethreshold": 0,
       "reward": [
         {
@@ -74,7 +74,7 @@
       "poolname": "Dante Symphony",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
       "rewarddescription": "550 FTM will be distributed to voters for every 1% of the vote Dante Symphony receives.",
-      "assumption": "",
+      "assumption": "https://twitter.com/stateraproject/status/1490223520084865026",
       "percentagethreshold": 0,
       "reward": [
         {

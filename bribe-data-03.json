@@ -6,7 +6,7 @@
   "tokendata": [],
   "bribedata": [
     {
-      "voteindex": 26,
+      "voteindex": 25,
       "poolname": "The Monolith",
       "poolurl": "https://beets.fi/pool/0xa216aa5d67ef95dde66246829c5103c7843d1aab000100000000000000000112",
       "rewarddescription": "$1k $DAI increase per 1% vote increase on 'The Monolith' pool. ",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "voteindex": 30,
+      "voteindex": 29,
       "poolname": "Lonely Mountain",
       "poolurl": "https://beets.fi/pool/0xc9ba718a71bfa34cedea910ac37b879e5913c14e0002000000000000000001ad",
       "rewarddescription": "We are increasing our bribe on beethoven_x:15,000 $USDC; 6,000 $RING; 15,000 $Beets -> Currently thats 32,000$ altogether for voters.",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "voteindex": 25,
+      "voteindex": 24,
       "poolname": "Pirate Party",
       "poolurl": "https://beets.fi/#/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "We ARE doing something. We'll bribe @beethoven_x for the Pirate Party with 400 $LQDR from the dev wallet 💰",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "voteindex": 38,
+      "voteindex": 20,
       "poolname": "When Two Became One (Hundred)",
       "poolurl": "https://beets.fi/pool/0xd57cda2caebb9b64bb88905c4de0f0da217a77d7000100000000000000000073",
       "rewarddescription": "We will distribute 1k HND to those who vote for our precious pool: 'When two become one Hundred' 👀",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "voteindex": 24,
+      "voteindex": 22,
       "poolname": "Dante Symphony",
       "poolurl": "https://beets.fi/#/pool/0xc042ef6ca08576bdfb57d3055a7654344fd153e400010000000000000000003a",
       "rewarddescription": "550 FTM will be distributed to voters for every 1% of the vote Dante Symphony receives.",

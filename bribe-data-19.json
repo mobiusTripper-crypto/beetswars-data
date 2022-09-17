@@ -1,5 +1,5 @@
 {
-  "version": "19.5.0",
+  "version": "19.5.1",
   "snapshot": "0xbf0cd1e84ce029743dad59ac60dcb7ba7e3d2d068b679ccaef80b849fc786967",
   "description": "Farming Incentive Gauge Vote (round 19)",
   "round": 19,
@@ -89,7 +89,7 @@
       "rewarddescription": "Enjoy up to $2048 up for grabs: $256 paid in USDC and bECH per % of votes",
       "assumption": "",
       "percentagethreshold": 0,
-      "payoutthreshold": 0,
+      "payoutthreshold": -1,
       "rewardcap": 2048,
       "reward": [
         {

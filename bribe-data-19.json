@@ -1,5 +1,5 @@
 {
-  "version": "19.5.1",
+  "version": "19.5.2",
   "snapshot": "0xbf0cd1e84ce029743dad59ac60dcb7ba7e3d2d068b679ccaef80b849fc786967",
   "description": "Farming Incentive Gauge Vote (round 19)",
   "round": 19,
@@ -86,8 +86,8 @@
       "voteindex": 51,
       "poolname": "Echelon Trance (bECH-USDC)",
       "poolurl": "https://beets.fi/pool/0x4ba42b43b1316167abf0c39ee6ccb486420fede00002000000000000000004e4",
-      "rewarddescription": "Enjoy up to $2048 up for grabs: $256 paid in USDC and bECH per % of votes",
-      "assumption": "",
+      "rewarddescription": "$256 per % of votes upto $2048.",
+      "assumption": "Biggest 4% voters get $1024 in USDC. Next 4% of voters get $1024 in bECH",
       "percentagethreshold": 0,
       "payoutthreshold": -1,
       "rewardcap": 2048,

@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "snapshot": "0x5376d663e8879c19cfd917070f9fc5e783e727f03269fd293f6667706699498a",
+  "description": "Farming Incentive Gauge Vote (round 20)",
+  "round": 20,
+  "tokendata": [
+    {
+      "token": "BEETS",
+      "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+      "coingeckoid": "beethoven-x"
+    }
+  ],
+  "bribedata": []
+}

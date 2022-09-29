@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "20.1.0",
   "snapshot": "0x5376d663e8879c19cfd917070f9fc5e783e727f03269fd293f6667706699498a",
   "description": "Farming Incentive Gauge Vote (round 20)",
   "round": 20,
@@ -10,5 +10,22 @@
       "coingeckoid": "beethoven-x"
     }
   ],
-  "bribedata": []
+  "bribedata": [
+    {
+      "voteindex": 3,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "BEETS Reward 63,129.64 BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 63129.64,
+          "isfixed": false
+        }
+      ]
+    }
+  ]
 }

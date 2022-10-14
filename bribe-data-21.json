@@ -1,5 +1,5 @@
 {
-  "version": "21.1.0",
+  "version": "21.2.0",
   "snapshot": "0xa3478bd5cbe2b422b94dfcccae5277703ba08f923b10ba710062eef08ec672d5",
   "description": "Farming Incentive Gauge Vote (round 21)",
   "round": 21,
@@ -11,19 +11,41 @@
     }
   ],
   "bribedata": [
-    {                 
-      "voteindex": 3,                                                          
-      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",                                                                                                           
+    {
+      "voteindex": 3,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
       "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
       "rewarddescription": "BEETS Reward 105225.54 BEETS",
-      "assumption": "",        
+      "assumption": "",
       "percentagethreshold": 0,
       "reward": [
-        {                 
+        {
           "type": "fixed",
           "token": "BEETS",
           "amount": 105225.54,
           "isfixed": false
+        }
+      ]
+    },
+    {
+      "voteindex": 13,
+      "poolname": "Lock, Staked, and two FTMs",
+      "poolurl": "https://beets.fi/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
+      "rewarddescription": "Vote for “Lock, Staked, and Two FTMs” and get $200 in $USDC per 1% of votes. (no max cap!)",
+      "assumption": "Minimum guarantee: $3500 USDC.",
+      "percentagethreshold": 17.5,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 3500,
+          "isfixed": true
+        },
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": 200,
+          "isfixed": true
         }
       ]
     }

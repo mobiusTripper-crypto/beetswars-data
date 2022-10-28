@@ -1,5 +1,5 @@
 {
-  "version": "22.3.0",
+  "version": "22.4.0",
   "snapshot": "0x64b061337daa6e582363f6d80e90486f9f07c4b349013a7545e08e1ecb399864",
   "description": "Farming Incentive Gauge Vote (round 22)",
   "round": 22,
@@ -55,6 +55,28 @@
           "type": "fixed",
           "token": "LQDR",
           "amount": 1750,
+          "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 4,
+      "poolname": "Lock, Staked, and two FTMs",
+      "poolurl": "https://beets.fi/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
+      "rewarddescription": "Vote for “Lock, Staked, and Two FTMs” and get $200 in $USDC per 1% of votes. (no max cap!)",
+      "assumption": "Minimum guarantee: $3500 USDC.",
+      "percentagethreshold": 17.5,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 3500,
+          "isfixed": true
+        },
+        {
+          "type": "percent",
+          "token": "USDC",
+          "amount": 200,
           "isfixed": true
         }
       ]

@@ -31,7 +31,7 @@
       "totalVoter": "762",
       "totalBriber": "5",
       "priceBeets": "0.6423624585397681",
-      "priceFbeets": "0"
+      "priceFbeets": "0.82438"
     },
     {
       "round": "04",
@@ -42,7 +42,7 @@
       "totalVoter": "2086",
       "totalBriber": "14",
       "priceBeets": "0.9542012544179292",
-      "priceFbeets": "0"
+      "priceFbeets": "0.83629"
     },
     {
       "round": "05",
@@ -53,7 +53,7 @@
       "totalVoter": "2000",
       "totalBriber": "14",
       "priceBeets": "0.9056273514602825",
-      "priceFbeets": "0"
+      "priceFbeets": "0.76066"
     },
     {
       "round": "06",
@@ -64,7 +64,7 @@
       "totalVoter": "2064",
       "totalBriber": "10",
       "priceBeets": "0.6865618300264617",
-      "priceFbeets": "0"
+      "priceFbeets": "0.65568"
     },
     {
       "round": "07",
@@ -75,7 +75,7 @@
       "totalVoter": "2734",
       "totalBriber": "11",
       "priceBeets": "0.7449121150496086",
-      "priceFbeets": "0"
+      "priceFbeets": "0.74271"
     },
     {
       "round": "08",
@@ -86,7 +86,7 @@
       "totalVoter": "2244",
       "totalBriber": "15",
       "priceBeets": "0.4643084416782881",
-      "priceFbeets": "0"
+      "priceFbeets": "0.47834"
     },
     {
       "round": "09",
@@ -97,7 +97,7 @@
       "totalVoter": "1726",
       "totalBriber": "9",
       "priceBeets": "0.20745655882344724",
-      "priceFbeets": "0"
+      "priceFbeets": "0.24764"
     },
     {
       "round": "10",
@@ -108,7 +108,7 @@
       "totalVoter": "1311",
       "totalBriber": "5",
       "priceBeets": "0.1370632597824198",
-      "priceFbeets": "0"
+      "priceFbeets": "0.14259"
     },
     {
       "round": "11",
@@ -119,7 +119,7 @@
       "totalVoter": "1317",
       "totalBriber": "7",
       "priceBeets": "0.11068608236878508",
-      "priceFbeets": "0"
+      "priceFbeets": "0.12232"
     },
     {
       "round": "12",
@@ -130,18 +130,18 @@
       "totalVoter": "1081",
       "totalBriber": "7",
       "priceBeets": "0.08498470658583562",
-      "priceFbeets": "0"
+      "priceFbeets": "0.08946"
     },
     {
       "round": "13",
-      "voteEnd": "1657468800",
+      "voteEnd": "1656259200",
       "totalVotes": "52804442",
       "bribedVotes": "40509080",
       "totalBribes": "34730",
       "totalVoter": "998",
       "totalBriber": "7",
       "priceBeets": "0.08455249464661448",
-      "priceFbeets": "0"
+      "priceFbeets": "0.09403"
     },
     {
       "round": "14",
@@ -152,7 +152,7 @@
       "totalVoter": "1020",
       "totalBriber": "8",
       "priceBeets": "0.08312714437327523",
-      "priceFbeets": "0"
+      "priceFbeets": "0.09226"
     },
     {
       "round": "15",
@@ -163,7 +163,7 @@
       "totalVoter": "940",
       "totalBriber": "10",
       "priceBeets": "0.08764992728948805",
-      "priceFbeets": "0"
+      "priceFbeets": "0.10101"
     },
     {
       "round": "16",
@@ -174,7 +174,7 @@
       "totalVoter": "1001",
       "totalBriber": "13",
       "priceBeets": "0.09052103762634747",
-      "priceFbeets": "0"
+      "priceFbeets": "0.10992"
     },
     {
       "round": "17",
@@ -185,7 +185,7 @@
       "totalVoter": "912",
       "totalBriber": "9",
       "priceBeets": "0.06580902262171609",
-      "priceFbeets": "0"
+      "priceFbeets": "0.08221"
     },
     {
       "round": "18",
@@ -196,7 +196,7 @@
       "totalVoter": "806",
       "totalBriber": "6",
       "priceBeets": "0.054209526084314445",
-      "priceFbeets": "0"
+      "priceFbeets": "0.06304"
     },
     {
       "round": "19",
@@ -207,7 +207,7 @@
       "totalVoter": "743",
       "totalBriber": "5",
       "priceBeets": "0.05054681374148968",
-      "priceFbeets": "0"
+      "priceFbeets": "0.05764"
     },
     {
       "round": "20",
@@ -218,7 +218,7 @@
       "totalVoter": "689",
       "totalBriber": "4",
       "priceBeets": "0.03938072159177428",
-      "priceFbeets": "0"
+      "priceFbeets": "0.04986"
     },
     {
       "round": "21",
@@ -229,7 +229,7 @@
       "totalVoter": "576",
       "totalBriber": "4",
       "priceBeets": "0.03373228638716047",
-      "priceFbeets": "0"
+      "priceFbeets": "0.04317"
     },
     {
       "round": "22",
@@ -240,7 +240,7 @@
       "totalVoter": "666",
       "totalBriber": "4",
       "priceBeets": "0.03705864435919943",
-      "priceFbeets": "0"
+      "priceFbeets": "0.04611"
     },
     {
       "round": "23",
@@ -251,7 +251,7 @@
       "totalVoter": "587",
       "totalBriber": "4",
       "priceBeets": "0.024746365338152873",
-      "priceFbeets": "0"
+      "priceFbeets": "0.03452"
     }
   ]
 }

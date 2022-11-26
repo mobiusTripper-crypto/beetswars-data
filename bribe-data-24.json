@@ -1,5 +1,5 @@
 {
-  "version": "24.3.0",
+  "version": "24.4.0",
   "snapshot": "0x7c7f2045f4d0ed3dbf58691d84971983c90fc6976b5dfb449610b21bb5fecf03",
   "description": "Farming Incentive Gauge Vote (round 24)",
   "round": 24,
@@ -62,6 +62,22 @@
           "token": "SD",
           "amount": 75,
           "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 2,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "Vote for A Late Quartet to receive your share of 111 338 $BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 111338.78,
+          "isfixed": false
         }
       ]
     }

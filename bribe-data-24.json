@@ -76,8 +76,8 @@
         {
           "type": "fixed",
           "token": "BEETS",
-          "amount": 111338.78,
-          "isfixed": false
+          "amount": 3080,
+          "isfixed": true
         }
       ]
     }

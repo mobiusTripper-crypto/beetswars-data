@@ -252,6 +252,17 @@
       "totalBriber": "4",
       "priceBeets": "0.024746365338152873",
       "priceFbeets": "0.03452"
+    },
+    {
+      "round": "24",
+      "voteEnd": "1669554000",
+      "totalVotes": "40227109",
+      "bribedVotes": "28824825",
+      "totalBribes": "8420",
+      "totalVoter": "530",
+      "totalBriber": "4",
+      "priceBeets": "0.027123216006449156",
+      "priceFbeets": "0.03468"
     }
   ]
 }

@@ -1,0 +1,268 @@
+{
+  "chartdata": [
+    {
+      "bribedVotes": 28824825,
+      "round": "24",
+      "voteEnd": 1669554000,
+      "totalBribes": 8420,
+      "totalBriber": 4,
+      "priceFbeets": 0.03468,
+      "priceBeets": 0.027123216006449156,
+      "totalVoter": 530,
+      "totalVotes": 40227109
+    },
+    {
+      "bribedVotes": 47092664,
+      "round": "23",
+      "voteEnd": 1668358800,
+      "totalBribes": 12296,
+      "totalBriber": 4,
+      "priceFbeets": 0.03452,
+      "priceBeets": 0.024746365338152873,
+      "totalVoter": 587,
+      "totalVotes": 55962178
+    },
+    {
+      "bribedVotes": 40014636,
+      "round": "22",
+      "voteEnd": 1667145600,
+      "totalBribes": 15972,
+      "totalBriber": 4,
+      "priceFbeets": 0.04611,
+      "priceBeets": 0.03705864435919943,
+      "totalVoter": 666,
+      "totalVotes": 58040376
+    },
+    {
+      "bribedVotes": 39362792,
+      "round": "21",
+      "voteEnd": 1665936000,
+      "totalBribes": 14301,
+      "totalBriber": 4,
+      "priceFbeets": 0.04317,
+      "priceBeets": 0.03373228638716047,
+      "totalVoter": 576,
+      "totalVotes": 56512826
+    },
+    {
+      "bribedVotes": 40974099,
+      "round": "20",
+      "voteEnd": 1664726400,
+      "totalBribes": 15568,
+      "totalBriber": 4,
+      "priceFbeets": 0.04986,
+      "priceBeets": 0.03938072159177428,
+      "totalVoter": 689,
+      "totalVotes": 60490310
+    },
+    {
+      "bribedVotes": 41907096,
+      "round": "19",
+      "voteEnd": 1663516800,
+      "totalBribes": 16656,
+      "totalBriber": 5,
+      "priceFbeets": 0.05764,
+      "priceBeets": 0.05054681374148968,
+      "totalVoter": 743,
+      "totalVotes": 62226116
+    },
+    {
+      "bribedVotes": 40233916,
+      "round": "18",
+      "voteEnd": 1662307200,
+      "totalBribes": 24516,
+      "totalBriber": 6,
+      "priceFbeets": 0.06304,
+      "priceBeets": 0.054209526084314445,
+      "totalVoter": 806,
+      "totalVotes": 62777030
+    },
+    {
+      "bribedVotes": 43659983,
+      "round": "17",
+      "voteEnd": 1661097600,
+      "totalBribes": 32892,
+      "totalBriber": 9,
+      "priceFbeets": 0.08221,
+      "priceBeets": 0.06580902262171609,
+      "totalVoter": 912,
+      "totalVotes": 63262198
+    },
+    {
+      "bribedVotes": 49166789,
+      "round": "16",
+      "voteEnd": 1659888000,
+      "totalBribes": 43605,
+      "totalBriber": 13,
+      "priceFbeets": 0.10992,
+      "priceBeets": 0.09052103762634747,
+      "totalVoter": 1001,
+      "totalVotes": 61494823
+    },
+    {
+      "bribedVotes": 47331357,
+      "round": "15",
+      "voteEnd": 1658678400,
+      "totalBribes": 36891,
+      "totalBriber": 10,
+      "priceFbeets": 0.10101,
+      "priceBeets": 0.08764992728948805,
+      "totalVoter": 940,
+      "totalVotes": 58166127
+    },
+    {
+      "bribedVotes": 44726567,
+      "round": "14",
+      "voteEnd": 1657468800,
+      "totalBribes": 32397,
+      "totalBriber": 8,
+      "priceFbeets": 0.09226,
+      "priceBeets": 0.08312714437327523,
+      "totalVoter": 1020,
+      "totalVotes": 60070860
+    },
+    {
+      "bribedVotes": 40509080,
+      "round": "13",
+      "voteEnd": 1656259200,
+      "totalBribes": 34730,
+      "totalBriber": 7,
+      "priceFbeets": 0.09403,
+      "priceBeets": 0.08455249464661448,
+      "totalVoter": 998,
+      "totalVotes": 52804442
+    },
+    {
+      "bribedVotes": 41287138,
+      "round": "12",
+      "voteEnd": 1655049600,
+      "totalBribes": 46990,
+      "totalBriber": 7,
+      "priceFbeets": 0.08946,
+      "priceBeets": 0.08498470658583562,
+      "totalVoter": 1081,
+      "totalVotes": 50997573
+    },
+    {
+      "bribedVotes": 48603767,
+      "round": "11",
+      "voteEnd": 1653840000,
+      "totalBribes": 54510,
+      "totalBriber": 7,
+      "priceFbeets": 0.12232,
+      "priceBeets": 0.11068608236878508,
+      "totalVoter": 1317,
+      "totalVotes": 57583594
+    },
+    {
+      "bribedVotes": 36615557,
+      "round": "10",
+      "voteEnd": 1652630400,
+      "totalBribes": 67245,
+      "totalBriber": 5,
+      "priceFbeets": 0.14259,
+      "priceBeets": 0.1370632597824198,
+      "totalVoter": 1311,
+      "totalVotes": 49594267
+    },
+    {
+      "bribedVotes": 38574231,
+      "round": "09",
+      "voteEnd": 1651420800,
+      "totalBribes": 177810,
+      "totalBriber": 9,
+      "priceFbeets": 0.24764,
+      "priceBeets": 0.20745655882344724,
+      "totalVoter": 1726,
+      "totalVotes": 48214147
+    },
+    {
+      "bribedVotes": 44982379,
+      "round": "08",
+      "voteEnd": 1650211200,
+      "totalBribes": 589463,
+      "totalBriber": 15,
+      "priceFbeets": 0.47834,
+      "priceBeets": 0.4643084416782881,
+      "totalVoter": 2244,
+      "totalVotes": 50076576
+    },
+    {
+      "bribedVotes": 46879763,
+      "round": "07",
+      "voteEnd": 1649001600,
+      "totalBribes": 552793,
+      "totalBriber": 11,
+      "priceFbeets": 0.74271,
+      "priceBeets": 0.7449121150496086,
+      "totalVoter": 2734,
+      "totalVotes": 52744344
+    },
+    {
+      "bribedVotes": 33361455,
+      "round": "06",
+      "voteEnd": 1647792000,
+      "totalBribes": 568172,
+      "totalBriber": 10,
+      "priceFbeets": 0.65568,
+      "priceBeets": 0.6865618300264617,
+      "totalVoter": 2064,
+      "totalVotes": 36220537
+    },
+    {
+      "bribedVotes": 22826560,
+      "round": "05",
+      "voteEnd": 1646586000,
+      "totalBribes": 580863,
+      "totalBriber": 14,
+      "priceFbeets": 0.76066,
+      "priceBeets": 0.9056273514602825,
+      "totalVoter": 2000,
+      "totalVotes": 25430796
+    },
+    {
+      "bribedVotes": 31711452,
+      "round": "04",
+      "voteEnd": 1645376400,
+      "totalBribes": 1045420,
+      "totalBriber": 14,
+      "priceFbeets": 0.83629,
+      "priceBeets": 0.9542012544179292,
+      "totalVoter": 2086,
+      "totalVotes": 33021516
+    },
+    {
+      "bribedVotes": 16327202,
+      "round": "03",
+      "voteEnd": 1644166800,
+      "totalBribes": 94347,
+      "totalBriber": 5,
+      "priceFbeets": 0.82438,
+      "priceBeets": 0.6423624585397681,
+      "totalVoter": 762,
+      "totalVotes": 18998259
+    },
+    {
+      "bribedVotes": 0,
+      "round": "01",
+      "voteEnd": 1641740400,
+      "totalBribes": 0,
+      "totalBriber": 0,
+      "priceFbeets": 0,
+      "priceBeets": 0.4455301129969088,
+      "totalVoter": 157,
+      "totalVotes": 8627013
+    },
+    {
+      "bribedVotes": 0,
+      "round": "02",
+      "voteEnd": 1642982400,
+      "totalBribes": 0,
+      "totalBriber": 0,
+      "priceFbeets": 0,
+      "priceBeets": 0.5783321275954688,
+      "totalVoter": 170,
+      "totalVotes": 8381155
+    }
+  ]
+}

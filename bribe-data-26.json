@@ -1,5 +1,5 @@
 {
-  "version": "26.3.0",
+  "version": "26.4.0",
   "snapshot": "0xc75d23f0dbc45f99084fa9b4dab460a1f1de1eccded2920c659571469b73d068",
   "description": "Farming Incentive Gauge Vote (round 26)",
   "round": 26,
@@ -15,8 +15,8 @@
       "poolname": "Pirate Party (LQDR-FTM)",
       "poolurl": "https://beets.fi/pool/0x5e02ab5699549675a6d3beeb92a62782712d0509000200000000000000000138",
       "rewarddescription": "$3,000 in LQDR + raffle of 3 xLQDR FNFTs worth $130 each ",
-      "percentagethreshold": 0,
       "assumption": "FNFTs not included in calculation",
+      "percentagethreshold": 0,
       "voteindex": 7,
       "reward": [
         {
@@ -31,8 +31,8 @@
       "poolname": "Water Music (SPIRIT-LINSPIRIT)",
       "poolurl": "https://beets.fi/pool/0x30a92a4eeca857445f41e4bb836e64d66920f1c0000200000000000000000071",
       "rewarddescription": "Vote for Water Music with your fBEETS for a share of $1,300 in LQDR",
-      "percentagethreshold": 0,
       "assumption": "",
+      "percentagethreshold": 0,
       "voteindex": 15,
       "reward": [
         {
@@ -47,8 +47,8 @@
       "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
       "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
       "rewarddescription": "Beethoven X is offering Ludwigs a share of 151 895 $BEETS as a gauge bounty",
-      "percentagethreshold": 0,
       "assumption": "",
+      "percentagethreshold": 0,
       "voteindex": 2,
       "reward": [
         {
@@ -56,6 +56,29 @@
           "amount": 151895.1,
           "type": "fixed",
           "token": "BEETS"
+        }
+      ]
+    },
+    {
+      "poolname": "Lock, Staked, and two FTMs",
+      "poolurl": "https://beets.fi/pool/0xc0064b291bd3d4ba0e44ccfc81bf8e7f7a579cd200000000000000000000042c",
+      "rewarddescription": "Vote for “Lock, Staked, and Two FTMs” and get $135 in SD tokens per 1% of votes.",
+      "assumption": "Minimum guarantee: $1000 in SD tokens. Max cap: 35%",
+      "percentagethreshold": 7.4074074,
+      "rewardcap": 4725,
+      "voteindex": 4,
+      "reward": [
+        {
+          "isfixed": true,
+          "amount": 1000,
+          "type": "fixed",
+          "token": "SD"
+        },
+        {
+          "isfixed": true,
+          "amount": 135,
+          "type": "percent",
+          "token": "SD"
         }
       ]
     }

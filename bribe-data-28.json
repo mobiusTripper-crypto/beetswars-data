@@ -1,5 +1,5 @@
 {
-  "version": "28.2.0",
+  "version": "28.4.0",
   "snapshot": "0xa976e32dd960131fe718342a94101d545d61353fee50ae9b71129c6eb3db39ba",
   "description": "Farming Incentive Gauge Vote (round 28)",
   "round": 28,
@@ -8,6 +8,12 @@
       "token": "BEETS",
       "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
       "coingeckoid": "beethoven-x"
+    },
+    {
+      "token": "FBEETS",
+      "tokenaddress": "0xfcef8a994209d6916EB2C86cDD2AFD60Aa6F54b1",
+      "coingeckoid": "",
+      "isbpt": true
     }
   ],
   "bribedata": [
@@ -40,6 +46,38 @@
           "token": "LQDR",
           "amount": 850,
           "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 1,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "Beethoven X is offering Ludwigs a share of 75,758 $BEETS as a Gauge bounty",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 75758.9,
+          "isfixed": false
+        }
+      ]
+    },
+    {
+      "voteindex": 4,
+      "poolname": "Melody from Hell (IMP-FTM-etc)",
+      "poolurl": "https://beets.fi/pool/0x8c3c964c2d08679d3d09866cf62c5b14a5346479000100000000000000000207",
+      "rewarddescription": "ImpDao is offering maestros 1500 fbeets per 1% of total votes with no limit!",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "percent",
+          "token": "FBEETS",
+          "amount": 1500,
+          "isfixed": false
         }
       ]
     }

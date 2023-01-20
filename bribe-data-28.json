@@ -1,5 +1,5 @@
 {
-  "version": "28.2.0",
+  "version": "28.3.0",
   "snapshot": "0xa976e32dd960131fe718342a94101d545d61353fee50ae9b71129c6eb3db39ba",
   "description": "Farming Incentive Gauge Vote (round 28)",
   "round": 28,
@@ -40,6 +40,22 @@
           "token": "LQDR",
           "amount": 850,
           "isfixed": true
+        }
+      ]
+    },
+    {
+      "voteindex": 1,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "Beethoven X is offering Ludwigs a share of 75,758 $BEETS as a Gauge bounty",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 75758.9,
+          "isfixed": false
         }
       ]
     }

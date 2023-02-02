@@ -1,0 +1,52 @@
+{
+  "version": "29.1.0",
+  "snapshot": "0xae9c3b86ea25fe5635b0ba6de94985fa946d87631c2ac24fc4309923750c05ef",
+  "description": "Farming Incentive Gauge Vote (round 29)",
+  "round": 29,
+  "tokendata": [
+    {
+      "token": "BEETS",
+      "tokenaddress": "0xf24bcf4d1e507740041c9cfd2dddb29585adce1e",
+      "coingeckoid": "beethoven-x",
+      "tokenId": 1
+    }
+  ],
+  "bribedata": [
+    {
+      "voteindex": 18,
+      "poolname": "Patience v1",
+      "poolurl": "https://beets.fi/pool/0x6a142b2c4df520d5e70615511b52e117021940350001000000000000000005fd",
+      "rewarddescription": "Gauge bounty for 'Patience v1': 99.99 USDC",
+      "assumption": "will be claimable on Votehoven after voting period finishes",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 99.9992,
+          "isfixed": true,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 1
+    },
+    {
+      "voteindex": 14,
+      "poolname": "The Explosive PGUNK!",
+      "poolurl": "https://beets.fi/pool/0xd467c018d1819c9b59256169db321fe910c51c000001000000000000000004c8",
+      "rewarddescription": "Explosive PGunk is back with a bang!",
+      "assumption": "1764 BEETS",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 1764,
+          "isfixed": false,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 2
+    }
+  ]
+}

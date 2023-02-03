@@ -1,5 +1,5 @@
 {
-  "version": "29.2.0",
+  "version": "29.9.1",
   "snapshot": "0xae9c3b86ea25fe5635b0ba6de94985fa946d87631c2ac24fc4309923750c05ef",
   "description": "Farming Incentive Gauge Vote (round 29)",
   "round": 29,
@@ -37,6 +37,7 @@
       "rewarddescription": "Explosive PGunk is back with a bang!",
       "assumption": "1764 BEETS",
       "percentagethreshold": 0,
+      "payoutthreshold": -1,
       "reward": [
         {
           "type": "fixed",
@@ -47,6 +48,127 @@
         }
       ],
       "offerId": 2
+    },
+    {
+      "voteindex": 0,
+      "poolname": "Fantom of the Opera, Act II",
+      "poolurl": "https://beets.fi/pool/0x56ad84b777ff732de69e85813daee1393a9ffe1000020000000000000000060e",
+      "rewarddescription": "vote for Fantom of the Opera, Act II to get a share of 30,859 $BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 30859.8178,
+          "isfixed": false,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 3
+    },
+    {
+      "voteindex": 1,
+      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+      "rewarddescription": "vote for Late Quartet (FTM-USDC-ETH-BTC) to get a share of 95,027 $BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 95027.807,
+          "isfixed": false,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 4
+    },
+    {
+      "voteindex": 2,
+      "poolname": "The Grand Orchestra",
+      "poolurl": "https://beets.fi/pool/0xd47d2791d3b46f9452709fa41855a045304d6f9d000100000000000000000004",
+      "rewarddescription": "vote for The Grand Orchestra to get a share of 4,349 $BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 4349.7594,
+          "isfixed": false,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 5
+    },
+    {
+      "voteindex": 3,
+      "poolname": "Battle of the Bands Remastered",
+      "poolurl": "https://beets.fi/pool/0x65411827ef78f08f6559acf91de3a4f5a26d785c0001000000000000000004c6",
+      "rewarddescription": "vote for Battle of the Bands Remastered to get a share of 5,115 $BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 5115.8156,
+          "isfixed": false,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 6
+    },
+    {
+      "voteindex": 19,
+      "poolname": "Another DEI, another dollar",
+      "poolurl": "https://beets.fi/pool/0x4e415957aa4fd703ad701e43ee5335d1d7891d8300020000000000000000053b",
+      "rewarddescription": "vote for Another DEI, another dollar to get a share of 5,044 $BEETS",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 5044.942,
+          "isfixed": false,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 7
+    },
+    {
+      "voteindex": 20,
+      "poolname": "FireBird USDC",
+      "poolurl": "https://beets.fi/pool/0x038e0147c746792a4af41453baea682388d2d7c50002000000000000000004d0",
+      "rewarddescription": "BeethovenX: vote for FireBird USDC to get a share of 4,585 $BEETS. Firebird: We will be bribing the $FBA/USDC pool on @beethoven_x with $3,000!",
+      "assumption": "mind 2 parties bribing, to be claimed together @ votehoven",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 4585.9296,
+          "isfixed": false,
+          "rewardId": 1
+        },
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 2940,
+          "isfixed": true,
+          "rewardId": 2
+        }
+      ],
+      "offerId": 8
     }
   ]
 }

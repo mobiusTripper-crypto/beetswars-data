@@ -1,5 +1,5 @@
 {
-  "version": "29.8.1",
+  "version": "29.9.0",
   "snapshot": "0xae9c3b86ea25fe5635b0ba6de94985fa946d87631c2ac24fc4309923750c05ef",
   "description": "Farming Incentive Gauge Vote (round 29)",
   "round": 29,
@@ -162,6 +162,24 @@
         }
       ],
       "offerId": 8
+    },
+    {
+      "voteindex": 20,
+      "poolname": "FireBird USDC",
+      "poolurl": "https://beets.fi/pool/0x038e0147c746792a4af41453baea682388d2d7c50002000000000000000004d0",
+      "rewarddescription": "We will be bribing the $FBA/USDC pool on @beethoven_x with $3,000!",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "USDC",
+          "amount": 3000,
+          "isfixed": true,
+          "rewardId": 1
+        }
+      ],
+      "offerId": 9
     }
   ]
 }

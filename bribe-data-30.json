@@ -1,5 +1,5 @@
 {
-  "version": "30.7.1",
+  "version": "30.8.3",
   "snapshot": "0x41afaf92b15d59ff2bc373bbb428c731686ca0d2acb78417db36697206f5fdc5",
   "description": "Farming Incentive Gauge Vote (round 30)",
   "round": 30,
@@ -15,7 +15,13 @@
           "tokenaddress": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
           "coingeckoid": "deus-finance-2",
           "tokenId": 2
-      }
+      },
+      {
+            "token": "FTM",
+            "tokenaddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+            "coingeckoid": "fantom",
+            "tokenId": 3
+    }
   ],
   "bribedata": [
     {
@@ -149,7 +155,7 @@
       "voteindex": 20,
       "poolname": "FireBird USDC",
       "poolurl": "https://beets.fi/pool/0x038e0147c746792a4af41453baea682388d2d7c50002000000000000000004d0",
-      "rewarddescription": "vote for FireBird USDC to get a share of 4,585 $BEETS.",
+      "rewarddescription": "Firebird: We will be bribing FireBird USDC using $3000 (46,625 $BEETS) 🙌. BeethovenX: vote for FireBird USDC to get a share of 4,585 $BEETS.",
       "assumption": "",
       "percentagethreshold": 0,
       "payoutthreshold": -1,
@@ -160,9 +166,42 @@
           "amount": 4585.9296,
           "isfixed": false,
           "rewardId": 1
+        },
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 45692.5,
+          "isfixed": false,
+          "rewardId": 2
         }
       ],
       "offerId": 7
+    },
+    {
+      "voteindex": 23,
+      "poolname": "Great Fugue (CONK-USDC-FTM-BEETS",
+      "poolurl": "https://beets.fi/pool/0x4707eed23f628de1a032235158e33bc3c9fcf2f4000100000000000000000661",
+      "rewarddescription": "vote for 'Great Fugue Op. 133 in C Minor' to get a share of 1,420 $BEETS and 637 $WFTM.",
+      "assumption": "",
+      "percentagethreshold": 0,
+      "payoutthreshold": -1,
+      "reward": [
+        {
+          "type": "fixed",
+          "token": "BEETS",
+          "amount": 1420.121724,
+          "isfixed": false,
+          "rewardId": 1
+        },
+        {
+          "type": "fixed",
+          "token": "FTM",
+          "amount": 637,
+          "isfixed": false,
+          "rewardId": 2
+        }
+      ],
+      "offerId": 8
     }
   ]
 }

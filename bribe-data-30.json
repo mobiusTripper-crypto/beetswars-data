@@ -1,5 +1,5 @@
 {
-  "version": "30.7.1",
+  "version": "30.9.0",
   "snapshot": "0x41afaf92b15d59ff2bc373bbb428c731686ca0d2acb78417db36697206f5fdc5",
   "description": "Farming Incentive Gauge Vote (round 30)",
   "round": 30,
@@ -15,154 +15,218 @@
           "tokenaddress": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
           "coingeckoid": "deus-finance-2",
           "tokenId": 2
+      },
+      {
+          "token": "FTM",
+          "tokenaddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+          "coingeckoid": "fantom",
+          "tokenId": 3
+      },
+      {
+          "token": "EQUAL",
+          "tokenaddress": "0x3fd3a0c85b70754efc07ac9ac0cbbdce664865a6",
+          "coingeckoid": "equalizer-dex",
+          "tokenId": 4
       }
   ],
   "bribedata": [
-    {
-      "voteindex": 18,
-      "poolname": "Patience v1",
-      "poolurl": "https://beets.fi/pool/0x6a142b2c4df520d5e70615511b52e117021940350001000000000000000005fd",
-      "rewarddescription": "Gauge bounty for 'Patience v1': 1,621 $BEETS",
-      "assumption": "will be claimable on Votehoven after voting period finishes",
-      "percentagethreshold": 0,
-      "reward": [
-          {
-              "type": "fixed",
-              "token": "BEETS",
-              "amount": 1621.5766,
-              "isfixed": false,
-              "rewardId": 1
-          }
-      ],
-      "payoutthreshold": -1,
-      "offerId": 1
-    },
-    {
-      "voteindex": 19,
-      "poolname": "Another DEI, another dollar",
-      "poolurl": "https://beets.fi/pool/0x4e415957aa4fd703ad701e43ee5335d1d7891d8300020000000000000000053b",
-      "rewarddescription": "DEUS: vote for the 'Another DEI, another Dollar' pool and earn your share of 50 $DEUS and 5,000 $BEETS. BeethovenX: vote for Another DEI, another dollar to get a share of 5,044 $BEETS",
-      "assumption": "DEUS offer will be airdropped, BeethovenX offer claimable at Votehoven",
-      "percentagethreshold": 0,
-      "reward": [
-          {
-              "type": "fixed",
-              "token": "DEUS",
-              "amount": 50,
-              "isfixed": false,
-              "rewardId": 1
-          },
-          {
-              "type": "fixed",
-              "token": "BEETS",
-              "amount": 5000,
-              "isfixed": false,
-              "rewardId": 2
-          },
-          {
-            "type": "fixed",
-            "token": "BEETS",
-            "amount": 5044.942,
-            "isfixed": false,
-            "rewardId": 3
-        }
-      ],
-      "offerId": 2
-  },
-  {
-      "voteindex": 0,
-      "poolname": "Fantom of the Opera, Act II",
-      "poolurl": "https://beets.fi/pool/0x56ad84b777ff732de69e85813daee1393a9ffe1000020000000000000000060e",
-      "rewarddescription": "vote for Fantom of the Opera, Act II to get a share of 30,858 $BEETS",
-      "assumption": "",
-      "percentagethreshold": 0,
-      "payoutthreshold": -1,
-      "reward": [
-        {
-          "type": "fixed",
-          "token": "BEETS",
-          "amount": 30858.8378,
-          "isfixed": false,
-          "rewardId": 1
-        }
-      ],
-      "offerId": 3
-    },
-    {
-      "voteindex": 1,
-      "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
-      "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
-      "rewarddescription": "vote for Late Quartet (FTM-USDC-ETH-BTC) to get a share of 95,027 $BEETS",
-      "assumption": "",
-      "percentagethreshold": 0,
-      "payoutthreshold": -1,
-      "reward": [
-        {
-          "type": "fixed",
-          "token": "BEETS",
-          "amount": 95027.807,
-          "isfixed": false,
-          "rewardId": 1
-        }
-      ],
-      "offerId": 4
-    },
-    {
-      "voteindex": 2,
-      "poolname": "The Grand Orchestra",
-      "poolurl": "https://beets.fi/pool/0xd47d2791d3b46f9452709fa41855a045304d6f9d000100000000000000000004",
-      "rewarddescription": "vote for The Grand Orchestra to get a share of 4,349 $BEETS",
-      "assumption": "",
-      "percentagethreshold": 0,
-      "payoutthreshold": -1,
-      "reward": [
-        {
-          "type": "fixed",
-          "token": "BEETS",
-          "amount": 4349.7594,
-          "isfixed": false,
-          "rewardId": 1
-        }
-      ],
-      "offerId": 5
-    },
-    {
-      "voteindex": 3,
-      "poolname": "Battle of the Bands Remastered",
-      "poolurl": "https://beets.fi/pool/0x65411827ef78f08f6559acf91de3a4f5a26d785c0001000000000000000004c6",
-      "rewarddescription": "vote for Battle of the Bands Remastered to get a share of 5,115 $BEETS",
-      "assumption": "",
-      "percentagethreshold": 0,
-      "payoutthreshold": -1,
-      "reward": [
-        {
-          "type": "fixed",
-          "token": "BEETS",
-          "amount": 5115.8156,
-          "isfixed": false,
-          "rewardId": 1
-        }
-      ],
-      "offerId": 6
-    },
-    {
-      "voteindex": 20,
-      "poolname": "FireBird USDC",
-      "poolurl": "https://beets.fi/pool/0x038e0147c746792a4af41453baea682388d2d7c50002000000000000000004d0",
-      "rewarddescription": "vote for FireBird USDC to get a share of 4,585 $BEETS.",
-      "assumption": "",
-      "percentagethreshold": 0,
-      "payoutthreshold": -1,
-      "reward": [
-        {
-          "type": "fixed",
-          "token": "BEETS",
-          "amount": 4585.9296,
-          "isfixed": false,
-          "rewardId": 1
-        }
-      ],
-      "offerId": 7
-    }
+      {
+          "voteindex": 18,
+          "poolname": "Patience v1",
+          "poolurl": "https://beets.fi/pool/0x6a142b2c4df520d5e70615511b52e117021940350001000000000000000005fd",
+          "rewarddescription": "Gauge bounty for 'Patience v1': 1,621 $BEETS",
+          "assumption": "will be claimable on Votehoven after voting period finishes",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 1621.5766,
+                  "isfixed": false,
+                  "rewardId": 1
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 1
+      },
+      {
+          "voteindex": 19,
+          "poolname": "Another DEI, another dollar",
+          "poolurl": "https://beets.fi/pool/0x4e415957aa4fd703ad701e43ee5335d1d7891d8300020000000000000000053b",
+          "rewarddescription": "DEUS: vote for the 'Another DEI, another Dollar' pool and earn your share of 50 $DEUS and 5,000 $BEETS. BeethovenX: vote for Another DEI, another dollar to get a share of 5,044 $BEETS",
+          "assumption": "DEUS offer will be airdropped, BeethovenX offer claimable at Votehoven",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "DEUS",
+                  "amount": 50,
+                  "isfixed": false,
+                  "rewardId": 1
+              },
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 5000,
+                  "isfixed": false,
+                  "rewardId": 2
+              },
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 5044.942,
+                  "isfixed": false,
+                  "rewardId": 3
+              }
+          ],
+          "offerId": 2
+      },
+      {
+          "voteindex": 0,
+          "poolname": "Fantom of the Opera, Act II",
+          "poolurl": "https://beets.fi/pool/0x56ad84b777ff732de69e85813daee1393a9ffe1000020000000000000000060e",
+          "rewarddescription": "vote for Fantom of the Opera, Act II to get a share of 30,858 $BEETS",
+          "assumption": "",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 30858.8378,
+                  "isfixed": false,
+                  "rewardId": 1
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 3
+      },
+      {
+          "voteindex": 1,
+          "poolname": "Late Quartet (FTM-USDC-ETH-BTC)",
+          "poolurl": "https://beets.fi/pool/0xf3a602d30dcb723a74a0198313a7551feaca7dac00010000000000000000005f",
+          "rewarddescription": "vote for Late Quartet (FTM-USDC-ETH-BTC) to get a share of 95,027 $BEETS",
+          "assumption": "",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 95027.807,
+                  "isfixed": false,
+                  "rewardId": 1
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 4
+      },
+      {
+          "voteindex": 2,
+          "poolname": "The Grand Orchestra",
+          "poolurl": "https://beets.fi/pool/0xd47d2791d3b46f9452709fa41855a045304d6f9d000100000000000000000004",
+          "rewarddescription": "vote for The Grand Orchestra to get a share of 4,349 $BEETS",
+          "assumption": "",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 4349.7594,
+                  "isfixed": false,
+                  "rewardId": 1
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 5
+      },
+      {
+          "voteindex": 3,
+          "poolname": "Battle of the Bands Remastered",
+          "poolurl": "https://beets.fi/pool/0x65411827ef78f08f6559acf91de3a4f5a26d785c0001000000000000000004c6",
+          "rewarddescription": "vote for Battle of the Bands Remastered to get a share of 5,115 $BEETS",
+          "assumption": "",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 5115.8156,
+                  "isfixed": false,
+                  "rewardId": 1
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 6
+      },
+      {
+          "voteindex": 20,
+          "poolname": "FireBird USDC",
+          "poolurl": "https://beets.fi/pool/0x038e0147c746792a4af41453baea682388d2d7c50002000000000000000004d0",
+          "rewarddescription": "Firebird: We will be bribing FireBird USDC using $3000 (46,625 $BEETS) 🙌. BeethovenX: vote for FireBird USDC to get a share of 4,585 $BEETS.",
+          "assumption": "",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 4585.9296,
+                  "isfixed": false,
+                  "rewardId": 1
+              },
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 45692.5,
+                  "isfixed": false,
+                  "rewardId": 2
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 7
+      },
+      { 
+          "voteindex": 23,
+          "poolname": "Great Fugue (CONK-USDC-FTM-BEETS",
+          "poolurl": "https://beets.fi/pool/0x4707eed23f628de1a032235158e33bc3c9fcf2f4000100000000000000000661",
+          "rewarddescription": "vote for 'Great Fugue Op. 133 in C Minor' to get a share of 1,420 $BEETS and 637 $WFTM.",
+          "assumption": "",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "BEETS",
+                  "amount": 1420.121724,
+                  "isfixed": false,
+                  "rewardId": 1
+              },
+              {
+                  "type": "fixed",
+                  "token": "FTM",
+                  "amount": 637,
+                  "isfixed": false,
+                  "rewardId": 2
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 8
+      },
+      {
+          "voteindex": 24,
+          "poolname": "EQ: Fine Tone (EQUAL-USDC)",
+          "poolurl": "https://beets.fi/pool/0x8863e2898aca981a03c833cea53d290984d0f2de000200000000000000000655",
+          "rewarddescription": "We are back at it, this time on behalf of Equalizer.Exchange! A fresh bribe of 10 EQUAL is on this offer for Voters of the +/- EQ : Fine Tone pool!",
+          "assumption": "Like always, the bribe is unconditional, and will be paid even if we dont meet the threshold!",
+          "percentagethreshold": 0,
+          "reward": [
+              {
+                  "type": "fixed",
+                  "token": "EQUAL",
+                  "amount": 10,
+                  "isfixed": false,
+                  "rewardId": 1
+              }
+          ],
+          "payoutthreshold": -1,
+          "offerId": 9
+      }
   ]
 }
